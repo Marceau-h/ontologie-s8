@@ -1,26 +1,30 @@
-name: Docs to PDF
+name: convert
+
 on:
   push:
-    branches:
-      - main
-    paths:
-      - 'docs/**.md'
-      - 'docs/images/**'
 
 jobs:
   converttopdf:
     name: Build PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_dir: docs
-          output_dir: pdfs
-          images_dir: docs/images
-          image_import: ./images
-          build_html: false
+      - uses: actions/checkout@v3
+
+      - name: Build book
+        run: |-
+          npm install -g md-to-pdf
+          mkdir -p _output
+          cd test
+          echo; echo "Input Folder Listing"
+          ls
+          echo; echo "Generating PDF"
+          for f in *.md; do cat $f; echo; done | md-to-pdf --stylesheet "../theme/style.css" > ../_output/blue-paper.pdf
+          cd ../_output
+          echo; echo "Output Folder Listing"
+          ls
+          cd ..
+      
       - uses: actions/upload-artifact@v1
         with:
-          name: docs
-          path: pdfs
+          name: output
+          path: _output
