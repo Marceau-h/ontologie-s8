@@ -218,6 +218,12 @@
     
 
 
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#est_parlé_en -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#est_parlé_en"/>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -427,6 +433,14 @@
     
 
 
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proptiété -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proptiété"/>
@@ -522,10 +536,38 @@
     
 
 
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorusse -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorusse">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosniaque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosniaque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
     </owl:NamedIndividual>
     
 
@@ -538,10 +580,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croate -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croate">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
     </owl:NamedIndividual>
     
 
@@ -654,10 +707,21 @@
     
 
 
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégrin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégrin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
     </owl:NamedIndividual>
     
 
@@ -666,6 +730,16 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Océanie">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
     </owl:NamedIndividual>
     
 
@@ -691,8 +765,10 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russe">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
         <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexionnelle"/>
         <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russie"/>
     </owl:NamedIndividual>
     
 
@@ -701,6 +777,26 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russie">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
     </owl:NamedIndividual>
     
 
@@ -709,6 +805,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
     </owl:NamedIndividual>
     
 
@@ -718,9 +815,84 @@
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave">
         <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne"/>
     </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovène -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovène">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchèque -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchèque">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukrainien -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukrainien">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+        <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vieux-slave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vieux-slave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_morte"/>
+        <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    </owl:NamedIndividual>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
-
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
