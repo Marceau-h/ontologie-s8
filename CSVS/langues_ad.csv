@@ -1,14 +1,14 @@
 Langue,Pays,Alphabet,Locuteurs_n,Locuteurs_s,Famille,Propriété,Organisations,ISO_639-3,Pays_origine,Langue_origine
-Serbe,Serbie,Cyrillique,9000000,3000000,Slave,"Cas,Flexion",,srp,Serbie,Proto-slave
+Serbe,Serbie,Cyrillique,9000000,3000000,Slave,"Cas,Flexion", ,srp,Serbie,Proto-slave
 Croate,Croatie,Cyrillique,"5,5000000","0,7000000",Slave,"Cas,Flexion","Union_européenne_(UE)",hrv,Croatie,Proto-slave
 Russe,Fédération_de_Russie,Cyrillique,155000000,103000000,Slave,"Cas,Flexion","Organisation_du_traité_de_sécurité_collective_(OTSC),Union_économique_eurasiatique_(UEE),Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE),Organisation_des_Nations_unies_(ONU),Organisation_de_coopération_de_Shanghai_(OCS)",rus,Fédération_de_Russie,Proto-slave   
 Ukrainien,Ukraine,Cyrillique,37000000,10000000,Slave,"Cas,Flexion","Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)",ukr,Ukraine,Proto-slave
-Biélorusse,Biélorussie,Cyrillique,4000000,1000000,Slave,"Cas,Flexion",,bel,Biélorussie,Proto-slave
-Polonais,Pologne,Cyrillique,45000000,10000000,Slave,"Cas,Flexion",,pol,Pologne,Proto-slave
+Biélorusse,Biélorussie,Cyrillique,4000000,1000000,Slave,"Cas,Flexion", ,bel,Biélorussie,Proto-slave
+Polonais,Pologne,Cyrillique,45000000,10000000,Slave,"Cas,Flexion", ,pol,Pologne,Proto-slave
 Tchèque,République_Tchèque,Cyrillique,11000000,3000000,Slave,"Cas,Flexion","Union_européenne_(UE)",ces,République_Tchèque,Proto-slave
 Slovaque,Slovaquie,Cyrillique,"5,5000000","1,1000000",Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slk Slovaquie,Proto-slave
 Slovène,Slovénie,Cyrillique,"2,5000000","0,3000000",Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slv,Slovénie,Proto-slave
-Macédonien,Macédoine_du_Nord,Cyrillique,"2,1000000","2,5000000"Slave,"Cas,Flexion",,mkd,Macédoine_du_Nord,Proto-slave
+Macédonien,Macédoine_du_Nord,Cyrillique,"2,1000000","2,5000000"Slave,"Cas,Flexion", ,mkd,Macédoine_du_Nord,Proto-slave
 Bulgare,Bulgarie,Cyrillique,7000000,2000000,Slave,"Cas,Flexion","Union_européenne_(UE)",bul,Bulgarie,Proto-slave
 
 
