@@ -1,0 +1,16 @@
+Label,Continent,Région
+Balkans,Europe,Europe_Est
+Europe_Sud_Est,Europe,Europe_Est
+Europe_Est,Europe,
+Europe_Nord_Est,Europe,Europe_Est
+Europe_Centrale,Europe,
+Europe_Sud_Ouest,Europe,Europe_Ouest
+Europe_Ouest,Europe,
+Europe_Nord_Ouest,Europe,Europe_Ouest
+Afrique_Nord,Afrique,
+Afrique_Sud,Afrique,
+Oceanie,Oceanie,
+Amerique_Nord,Amerique,
+Amerique_Sud,Amerique,
+Asie_Nord,Asie,
+Asie_Sud,Asie,

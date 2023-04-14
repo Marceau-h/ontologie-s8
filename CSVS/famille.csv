@@ -1,5 +1,5 @@
-Label,desc,Langue_origine,Propriété
-Romane,,Latin,"flexions,diphtongue"
-Slave,,Proto-slave,"cas,duel"
-Germanique,,Proto-germanique
-Celtique,,Proto-celtique
+Label,Langue_origine,Propriété
+Romane,Latin,"flexions,diphtongue"
+Slave,Proto-slave,"cas,duel"
+Germanique,Proto-germanique
+Celtique,Proto-celtique
