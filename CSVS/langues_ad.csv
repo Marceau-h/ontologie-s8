@@ -1,14 +1,14 @@
 Langue,Pays,Alphabet,Locuteurs_n,Locuteurs_s,Famille,Propriété,Organisations,ISO_639-3,Pays_origine,Langue_origine
 Serbe,"Serbie, Croatie, Bosnie-Herzégovine, Monténégro, Macédoine_du_Nord, Slovénie, Roumanie, Hongrie, Bulgarie",Cyrillique,9000000,3000000,Slave,"Cas,Flexion", ,srp,Serbie,Proto-slave
-Croate,"Serbie, Croatie, Bosnie-Herzégovine, Monténégro",Cyrillique,55000000,07000000,Slave,"Cas,Flexion","Union_européenne_(UE)",hrv,Croatie,Proto-slave
+Croate,"Serbie, Croatie, Bosnie-Herzégovine, Monténégro",Cyrillique,5500000,700000,Slave,"Cas,Flexion","Union_européenne_(UE)",hrv,Croatie,Proto-slave
 Russe,"Fédération_de_Russie, Biélorussie, Kazakhstan, Kirghizistan, Lettonie, Moldavie, Tadjikistan, Turkménistan, Ukraine, Estonie, Etats-Unis, Canada, Israël, Allemagne, France",Cyrillique,155000000,103000000,Slave,"Cas,Flexion","Organisation_du_traité_de_sécurité_collective_(OTSC),Union_économique_eurasiatique_(UEE),Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE),Organisation_des_Nations_unies_(ONU),Organisation_de_coopération_de_Shanghai_(OCS)",rus,Fédération_de_Russie,Proto-slave   
 Ukrainien,"Ukraine, Roumanie, Pologne, République_Tchèque, Slovaquie, Fédération_de_Russie, Canada, Etats-Unis",Cyrillique,37000000,10000000,Slave,"Cas,Flexion","Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)",ukr,Ukraine,Proto-slave
 Biélorusse,"Biélorussie, Fédération_de_Russie, Ukraine, Pologne, Lituanie",Cyrillique,4000000,1000000,Slave,"Cas,Flexion", ,bel,Biélorussie,Proto-slave
 Polonais,"Pologne, Ukraine, Etats-Unis, Allemagne, République_Tchèque, Slovaquie",Cyrillique,45000000,10000000,Slave,"Cas,Flexion", ,pol,Pologne,Proto-slave
-Tchèque,"République_Tchèque, Slovaquie",Cyrillique,11000000,3000000,Slave,"Cas,Flexion","Union_européenne_(UE)",ces,République_Tchèque,Proto-slave
-Slovaque,"Slovaquie, Pologne, Hongrie, Autriche, République_Tchèque, Ukraine",Cyrillique,55000000,11000000,Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slk, Slovaquie,Proto-slave
-Slovène,"Slovénie, Italie, Autriche, Croatie, Hongrie",Cyrillique,25000000,03000000,Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slv,Slovénie,Proto-slave
-Macédonien,"Macédoine_du_Nord, Serbie, Albanie, Bulgarie",Cyrillique,21000000,25000000,Slave,"Cas,Flexion", ,mkd,Macédoine_du_Nord,Proto-slave
+Tchèque,"République_Tchèque, Slovaquie",Cyrillique,10700000,3000000,Slave,"Cas,Flexion","Union_européenne_(UE)",ces,République_Tchèque,Proto-slave
+Slovaque,"Slovaquie, Pologne, Hongrie, Autriche, République_Tchèque, Ukraine",Cyrillique,5500000,1100000,Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slk, Slovaquie,Proto-slave
+Slovène,"Slovénie, Italie, Autriche, Croatie, Hongrie",Cyrillique,250000,300000,Slave,"Cas,Flexion","Organisation_du_traité_de_l'Atlantique_Nord_(OTAN),Union_européenne_(UE)",slv,Slovénie,Proto-slave
+Macédonien,"Macédoine_du_Nord, Serbie, Albanie, Bulgarie",Cyrillique,2100000,2500000,Slave,"Cas,Flexion", ,mkd,Macédoine_du_Nord,Proto-slave
 Bulgare,"Bulgarie, Moldavie, Ukraine, Roumanie, Serbie, Macédoine_du_Nord, Grèce, Turquie, Israël",Cyrillique,7000000,2000000,Slave,"Cas,Flexion","Union_européenne_(UE)",bul,Bulgarie,Proto-slave
 
 
