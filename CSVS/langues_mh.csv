@@ -1,4 +1,13 @@
 Langue,Pays,Alphabet,Locuteurs_n,Locuteurs_s,Famille,Propriété,Organisations,ISO_639-3,Pays_origine,Langue_origine
-Français,"France, Belgique, Bénin, Burkina_faso, burundi, Cameroun, Canada, Comores, Congo, Cote_Ivoire, Djibouti, Gabon, Guinée, Haïti, Luxembourg, Madagascar, Mali, Monaco, Niger, Rwanda, Sénégal, Seychelles, Suisse, Tchad, Togo, Vanuatu, Vatican",Latin,,,Romane,Flexionnelle,"ONU, OMC, CIO, CdE, UE, UA, OEA, OTAN",fra
-Allemand,Allemagne,Latin,,,,,,
-,,,
+Français,"France, Belgique, Bénin, Burkina_faso, burundi, Cameroun, Canada, Comores, Congo, Cote_Ivoire, Djibouti, Gabon, Guinée, Haïti, Luxembourg, Madagascar, Mali, Monaco, Niger, Rwanda, Sénégal, Seychelles, Suisse, Tchad, Togo, Vanuatu, Vatican",Latin_alphabet,,,Romane,"Flexionnelle, SVO, non_accentuelle","ONU, OMC, CIO, CdE, UE, UA, OEA, OTAN",fra,France,Latin
+Allemand,"Allemagne, Autriche, Belgique, Liechtenstein, Luxembourg, Suisse, Italie, Namibie",Latin_alphabet,100000000,87000000,Germanique,"Agglutinante, Flexionnelle, Casuelle",UE,deu,Allemagne,Germanique_commun
+Latin,Vatican,Latin_alphabet,0,,,"Flexionnelle, Casuelle, Accusative, Accentuelle, À_acent_d’intensité, Ordre_libre",,lat,,
+Germanique_commun,,Latin_alphabet,0,,Germanique,Flexionnelle,,gem,,
+Italien,"Italie, Suisse, Saint-Marin, Vatican, Istrie, Slovénie",Latin_alphabet,71000000,20000000,Romane,"Flexionnelle, Accentuelle, À_acent_d’intensité",,ita,Italie,Latin
+Espagnol,"Argentine, Mexique, Bolivie, Colombie, Costa_Rica, Cuba, Chili, Équateur, Espagne, Guatemala, Guinée_équatoriale, Honduras, Nicaragua, Panama, Paraguay, Pérou, République_dominicaine, Salvador, Uruguay, Venezuela",Latin_alphabet,480000000,95000000,Romane,"Flexionnelle, SVO, Accentuelle, À_acent_d’intensité","UE, ONU, UA, OEA, UNASUR",spa,Espagne,Latin
+Catalan,"Andorre, Espagne, Îles_Baleares, Italie, France",Latin_alphabet,4079000,5150000,Romane,"Flexionnelle, SVO, Accentuelle, À_acent_d’intensité",,cat,"Espagne, France","Occitan, Espagnol"
+Portugais,"Angola, Brésil, Cap-Vert, Guinée-Bissau, Jamaïque, Royaume-Uni, Inde, Antigua-et-Barbuda, Chine, Mozambique, Portugal, Sao Tomé-et-Principe, Timor oriental, Guinée équatoriale, Malaisie, Sénégal, Sri Lanka, Luxembourg, Paraguay, Uruguay, Suriname, Guyana, Espagne, Andorre, France, Vénézuela, Afrique_du_Sud, Namibie, République_Démocratique_du_Congo, Congo, Swaziland, Côte_d'Ivoire, Malawi, Zambie, Zimbabwe, Guinée, Indonésie, Tanzanie, Pays-Bas, Belgique, Allemagne, Suisse, Japon, États-Unis, Canada, Argentine, Australie",Latin_alphabet,227900000,24200000,Romane,"Flexionnelle, SVO, Accusative, Accentuelle, À_acent_d’intensité","UE, CPLP",por,Portugal,Proto-portugais
+,,Latin_alphabet,,,Romane,Flexionnelle,UE,,,
+,,Latin_alphabet,,,Romane,Flexionnelle,UE,,,
+,,Latin_alphabet,,,Romane,Flexionnelle,UE,,,
+,,Latin_alphabet,,,Romane,Flexionnelle,UE,,,
