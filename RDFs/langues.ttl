@@ -24,11 +24,6 @@ untitled-ontology-5:Afrique_Sud a untitled-ontology-5:Région,
     rdfs:label "Afrique_Sud" ;
     untitled-ontology-5:aContinent untitled-ontology-5:Afrique .
 
-untitled-ontology-5:Amerique_Sud a untitled-ontology-5:Région,
-        owl:NamedIndividual ;
-    rdfs:label "Amerique_Sud" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Amerique .
-
 untitled-ontology-5:Anglais a untitled-ontology-5:Langue,
         owl:NamedIndividual ;
     rdfs:label "Anglais" ;
@@ -36,7 +31,7 @@ untitled-ontology-5:Anglais a untitled-ontology-5:Langue,
     untitled-ontology-5:aCodeISO "eng" ;
     untitled-ontology-5:aLocuteursNatifs 370000000 ;
     untitled-ontology-5:aLocuteursSecondaires 1348000000 ;
-    untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume_Uni ;
+    untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume-Uni ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Germanique ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Vieux_frison ;
@@ -90,7 +85,7 @@ untitled-ontology-5:Anglais a untitled-ontology-5:Langue,
         untitled-ontology-5:Papouasie-Nouvelle-Guinée,
         untitled-ontology-5:Philippines,
         untitled-ontology-5:Porto_Rico,
-        untitled-ontology-5:Royaume_Uni,
+        untitled-ontology-5:Royaume-Uni,
         untitled-ontology-5:Rwanda,
         untitled-ontology-5:Saint-Christophe-et-Niévès,
         untitled-ontology-5:Saint-Martin,
@@ -132,13 +127,12 @@ untitled-ontology-5:Anglais a untitled-ontology-5:Langue,
         untitled-ontology-5:ONU,
         untitled-ontology-5:UE .
 
-untitled-ontology-5:Asie_Nord a untitled-ontology-5:Région,
-        owl:NamedIndividual ;
-    rdfs:label "Asie_Nord" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Asie .
-
 untitled-ontology-5:BCMS a untitled-ontology-5:Langue,
         owl:NamedIndividual .
+
+untitled-ontology-5:Bangladesh a untitled-ontology-5:Pays ;
+    rdfs:label "Bangladesh" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Biélorusse a untitled-ontology-5:Langue,
         untitled-ontology-5:Langue_vivante,
@@ -186,6 +180,9 @@ untitled-ontology-5:Bulgare a untitled-ontology-5:Langue,
         untitled-ontology-5:Turquie,
         untitled-ontology-5:Ukraine ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Union_européenne_\(UE\) .
+
+untitled-ontology-5:Burundi a untitled-ontology-5:Pays ;
+    rdfs:label "Burundi" .
 
 untitled-ontology-5:Catalan a untitled-ontology-5:Langue,
         owl:NamedIndividual ;
@@ -331,6 +328,10 @@ untitled-ontology-5:Langue_Océanique a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
                         owl:onProperty untitled-ontology-5:aPaysOrigine ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Océanique ] ) ] .
+
+untitled-ontology-5:Lesotho a untitled-ontology-5:Pays ;
+    rdfs:label "Lesotho" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Macédonien a untitled-ontology-5:Langue,
         owl:NamedIndividual ;
@@ -676,7 +677,8 @@ untitled-ontology-5:estSuperstrat a owl:AsymmetricProperty,
 untitled-ontology-5:est_parlé_en a owl:ObjectProperty .
 
 untitled-ontology-5:Afrique_du_Sud a untitled-ontology-5:Pays ;
-    rdfs:label "Afrique_du_Sud" .
+    rdfs:label "Afrique_du_Sud" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Afrique_du_sud a untitled-ontology-5:Pays ;
     rdfs:label "Afrique_du_sud" .
@@ -685,7 +687,8 @@ untitled-ontology-5:Agglutinante a untitled-ontology-5:Propriété ;
     rdfs:label "Agglutinante" .
 
 untitled-ontology-5:Akrotiri a untitled-ontology-5:Pays ;
-    rdfs:label "Akrotiri" .
+    rdfs:label "Akrotiri" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Centrale .
 
 untitled-ontology-5:Albanie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -715,42 +718,44 @@ untitled-ontology-5:Allemand a untitled-ontology-5:Langue,
         untitled-ontology-5:Suisse ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:UE .
 
-untitled-ontology-5:Amerique_Nord a untitled-ontology-5:Région,
-        owl:NamedIndividual ;
-    rdfs:label "Amerique_Nord" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Amerique .
-
 untitled-ontology-5:Angola a untitled-ontology-5:Pays ;
     rdfs:label "Angola" .
 
 untitled-ontology-5:Anguilla a untitled-ontology-5:Pays ;
-    rdfs:label "Anguilla" .
+    rdfs:label "Anguilla" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
-untitled-ontology-5:Asie_Sud a untitled-ontology-5:Région,
+untitled-ontology-5:Asie_Nord a untitled-ontology-5:Région,
         owl:NamedIndividual ;
-    rdfs:label "Asie_Sud" ;
+    rdfs:label "Asie_Nord" ;
     untitled-ontology-5:aContinent untitled-ontology-5:Asie .
 
 untitled-ontology-5:Bahamas a untitled-ontology-5:Pays ;
-    rdfs:label "Bahamas" .
+    rdfs:label "Bahamas" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Barbade a untitled-ontology-5:Pays ;
-    rdfs:label "Barbade" .
+    rdfs:label "Barbade" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Belize a untitled-ontology-5:Pays ;
-    rdfs:label "Belize" .
+    rdfs:label "Belize" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Bermudes a untitled-ontology-5:Pays ;
-    rdfs:label "Bermudes" .
+    rdfs:label "Bermudes" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Bolivie a untitled-ontology-5:Pays ;
     rdfs:label "Bolivie" .
 
 untitled-ontology-5:Botswana a untitled-ontology-5:Pays ;
-    rdfs:label "Botswana" .
+    rdfs:label "Botswana" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Brunei a untitled-ontology-5:Pays ;
-    rdfs:label "Brunei" .
+    rdfs:label "Brunei" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Brésil a untitled-ontology-5:Pays ;
     rdfs:label "Brésil" .
@@ -804,20 +809,23 @@ untitled-ontology-5:Cuba a untitled-ontology-5:Pays ;
     rdfs:label "Cuba" .
 
 untitled-ontology-5:Curaçao a untitled-ontology-5:Pays ;
-    rdfs:label "Curaçao" .
+    rdfs:label "Curaçao" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Côte_d'Ivoire> a untitled-ontology-5:Pays ;
     rdfs:label "Côte_d'Ivoire" .
 
 untitled-ontology-5:Dhekelia a untitled-ontology-5:Pays ;
-    rdfs:label "Dhekelia" .
+    rdfs:label "Dhekelia" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Centrale .
 
 untitled-ontology-5:Djibouti a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Djibouti" .
 
 untitled-ontology-5:Dominique a untitled-ontology-5:Pays ;
-    rdfs:label "Dominique" .
+    rdfs:label "Dominique" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Double_typologie a untitled-ontology-5:Propriété ;
     rdfs:label "Double_typologie" .
@@ -835,18 +843,13 @@ untitled-ontology-5:Europe_Sud_Est a untitled-ontology-5:Région,
     untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
     untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Est .
 
-untitled-ontology-5:Europe_Sud_Ouest a untitled-ontology-5:Région,
-        owl:NamedIndividual ;
-    rdfs:label "Europe_Sud_Ouest" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
-    untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest .
-
 untitled-ontology-5:Europe_centrale a untitled-ontology-5:Région,
         owl:NamedIndividual ;
     rdfs:label "Europe_centrale" .
 
 untitled-ontology-5:Fidji a untitled-ontology-5:Pays ;
-    rdfs:label "Fidji" .
+    rdfs:label "Fidji" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Français a untitled-ontology-5:Langue,
         owl:NamedIndividual ;
@@ -908,7 +911,8 @@ untitled-ontology-5:Gabon a untitled-ontology-5:Pays,
     rdfs:label "Gabon" .
 
 untitled-ontology-5:Gambie a untitled-ontology-5:Pays ;
-    rdfs:label "Gambie" .
+    rdfs:label "Gambie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Germanique_commun a untitled-ontology-5:Langue ;
     rdfs:label "Germanique_commun" ;
@@ -918,20 +922,24 @@ untitled-ontology-5:Germanique_commun a untitled-ontology-5:Langue ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Germanique .
 
 untitled-ontology-5:Ghana a untitled-ontology-5:Pays ;
-    rdfs:label "Ghana" .
+    rdfs:label "Ghana" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Gibraltar a untitled-ontology-5:Pays ;
-    rdfs:label "Gibraltar" .
+    rdfs:label "Gibraltar" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Sud_Ouest .
 
 untitled-ontology-5:Grenade a untitled-ontology-5:Pays ;
-    rdfs:label "Grenade" .
+    rdfs:label "Grenade" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 untitled-ontology-5:Grèce a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Grèce" .
 
 untitled-ontology-5:Guam a untitled-ontology-5:Pays ;
-    rdfs:label "Guam" .
+    rdfs:label "Guam" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Guatemala a untitled-ontology-5:Pays ;
     rdfs:label "Guatemala" .
@@ -950,13 +958,15 @@ untitled-ontology-5:Honduras a untitled-ontology-5:Pays ;
     rdfs:label "Honduras" .
 
 untitled-ontology-5:Hong_Kong a untitled-ontology-5:Pays ;
-    rdfs:label "Hong_Kong" .
+    rdfs:label "Hong_Kong" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Indonésie a untitled-ontology-5:Pays ;
     rdfs:label "Indonésie" .
 
 untitled-ontology-5:Irlande a untitled-ontology-5:Pays ;
-    rdfs:label "Irlande" .
+    rdfs:label "Irlande" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Istrie a untitled-ontology-5:Pays ;
     rdfs:label "Istrie" .
@@ -969,21 +979,24 @@ untitled-ontology-5:Japon a untitled-ontology-5:Pays ;
     untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Jersey a untitled-ontology-5:Pays ;
-    rdfs:label "Jersey" .
+    rdfs:label "Jersey" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Kazakhstan a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Kazakhstan" .
 
 untitled-ontology-5:Kenya a untitled-ontology-5:Pays ;
-    rdfs:label "Kenya" .
+    rdfs:label "Kenya" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Kirghizistan a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Kirghizistan" .
 
 untitled-ontology-5:Kiribati a untitled-ontology-5:Pays ;
-    rdfs:label "Kiribati" .
+    rdfs:label "Kiribati" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Langue_morte a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
@@ -1003,10 +1016,12 @@ untitled-ontology-5:Lettonie a untitled-ontology-5:Pays,
     rdfs:label "Lettonie" .
 
 untitled-ontology-5:Liberia a untitled-ontology-5:Pays ;
-    rdfs:label "Liberia" .
+    rdfs:label "Liberia" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Liechtenstein a untitled-ontology-5:Pays ;
-    rdfs:label "Liechtenstein" .
+    rdfs:label "Liechtenstein" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Lituanie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -1024,26 +1039,30 @@ untitled-ontology-5:Mali a untitled-ontology-5:Pays,
     rdfs:label "Mali" .
 
 untitled-ontology-5:Malouines a untitled-ontology-5:Pays ;
-    rdfs:label "Malouines" .
+    rdfs:label "Malouines" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 untitled-ontology-5:Malte a untitled-ontology-5:Pays ;
     rdfs:label "Malte" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Europe_Sud_Ouest .
 
 untitled-ontology-5:Maurice a untitled-ontology-5:Pays ;
-    rdfs:label "Maurice" .
+    rdfs:label "Maurice" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Mexique a untitled-ontology-5:Pays ;
     rdfs:label "Mexique" .
 
 untitled-ontology-5:Montserrat a untitled-ontology-5:Pays ;
-    rdfs:label "Montserrat" .
+    rdfs:label "Montserrat" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Mozambique a untitled-ontology-5:Pays ;
     rdfs:label "Mozambique" .
 
 untitled-ontology-5:Nauru a untitled-ontology-5:Pays ;
-    rdfs:label "Nauru" .
+    rdfs:label "Nauru" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Nicaragua a untitled-ontology-5:Pays ;
     rdfs:label "Nicaragua" .
@@ -1056,10 +1075,12 @@ untitled-ontology-5:Nigeria a untitled-ontology-5:Pays ;
     rdfs:label "Nigeria" .
 
 untitled-ontology-5:Niue a untitled-ontology-5:Pays ;
-    rdfs:label "Niue" .
+    rdfs:label "Niue" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Nouvelle-Zélande a untitled-ontology-5:Pays ;
-    rdfs:label "Nouvelle-Zélande" .
+    rdfs:label "Nouvelle-Zélande" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:OMC a untitled-ontology-5:Organisation,
         owl:NamedIndividual ;
@@ -1087,14 +1108,11 @@ untitled-ontology-5:Occitan a untitled-ontology-5:Langue ;
         untitled-ontology-5:Italie,
         untitled-ontology-5:Monaco .
 
-untitled-ontology-5:Oceanie a untitled-ontology-5:Continent,
+untitled-ontology-5:Océanie a untitled-ontology-5:Continent,
         untitled-ontology-5:Région,
         owl:NamedIndividual ;
-    rdfs:label "Oceanie" ;
+    rdfs:label "Océanie" ;
     untitled-ontology-5:aContinent untitled-ontology-5:Oceanie .
-
-untitled-ontology-5:Océanie a untitled-ontology-5:Continent,
-        owl:NamedIndividual .
 
 untitled-ontology-5:Ordre_libre a untitled-ontology-5:Propriété ;
     rdfs:label "Ordre_libre" .
@@ -1112,28 +1130,35 @@ untitled-ontology-5:Organisation_du_traité_de_sécurité_collective_\(OTSC\) a 
     rdfs:label "Organisation_du_traité_de_sécurité_collective_(OTSC)" .
 
 untitled-ontology-5:Ouganda a untitled-ontology-5:Pays ;
-    rdfs:label "Ouganda" .
+    rdfs:label "Ouganda" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Pakistan a untitled-ontology-5:Pays ;
-    rdfs:label "Pakistan" .
+    rdfs:label "Pakistan" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Palaos a untitled-ontology-5:Pays ;
-    rdfs:label "Palaos" .
+    rdfs:label "Palaos" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Panama a untitled-ontology-5:Pays ;
     rdfs:label "Panama" .
 
 untitled-ontology-5:Papouasie-Nouvelle-Guinée a untitled-ontology-5:Pays ;
-    rdfs:label "Papouasie-Nouvelle-Guinée" .
+    rdfs:label "Papouasie-Nouvelle-Guinée" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Pays-Bas a untitled-ontology-5:Pays ;
-    rdfs:label "Pays-Bas" .
+    rdfs:label "Pays-Bas" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Philippines a untitled-ontology-5:Pays ;
-    rdfs:label "Philippines" .
+    rdfs:label "Philippines" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Porto_Rico a untitled-ontology-5:Pays ;
-    rdfs:label "Porto_Rico" .
+    rdfs:label "Porto_Rico" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Proto-celtique a untitled-ontology-5:Langue,
         owl:NamedIndividual ;
@@ -1149,13 +1174,11 @@ untitled-ontology-5:Proto-portugais a untitled-ontology-5:Langue ;
 untitled-ontology-5:Pérou a untitled-ontology-5:Pays ;
     rdfs:label "Pérou" .
 
-untitled-ontology-5:Royaume-Uni a untitled-ontology-5:Pays ;
-    rdfs:label "Royaume-Uni" ;
-    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
-
 untitled-ontology-5:Russie a untitled-ontology-5:Pays,
         untitled-ontology-5:Pays_slaves,
-        owl:NamedIndividual .
+        owl:NamedIndividual ;
+    rdfs:label "Russie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Nord .
 
 untitled-ontology-5:Région_Africaine a owl:Class ;
     owl:equivalentClass [ a owl:Class ;
@@ -1188,55 +1211,68 @@ untitled-ontology-5:Région_Océanique a owl:Class ;
                         owl:onProperty untitled-ontology-5:aContinent ] ) ] .
 
 untitled-ontology-5:République_Démocratique_du_Congo a untitled-ontology-5:Pays ;
-    rdfs:label "République_Démocratique_du_Congo" .
+    rdfs:label "République_Démocratique_du_Congo" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:République_dominicaine a untitled-ontology-5:Pays ;
     rdfs:label "République_dominicaine" .
 
 untitled-ontology-5:Saint-Christophe-et-Niévès a untitled-ontology-5:Pays ;
-    rdfs:label "Saint-Christophe-et-Niévès" .
+    rdfs:label "Saint-Christophe-et-Niévès" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Saint-Marin a untitled-ontology-5:Pays ;
     rdfs:label "Saint-Marin" .
 
 untitled-ontology-5:Saint-Martin a untitled-ontology-5:Pays ;
-    rdfs:label "Saint-Martin" .
+    rdfs:label "Saint-Martin" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Saint-Vincent-et-les-Grenadines a untitled-ontology-5:Pays ;
-    rdfs:label "Saint-Vincent-et-les-Grenadines" .
+    rdfs:label "Saint-Vincent-et-les-Grenadines" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 untitled-ontology-5:Sainte-Hélène a untitled-ontology-5:Pays ;
-    rdfs:label "Sainte-Hélène" .
+    rdfs:label "Sainte-Hélène" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Sainte-Lucie a untitled-ontology-5:Pays ;
-    rdfs:label "Sainte-Lucie" .
+    rdfs:label "Sainte-Lucie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Salvador a untitled-ontology-5:Pays ;
     rdfs:label "Salvador" .
 
 untitled-ontology-5:Samoa a untitled-ontology-5:Pays ;
-    rdfs:label "Samoa" .
+    rdfs:label "Samoa" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Samoa_Américaines a untitled-ontology-5:Pays ;
-    rdfs:label "Samoa_Américaines" .
+    rdfs:label "Samoa_Américaines" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Sao_Tomé-et-Principe a untitled-ontology-5:Pays ;
     rdfs:label "Sao_Tomé-et-Principe" .
 
 untitled-ontology-5:Sierra_Leone a untitled-ontology-5:Pays ;
-    rdfs:label "Sierra_Leone" .
+    rdfs:label "Sierra_Leone" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Singapour a untitled-ontology-5:Pays ;
-    rdfs:label "Singapour" .
+    rdfs:label "Singapour" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Soudan a untitled-ontology-5:Pays ;
-    rdfs:label "Soudan" .
+    rdfs:label "Soudan" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Soudan_du_Sud a untitled-ontology-5:Pays ;
-    rdfs:label "Soudan_du_Sud" .
+    rdfs:label "Soudan_du_Sud" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Sri_Lanka a untitled-ontology-5:Pays ;
-    rdfs:label "Sri_Lanka" .
+    rdfs:label "Sri_Lanka" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Suriname a untitled-ontology-5:Pays ;
     rdfs:label "Suriname" .
@@ -1253,7 +1289,8 @@ untitled-ontology-5:Tchad a untitled-ontology-5:Pays,
     rdfs:label "Tchad" .
 
 <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Territoire_britannique_de_l'océan_Indien> a untitled-ontology-5:Pays ;
-    rdfs:label "Territoire_britannique_de_l'océan_Indien" .
+    rdfs:label "Territoire_britannique_de_l'océan_Indien" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Timor_oriental a untitled-ontology-5:Pays ;
     rdfs:label "Timor_oriental" .
@@ -1263,10 +1300,12 @@ untitled-ontology-5:Togo a untitled-ontology-5:Pays,
     rdfs:label "Togo" .
 
 untitled-ontology-5:Tonga a untitled-ontology-5:Pays ;
-    rdfs:label "Tonga" .
+    rdfs:label "Tonga" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Trinité-et-Tobago a untitled-ontology-5:Pays ;
-    rdfs:label "Trinité-et-Tobago" .
+    rdfs:label "Trinité-et-Tobago" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 untitled-ontology-5:Turkménistan a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -1277,7 +1316,8 @@ untitled-ontology-5:Turquie a untitled-ontology-5:Pays,
     rdfs:label "Turquie" .
 
 untitled-ontology-5:Tuvalu a untitled-ontology-5:Pays ;
-    rdfs:label "Tuvalu" .
+    rdfs:label "Tuvalu" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:UNASUR a untitled-ontology-5:Organisation ;
     rdfs:label "UNASUR" .
@@ -1366,46 +1406,58 @@ untitled-ontology-5:États_fédérés_de_Micronésie a untitled-ontology-5:Pays 
     rdfs:label "États_fédérés_de_Micronésie" .
 
 untitled-ontology-5:Île_Christmas a untitled-ontology-5:Pays ;
-    rdfs:label "Île_Christmas" .
+    rdfs:label "Île_Christmas" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Île_Norfolk a untitled-ontology-5:Pays ;
-    rdfs:label "Île_Norfolk" .
+    rdfs:label "Île_Norfolk" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Île_de_Man a untitled-ontology-5:Pays ;
-    rdfs:label "Île_de_Man" .
+    rdfs:label "Île_de_Man" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Îles_Baleares a untitled-ontology-5:Pays ;
     rdfs:label "Îles_Baleares" .
 
 untitled-ontology-5:Îles_Caïmans a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Caïmans" .
+    rdfs:label "Îles_Caïmans" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Îles_Cocos a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Cocos" .
+    rdfs:label "Îles_Cocos" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Îles_Cook a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Cook" .
+    rdfs:label "Îles_Cook" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Îles_Mariannes_du_Nord a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Mariannes_du_Nord" .
+    rdfs:label "Îles_Mariannes_du_Nord" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Îles_Marshall a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Marshall" .
+    rdfs:label "Îles_Marshall" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Îles_Picairn a untitled-ontology-5:Pays ;
     rdfs:label "Îles_Picairn" .
 
 untitled-ontology-5:Îles_Salomon a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Salomon" .
+    rdfs:label "Îles_Salomon" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Îles_Turques-et-Caïques a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Turques-et-Caïques" .
+    rdfs:label "Îles_Turques-et-Caïques" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Îles_Vierges_britanniques a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Vierges_britanniques" .
+    rdfs:label "Îles_Vierges_britanniques" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Îles_Vierges_des_États-Unis a untitled-ontology-5:Pays ;
-    rdfs:label "Îles_Vierges_des_États-Unis" .
+    rdfs:label "Îles_Vierges_des_États-Unis" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Accusative a untitled-ontology-5:Propriété ;
     rdfs:label "Accusative" .
@@ -1414,17 +1466,20 @@ untitled-ontology-5:Andorre a untitled-ontology-5:Pays ;
     rdfs:label "Andorre" .
 
 untitled-ontology-5:Antigua-et-Barbuda a untitled-ontology-5:Pays ;
-    rdfs:label "Antigua-et-Barbuda" .
+    rdfs:label "Antigua-et-Barbuda" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Argentine a untitled-ontology-5:Pays ;
     rdfs:label "Argentine" .
 
 untitled-ontology-5:Australie a untitled-ontology-5:Pays ;
-    rdfs:label "Australie" .
+    rdfs:label "Australie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Cameroun a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Cameroun" .
+    rdfs:label "Cameroun" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Casuelle a untitled-ontology-5:Propriété ;
     rdfs:label "Casuelle" .
@@ -1494,7 +1549,8 @@ untitled-ontology-5:Guyana a untitled-ontology-5:Pays ;
     rdfs:label "Guyana" .
 
 untitled-ontology-5:Inde a untitled-ontology-5:Pays ;
-    rdfs:label "Inde" .
+    rdfs:label "Inde" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Asie_Sud .
 
 untitled-ontology-5:Israël a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -1521,13 +1577,15 @@ untitled-ontology-5:Italien a untitled-ontology-5:Langue,
         untitled-ontology-5:Vatican .
 
 untitled-ontology-5:Jamaïque a untitled-ontology-5:Pays ;
-    rdfs:label "Jamaïque" .
+    rdfs:label "Jamaïque" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Sud .
 
 untitled-ontology-5:Langue_en_danger a untitled-ontology-5:Propriété ;
     rdfs:label "Langue_en_danger" .
 
 untitled-ontology-5:Malawi a untitled-ontology-5:Pays ;
-    rdfs:label "Malawi" .
+    rdfs:label "Malawi" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Moldavie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -1589,26 +1647,27 @@ untitled-ontology-5:Pays_Océanique a owl:Class ;
                         owl:someValuesFrom untitled-ontology-5:Région_Océanique ] ) ] .
 
 untitled-ontology-5:Portugal a untitled-ontology-5:Pays ;
-    rdfs:label "Portugal" .
-
-untitled-ontology-5:Royaume_Uni a untitled-ontology-5:Pays ;
-    rdfs:label "Royaume_Uni" ;
-    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
+    rdfs:label "Portugal" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Sud_Ouest .
 
 untitled-ontology-5:Rwanda a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Rwanda" .
+    rdfs:label "Rwanda" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Seychelles a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Seychelles" .
+    rdfs:label "Seychelles" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Sénégal a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Sénégal" .
+    rdfs:label "Sénégal" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Tanzanie a untitled-ontology-5:Pays ;
-    rdfs:label "Tanzanie" .
+    rdfs:label "Tanzanie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:UA a untitled-ontology-5:Organisation,
         owl:NamedIndividual ;
@@ -1619,13 +1678,16 @@ untitled-ontology-5:Uruguay a untitled-ontology-5:Pays ;
 
 untitled-ontology-5:Vanuatu a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Vanuatu" .
+    rdfs:label "Vanuatu" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Oceanie .
 
 untitled-ontology-5:Zambie a untitled-ontology-5:Pays ;
-    rdfs:label "Zambie" .
+    rdfs:label "Zambie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Zimbabwe a untitled-ontology-5:Pays ;
-    rdfs:label "Zimbabwe" .
+    rdfs:label "Zimbabwe" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:aLangueFille a owl:ObjectProperty ;
     rdfs:domain untitled-ontology-5:Langue ;
@@ -1655,11 +1717,8 @@ untitled-ontology-5:estLangueFille a owl:ObjectProperty,
     rdfs:range untitled-ontology-5:Langue .
 
 untitled-ontology-5:États-Unis a untitled-ontology-5:Pays ;
-    rdfs:label "États-Unis" .
-
-untitled-ontology-5:Afrique a untitled-ontology-5:Continent,
-        owl:NamedIndividual ;
-    rdfs:label "Afrique" .
+    rdfs:label "États-Unis" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord .
 
 untitled-ontology-5:Amerique a untitled-ontology-5:Continent,
         owl:NamedIndividual ;
@@ -1688,11 +1747,6 @@ untitled-ontology-5:Etats-Unis a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Etats-Unis" .
 
-untitled-ontology-5:Europe_Centrale a untitled-ontology-5:Région,
-        owl:NamedIndividual ;
-    rdfs:label "Europe_Centrale" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Europe .
-
 untitled-ontology-5:Europe_Nord_Est a untitled-ontology-5:Région,
         owl:NamedIndividual ;
     rdfs:label "Europe_Nord_Est" ;
@@ -1708,7 +1762,8 @@ untitled-ontology-5:Indo_europeenne a owl:Class ;
 
 untitled-ontology-5:Luxembourg a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Luxembourg" .
+    rdfs:label "Luxembourg" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:Monténégro a untitled-ontology-5:Pays,
         untitled-ontology-5:Pays_slaves,
@@ -1716,7 +1771,8 @@ untitled-ontology-5:Monténégro a untitled-ontology-5:Pays,
     rdfs:label "Monténégro" .
 
 untitled-ontology-5:Namibie a untitled-ontology-5:Pays ;
-    rdfs:label "Namibie" .
+    rdfs:label "Namibie" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
 untitled-ontology-5:ONU a untitled-ontology-5:Organisation,
         owl:NamedIndividual ;
@@ -1726,9 +1782,14 @@ untitled-ontology-5:Roumanie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Roumanie" .
 
+untitled-ontology-5:Royaume-Uni a untitled-ontology-5:Pays ;
+    rdfs:label "Royaume-Uni" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
+
 untitled-ontology-5:Vatican a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Vatican" .
+    rdfs:label "Vatican" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Sud_Ouest .
 
 untitled-ontology-5:aLocuteurs a owl:DatatypeProperty ;
     rdfs:label "aLocuteurs" ;
@@ -1754,6 +1815,12 @@ untitled-ontology-5:Bulgarie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Bulgarie" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Europe_Sud_Ouest a untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Sud_Ouest" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+    untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest .
 
 untitled-ontology-5:Fédération_de_Russie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -1788,6 +1855,11 @@ untitled-ontology-5:Croatie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Croatie" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Europe_Centrale a untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Centrale" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Europe .
 
 untitled-ontology-5:Pologne a untitled-ontology-5:Pays,
         untitled-ontology-5:Pays_slaves,
@@ -1832,6 +1904,11 @@ untitled-ontology-5:par_région a owl:Class ;
 <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> a untitled-ontology-5:Propriété ;
     rdfs:label "À_acent_d’intensité" .
 
+untitled-ontology-5:Amerique_Sud a untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Amerique_Sud" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Amerique .
+
 untitled-ontology-5:Espagne a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Espagne" ;
@@ -1857,7 +1934,8 @@ untitled-ontology-5:Slovaquie a untitled-ontology-5:Pays,
 
 untitled-ontology-5:Suisse a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
-    rdfs:label "Suisse" .
+    rdfs:label "Suisse" ;
+    untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
 
 untitled-ontology-5:aContinent a owl:ObjectProperty ;
     rdfs:label "aContinent" ;
@@ -1907,11 +1985,10 @@ untitled-ontology-5:Europe a untitled-ontology-5:Continent,
         owl:NamedIndividual ;
     rdfs:label "Europe" .
 
-untitled-ontology-5:Europe_Nord_Ouest a untitled-ontology-5:Région,
+untitled-ontology-5:Asie_Sud a untitled-ontology-5:Région,
         owl:NamedIndividual ;
-    rdfs:label "Europe_Nord_Ouest" ;
-    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
-    untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest .
+    rdfs:label "Asie_Sud" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Asie .
 
 untitled-ontology-5:Langue_vivante a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
@@ -1963,6 +2040,12 @@ untitled-ontology-5:Latin_alphabet a untitled-ontology-5:Alphabet,
         owl:NamedIndividual ;
     rdfs:label "Latin_alphabet" .
 
+untitled-ontology-5:Europe_Nord_Ouest a untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Nord_Ouest" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+    untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest .
+
 untitled-ontology-5:Latin a untitled-ontology-5:Alphabet,
         untitled-ontology-5:Langue,
         owl:NamedIndividual ;
@@ -1979,14 +2062,31 @@ untitled-ontology-5:Latin a untitled-ontology-5:Alphabet,
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Italique ;
     untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Vatican .
 
+untitled-ontology-5:Amerique_Nord a untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Amerique_Nord" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Amerique .
+
 untitled-ontology-5:Organisation a owl:Class ;
     rdfs:label "Organisation" .
 
 untitled-ontology-5:Propriété a owl:Class ;
     rdfs:label "Propriété" .
 
+untitled-ontology-5:Oceanie a untitled-ontology-5:Continent,
+        untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Oceanie" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Oceanie .
+
 untitled-ontology-5:Région a owl:Class ;
     rdfs:label "Région" .
+
+untitled-ontology-5:Afrique a untitled-ontology-5:Continent,
+        untitled-ontology-5:Région,
+        owl:NamedIndividual ;
+    rdfs:label "Afrique" ;
+    untitled-ontology-5:aContinent untitled-ontology-5:Afrique .
 
 untitled-ontology-5:Langue a owl:Class ;
     rdfs:label "Langue" ;
