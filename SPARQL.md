@@ -1,6 +1,6 @@
 # Quelles sont les langues qui ont un nombre de locuteurs natifs supérieur à 10 millions?
 
-
+```sparql
 SELECT DISTINCT * WHERE {
   ?s rdf:type ttr:Langue .
   ?s ttr:aLocuteursNatifs ?l .
@@ -8,9 +8,9 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
-
+```
 # Quelles sont les langues qui ont moins de locuteurs que le français?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
     ?s ttr:aLocuteursNatifs ?l .
@@ -24,10 +24,11 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
+```
 
 
 # DE quelles langues le français est-il adstrat?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?fr rdf:type ttr:Langue .
     ?fr rdfs:label "Français"@fr .
@@ -36,17 +37,19 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
+```
 
 # Quelles sont les langues qui sont des langues vivantes?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:LangueVivante .
 }
 
 LIMIT 150
+```
 
 # Quelles sont les langues qui sont utilisées dans plus de 5 pays?
-
+```sparql
 SELECT ?s (COUNT(?s) AS ?pays) WHERE {
     ?s rdf:type ttr:Langue .
     ?s ttr:estLangueOfficielle ?p .
@@ -55,9 +58,10 @@ SELECT ?s (COUNT(?s) AS ?pays) WHERE {
 GROUP BY ?s
 HAVING (?pays > 5)
 LIMIT 150
+```
 
 # Quelles sont les langues parlées en europe ?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
     ?s ttr:estLangueOfficielle ?p .
@@ -68,9 +72,10 @@ SELECT DISTINCT * WHERE {
 
 ORDER BY ?s
 LIMIT 150
+```
 
 # Combien de langues sont de type SVO, et combien sont de type SOV?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
     ?s ttr:aPropriété ?p .
@@ -81,9 +86,10 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
+```
 
 # Combien de locuteurs maternels a le français?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
     ?s rdfs:label "Français" .
@@ -91,17 +97,19 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
+```
 
 # Quels sont les pays d'origine du catalan?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
     ?s rdfs:label "Catalan" .
     ?s ttr:aPaysOrigine ?p .
 }
+```
 
 # Quelles sont les propriétés communes entre le français et l'allemand?
-
+```sparql
 SELECT DISTINCT * WHERE {
     ?fr rdf:type ttr:Langue .
     ?fr rdfs:label "Français" .
@@ -113,5 +121,6 @@ SELECT DISTINCT * WHERE {
 }
 
 LIMIT 150
+```
 
 
