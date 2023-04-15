@@ -1099,8 +1099,8 @@ untitled-ontology-5:Français rdf:type owl:NamedIndividual ,
                              untitled-ontology-5:estSoeur untitled-ontology-5:Espagnol ,
                                                           untitled-ontology-5:Italien ;
                              untitled-ontology-5:aCodeISO "fra" ;
-                             untitled-ontology-5:aLocuteurs 321000000.0 ;
-                             untitled-ontology-5:aLocuteursNatifs 93000000.0 ;
+                             untitled-ontology-5:aLocuteurs 321000000 ;
+                             untitled-ontology-5:aLocuteursNatifs 93000000 ;
                              rdfs:label "Français" .
 
 

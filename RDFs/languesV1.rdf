@@ -1585,8 +1585,8 @@
         <estSoeur rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagnol"/>
         <estSoeur rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italien"/>
         <aCodeISO>fra</aCodeISO>
-        <aLocuteurs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">321000000.0</aLocuteurs>
-        <aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93000000.0</aLocuteursNatifs>
+        <aLocuteurs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">321000000</aLocuteurs>
+        <aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93000000</aLocuteursNatifs>
         <rdfs:label>Français</rdfs:label>
     </owl:NamedIndividual>
     
