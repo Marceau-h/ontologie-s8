@@ -1,0 +1,1259 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "p",
+      "r"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Autriche"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Belgique"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Liechtenstein"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Luxembourg"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Akrotiri"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Dhekelia"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Gibraltar"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Irlande"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Jersey"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Malte"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Royaume-Uni"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Île_de_Man"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorussie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Fédération_de_Russie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Pologne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgarie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédoine_du_Nord"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Corse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Corse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Corse"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croate"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croatie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croate"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagnol"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Francoprovençal"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Francoprovençal"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Francoprovençal"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Belgique"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Luxembourg"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Monaco"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Vatican"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovénie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Vatican"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Latin"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Vatican"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédonien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgarie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédonien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédoine_du_Nord"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédonien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Monaco"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Pologne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaquie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Belgique"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Luxembourg"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Pays-Bas"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Sud_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugal"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Royaume-Uni"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Suisse"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemagne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorussie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#France"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Fédération_de_Russie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgarie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croatie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédoine_du_Nord"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovénie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Autriche"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Pologne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaquie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Autriche"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Balkans"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croatie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Ouest"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovénie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Tchèque"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaquie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Fédération_de_Russie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Pologne"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Centrale"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaquie"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        },
+        "r" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Europe_Nord_Est"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukraine"
+        }
+      }
+    ]
+  }
+}

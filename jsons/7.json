@@ -1,0 +1,83 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "p",
+      "type"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#SVO"
+        },
+        "type" : {
+          "type" : "literal",
+          "value" : "SVO"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#SVO"
+        },
+        "type" : {
+          "type" : "literal",
+          "value" : "SVO"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#SVO"
+        },
+        "type" : {
+          "type" : "literal",
+          "value" : "SVO"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#SVO"
+        },
+        "type" : {
+          "type" : "literal",
+          "value" : "SVO"
+        }
+      },
+      {
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagnol"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#SVO"
+        },
+        "type" : {
+          "type" : "literal",
+          "value" : "SVO"
+        }
+      }
+    ]
+  }
+}

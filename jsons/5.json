@@ -1,0 +1,144 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "pays"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "47"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "27"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "20"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagnol"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "88"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "6"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "8"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "15"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        }
+      },
+      {
+        "pays" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        }
+      }
+    ]
+  }
+}

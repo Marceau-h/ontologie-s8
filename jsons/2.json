@@ -1,0 +1,654 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "l",
+      "fr",
+      "lfr"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4079000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "130000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Corse"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "5500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croate"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "140000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Francoprovençal"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2100000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédonien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "45000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "5500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "250000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10700000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Tchèque"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "37000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "71000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#decimal",
+          "type" : "literal",
+          "value" : "93000000.0"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Latin"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Biélorusse"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "7000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Bulgare"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "4079000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Catalan"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "130000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Corse"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "5500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Croate"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "140000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Francoprovençal"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2100000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Macédonien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "45000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Polonais"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "9000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Serbe"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "5500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovaque"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "250000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Slovène"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "10700000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Tchèque"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "37000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Ukrainien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "2500000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Occitan"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "71000000"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Italien"
+        }
+      },
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#int",
+          "type" : "literal",
+          "value" : "0"
+        },
+        "lfr" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "93000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Latin"
+        }
+      }
+    ]
+  }
+}

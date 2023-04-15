@@ -1,0 +1,56 @@
+{
+  "head" : {
+    "vars" : [
+      "s",
+      "l"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "370000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Anglais"
+        }
+      },
+      {
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "227900000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Portugais"
+        }
+      },
+      {
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "155000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Russe"
+        }
+      },
+      {
+        "l" : {
+          "datatype" : "http://www.w3.org/2001/XMLSchema#integer",
+          "type" : "literal",
+          "value" : "480000000"
+        },
+        "s" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Espagnol"
+        }
+      }
+    ]
+  }
+}

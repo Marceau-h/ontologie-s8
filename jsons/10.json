@@ -1,0 +1,27 @@
+{
+  "head" : {
+    "vars" : [
+      "fr",
+      "p",
+      "al"
+    ]
+  },
+  "results" : {
+    "bindings" : [
+      {
+        "fr" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Français"
+        },
+        "al" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Allemand"
+        },
+        "p" : {
+          "type" : "uri",
+          "value" : "http://example.org/tuto/resource#Flexionnelle"
+        }
+      }
+    ]
+  }
+}
