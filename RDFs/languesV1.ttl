@@ -1,0 +1,1765 @@
+@prefix : <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix untitled-ontology-5: <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
+@base <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aAlphabet
+untitled-ontology-5:aAlphabet rdf:type owl:ObjectProperty ;
+                              owl:inverseOf untitled-ontology-5:estAlphabetde ;
+                              rdf:type owl:AsymmetricProperty ,
+                                       owl:IrreflexiveProperty ;
+                              rdfs:domain untitled-ontology-5:Langue ;
+                              rdfs:range untitled-ontology-5:Alphabet ;
+                              rdfs:label "aAlphabet" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent
+untitled-ontology-5:aContinent rdf:type owl:ObjectProperty ;
+                               rdfs:domain untitled-ontology-5:Région ;
+                               rdfs:range untitled-ontology-5:Continent ;
+                               owl:propertyChainAxiom ( untitled-ontology-5:aRégionMère
+                                                        untitled-ontology-5:aContinent
+                                                      ) ;
+                               rdfs:label "aContinent" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aDansLaFamille
+untitled-ontology-5:aDansLaFamille rdf:type owl:ObjectProperty ;
+                                   owl:inverseOf untitled-ontology-5:estDansLaFamille ;
+                                   rdfs:domain untitled-ontology-5:Famille_de_langue ;
+                                   rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aEngendré
+untitled-ontology-5:aEngendré rdf:type owl:ObjectProperty ;
+                              rdfs:subPropertyOf owl:topObjectProperty ;
+                              owl:inverseOf untitled-ontology-5:estIssue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueFille
+untitled-ontology-5:aLangueFille rdf:type owl:ObjectProperty ;
+                                 owl:inverseOf untitled-ontology-5:estLangueFille ;
+                                 rdfs:domain untitled-ontology-5:Langue ;
+                                 rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueOfficielle
+untitled-ontology-5:aLangueOfficielle rdf:type owl:ObjectProperty ;
+                                      owl:inverseOf untitled-ontology-5:estLangueOfficielle ;
+                                      rdfs:domain untitled-ontology-5:Pays ;
+                                      rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine
+untitled-ontology-5:aPaysOrigine rdf:type owl:ObjectProperty ;
+                                 rdfs:domain untitled-ontology-5:Langue ;
+                                 rdfs:range untitled-ontology-5:Pays ;
+                                 rdfs:label "aPaysOrigine" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPropriété
+untitled-ontology-5:aPropriété rdf:type owl:ObjectProperty ;
+                               owl:inverseOf untitled-ontology-5:estPropriété ;
+                               rdf:type owl:AsymmetricProperty ,
+                                        owl:IrreflexiveProperty ;
+                               rdfs:domain untitled-ontology-5:Langue ;
+                               rdfs:range untitled-ontology-5:Propriété ;
+                               rdfs:label "aPropriété" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion
+untitled-ontology-5:aRégion rdf:type owl:ObjectProperty ;
+                            rdfs:domain untitled-ontology-5:Pays ;
+                            rdfs:range untitled-ontology-5:Région ;
+                            rdfs:label "aRégion" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégionMère
+untitled-ontology-5:aRégionMère rdf:type owl:ObjectProperty ;
+                                rdfs:domain untitled-ontology-5:Région ;
+                                rdfs:range untitled-ontology-5:Région ;
+                                rdfs:label "aRégionMère" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAdstrat
+untitled-ontology-5:estAdstrat rdf:type owl:ObjectProperty ,
+                                        owl:SymmetricProperty ,
+                                        owl:IrreflexiveProperty ;
+                               rdfs:domain untitled-ontology-5:Langue ;
+                               rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAlphabetde
+untitled-ontology-5:estAlphabetde rdf:type owl:ObjectProperty ,
+                                           owl:AsymmetricProperty ,
+                                           owl:IrreflexiveProperty ;
+                                  rdfs:domain untitled-ontology-5:Alphabet ;
+                                  rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAncètre
+untitled-ontology-5:estAncètre rdf:type owl:ObjectProperty ,
+                                        owl:TransitiveProperty ;
+                               rdfs:domain untitled-ontology-5:Langue ;
+                               rdfs:range untitled-ontology-5:Langue ;
+                               owl:propertyChainAxiom ( untitled-ontology-5:aEngendré
+                                                        untitled-ontology-5:aDansLaFamille
+                                                      ) ,
+                                                      ( untitled-ontology-5:aLangueFille
+                                                        untitled-ontology-5:aLangueFille
+                                                      ) .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estDansLaFamille
+untitled-ontology-5:estDansLaFamille rdf:type owl:ObjectProperty ;
+                                     rdfs:domain untitled-ontology-5:Langue ;
+                                     rdfs:range untitled-ontology-5:Famille_de_langue ;
+                                     owl:propertyChainAxiom ( untitled-ontology-5:estLangueFille
+                                                              untitled-ontology-5:estDansLaFamille
+                                                            ) ;
+                                     rdfs:label "estDansLaFamille" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estIssue
+untitled-ontology-5:estIssue rdf:type owl:ObjectProperty ,
+                                      owl:TransitiveProperty ;
+                             rdfs:domain untitled-ontology-5:Famille_de_langue ;
+                             rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueFille
+untitled-ontology-5:estLangueFille rdf:type owl:ObjectProperty ,
+                                            owl:TransitiveProperty ;
+                                   rdfs:domain untitled-ontology-5:Langue ;
+                                   rdfs:range untitled-ontology-5:Langue ;
+                                   rdfs:label "estLangueFille" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle
+untitled-ontology-5:estLangueOfficielle rdf:type owl:ObjectProperty ;
+                                        rdfs:subPropertyOf owl:topObjectProperty ;
+                                        rdf:type owl:AsymmetricProperty ,
+                                                 owl:IrreflexiveProperty ;
+                                        rdfs:domain untitled-ontology-5:Langue ;
+                                        rdfs:range untitled-ontology-5:Pays ;
+                                        rdfs:label "estLangueOfficielle" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOrganisation
+untitled-ontology-5:estLangueOrganisation rdf:type owl:ObjectProperty ;
+                                          rdfs:domain untitled-ontology-5:Langue ;
+                                          rdfs:range untitled-ontology-5:Organisation ;
+                                          rdfs:label "estLangueOrganisation" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estPropriété
+untitled-ontology-5:estPropriété rdf:type owl:ObjectProperty ;
+                                 rdfs:subPropertyOf owl:topObjectProperty ;
+                                 rdfs:domain untitled-ontology-5:Propriété ;
+                                 rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSoeur
+untitled-ontology-5:estSoeur rdf:type owl:ObjectProperty ;
+                             rdfs:subPropertyOf owl:topObjectProperty ;
+                             rdf:type owl:SymmetricProperty ,
+                                      owl:IrreflexiveProperty ;
+                             rdfs:domain untitled-ontology-5:Langue ;
+                             rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSubstrat
+untitled-ontology-5:estSubstrat rdf:type owl:ObjectProperty ;
+                                rdfs:subPropertyOf owl:topObjectProperty ;
+                                rdf:type owl:AsymmetricProperty ,
+                                         owl:IrreflexiveProperty ;
+                                rdfs:domain untitled-ontology-5:Langue ;
+                                rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSuperstrat
+untitled-ontology-5:estSuperstrat rdf:type owl:ObjectProperty ;
+                                  rdfs:subPropertyOf owl:topObjectProperty ;
+                                  rdf:type owl:AsymmetricProperty ,
+                                           owl:IrreflexiveProperty ;
+                                  rdfs:domain untitled-ontology-5:Langue ;
+                                  rdfs:range untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#est_parlé_en
+untitled-ontology-5:est_parlé_en rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aCodeISO
+untitled-ontology-5:aCodeISO rdf:type owl:DatatypeProperty ;
+                             rdfs:domain untitled-ontology-5:Langue ;
+                             rdfs:range xsd:string ;
+                             rdfs:label "aCodeISO" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteurs
+untitled-ontology-5:aLocuteurs rdf:type owl:DatatypeProperty ;
+                               rdfs:domain untitled-ontology-5:Langue ;
+                               rdfs:range xsd:int ,
+                                          [ rdf:type rdfs:Datatype ;
+                                            owl:onDatatype xsd:int ;
+                                            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int
+                                                                   ]
+                                                                 )
+                                          ] ;
+                               rdfs:label "aLocuteurs" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursNatifs
+untitled-ontology-5:aLocuteursNatifs rdf:type owl:DatatypeProperty ;
+                                     rdfs:subPropertyOf untitled-ontology-5:aLocuteurs ;
+                                     rdf:type owl:FunctionalProperty ;
+                                     rdfs:domain untitled-ontology-5:Langue ;
+                                     rdfs:range xsd:int ,
+                                                [ rdf:type rdfs:Datatype ;
+                                                  owl:onDatatype xsd:int ;
+                                                  owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int
+                                                                         ]
+                                                                       )
+                                                ] ;
+                                     rdfs:label "aLocuteursNatifs" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursSecondaires
+untitled-ontology-5:aLocuteursSecondaires rdf:type owl:DatatypeProperty ;
+                                          rdfs:subPropertyOf untitled-ontology-5:aLocuteurs ;
+                                          rdf:type owl:FunctionalProperty ;
+                                          rdfs:domain untitled-ontology-5:Langue ;
+                                          rdfs:range xsd:int ,
+                                                     [ rdf:type rdfs:Datatype ;
+                                                       owl:onDatatype xsd:int ;
+                                                       owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int
+                                                                              ]
+                                                                            )
+                                                     ] ;
+                                          rdfs:label "aLocuteursSecondaires" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#dateCreation
+untitled-ontology-5:dateCreation rdf:type owl:DatatypeProperty .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#description
+untitled-ontology-5:description rdf:type owl:DatatypeProperty ,
+                                         owl:FunctionalProperty ;
+                                rdfs:domain untitled-ontology-5:Langue ;
+                                rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet
+untitled-ontology-5:Alphabet rdf:type owl:Class ;
+                             rdfs:label "Alphabet" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent
+untitled-ontology-5:Continent rdf:type owl:Class ;
+                              rdfs:label "Continent" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue
+untitled-ontology-5:Famille_de_langue rdf:type owl:Class ;
+                                      rdfs:label "Famille_de_langue" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne
+untitled-ontology-5:Indo_europeenne rdf:type owl:Class ;
+                                    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue
+untitled-ontology-5:Langue rdf:type owl:Class ;
+                           owl:equivalentClass [ owl:intersectionOf ( owl:Thing
+                                                                      [ rdf:type owl:Restriction ;
+                                                                        owl:onProperty untitled-ontology-5:aLocuteurs ;
+                                                                        owl:someValuesFrom xsd:int
+                                                                      ]
+                                                                    ) ;
+                                                 rdf:type owl:Class
+                                               ] ;
+                           rdfs:label "Langue" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Africaine
+untitled-ontology-5:Langue_Africaine rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aPaysOrigine ;
+                                                                                  owl:someValuesFrom untitled-ontology-5:Pays_Africain
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] ;
+                                     rdfs:subClassOf untitled-ontology-5:par_origine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Américaine
+untitled-ontology-5:Langue_Américaine rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:aPaysOrigine ;
+                                                                                   owl:someValuesFrom untitled-ontology-5:Pays_Américain
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] ;
+                                      rdfs:subClassOf untitled-ontology-5:par_origine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Asiatique
+untitled-ontology-5:Langue_Asiatique rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aPaysOrigine ;
+                                                                                  owl:someValuesFrom untitled-ontology-5:Pays_Asiatique
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] ;
+                                     rdfs:subClassOf untitled-ontology-5:par_origine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Afrique
+untitled-ontology-5:Langue_En_Afrique rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                   owl:someValuesFrom untitled-ontology-5:Pays_Africain
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] ;
+                                      rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Amérique
+untitled-ontology-5:Langue_En_Amérique rdf:type owl:Class ;
+                                       owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                  [ rdf:type owl:Restriction ;
+                                                                                    owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                    owl:someValuesFrom untitled-ontology-5:Pays_Américain
+                                                                                  ]
+                                                                                ) ;
+                                                             rdf:type owl:Class
+                                                           ] ;
+                                       rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Asie
+untitled-ontology-5:Langue_En_Asie rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                owl:someValuesFrom untitled-ontology-5:Pays_Asiatique
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Europe
+untitled-ontology-5:Langue_En_Europe rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                  owl:someValuesFrom untitled-ontology-5:Pays_Européen
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] ;
+                                     rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Océanie
+untitled-ontology-5:Langue_En_Océanie rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                   owl:someValuesFrom untitled-ontology-5:Pays_Océanique
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] ;
+                                      rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Européenne
+untitled-ontology-5:Langue_Européenne rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:aPaysOrigine ;
+                                                                                   owl:someValuesFrom untitled-ontology-5:Pays_Européen
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] ;
+                                      rdfs:subClassOf untitled-ontology-5:par_origine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Océanique
+untitled-ontology-5:Langue_Océanique rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aPaysOrigine ;
+                                                                                  owl:someValuesFrom untitled-ontology-5:Pays_Océanique
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] ;
+                                     rdfs:subClassOf untitled-ontology-5:par_origine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_morte
+untitled-ontology-5:Langue_morte rdf:type owl:Class ;
+                                 owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                            [ rdf:type owl:Restriction ;
+                                                                              owl:onProperty untitled-ontology-5:aLocuteursNatifs ;
+                                                                              owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                   owl:onDatatype xsd:int ;
+                                                                                                   owl:withRestrictions ( [ xsd:maxExclusive "1"^^xsd:int
+                                                                                                                          ]
+                                                                                                                        )
+                                                                                                 ]
+                                                                            ]
+                                                                          ) ;
+                                                       rdf:type owl:Class
+                                                     ] ;
+                                 rdfs:subClassOf untitled-ontology-5:Langue ;
+                                 owl:disjointWith untitled-ontology-5:Langue_vivante .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante
+untitled-ontology-5:Langue_vivante rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty untitled-ontology-5:aLocuteursNatifs ;
+                                                                                owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                     owl:onDatatype xsd:int ;
+                                                                                                     owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:int
+                                                                                                                            ]
+                                                                                                                          )
+                                                                                                   ]
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation
+untitled-ontology-5:Organisation rdf:type owl:Class ;
+                                 rdfs:label "Organisation" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays
+untitled-ontology-5:Pays rdf:type owl:Class ;
+                         rdfs:label "Pays" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Africain
+untitled-ontology-5:Pays_Africain rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Pays
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty untitled-ontology-5:aRégion ;
+                                                                               owl:someValuesFrom untitled-ontology-5:Région_Africaine
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:subClassOf untitled-ontology-5:par_région .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Américain
+untitled-ontology-5:Pays_Américain rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Pays
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty untitled-ontology-5:aRégion ;
+                                                                                owl:someValuesFrom untitled-ontology-5:Région_Amécicaine
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf untitled-ontology-5:par_région .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Asiatique
+untitled-ontology-5:Pays_Asiatique rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Pays
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty untitled-ontology-5:aRégion ;
+                                                                                owl:someValuesFrom untitled-ontology-5:Région_Asiatique
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf untitled-ontology-5:par_région .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Européen
+untitled-ontology-5:Pays_Européen rdf:type owl:Class ;
+                                  owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Pays
+                                                                             [ rdf:type owl:Restriction ;
+                                                                               owl:onProperty untitled-ontology-5:aRégion ;
+                                                                               owl:someValuesFrom untitled-ontology-5:Région_Européenne
+                                                                             ]
+                                                                           ) ;
+                                                        rdf:type owl:Class
+                                                      ] ;
+                                  rdfs:subClassOf untitled-ontology-5:par_région .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Océanique
+untitled-ontology-5:Pays_Océanique rdf:type owl:Class ;
+                                   owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Pays
+                                                                              [ rdf:type owl:Restriction ;
+                                                                                owl:onProperty untitled-ontology-5:aRégion ;
+                                                                                owl:someValuesFrom untitled-ontology-5:Région_Océanique
+                                                                              ]
+                                                                            ) ;
+                                                         rdf:type owl:Class
+                                                       ] ;
+                                   rdfs:subClassOf untitled-ontology-5:par_région .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves
+untitled-ontology-5:Pays_slaves rdf:type owl:Class ;
+                                rdfs:subClassOf untitled-ontology-5:Pays .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété
+untitled-ontology-5:Propriété rdf:type owl:Class ;
+                              rdfs:label "Propriété" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région
+untitled-ontology-5:Région rdf:type owl:Class ;
+                           rdfs:label "Région" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Africaine
+untitled-ontology-5:Région_Africaine rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Région
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aContinent ;
+                                                                                  owl:hasValue untitled-ontology-5:Afrique
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Amécicaine
+untitled-ontology-5:Région_Amécicaine rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Région
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:aContinent ;
+                                                                                   owl:hasValue untitled-ontology-5:Amerique
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Asiatique
+untitled-ontology-5:Région_Asiatique rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Région
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aContinent ;
+                                                                                  owl:hasValue untitled-ontology-5:Asie
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Européenne
+untitled-ontology-5:Région_Européenne rdf:type owl:Class ;
+                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Région
+                                                                                 [ rdf:type owl:Restriction ;
+                                                                                   owl:onProperty untitled-ontology-5:aContinent ;
+                                                                                   owl:hasValue untitled-ontology-5:Europe
+                                                                                 ]
+                                                                               ) ;
+                                                            rdf:type owl:Class
+                                                          ] .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Océanique
+untitled-ontology-5:Région_Océanique rdf:type owl:Class ;
+                                     owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Région
+                                                                                [ rdf:type owl:Restriction ;
+                                                                                  owl:onProperty untitled-ontology-5:aContinent ;
+                                                                                  owl:hasValue untitled-ontology-5:Océanie
+                                                                                ]
+                                                                              ) ;
+                                                           rdf:type owl:Class
+                                                         ] .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine
+untitled-ontology-5:par_origine rdf:type owl:Class ;
+                                rdfs:subClassOf untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région
+untitled-ontology-5:par_région rdf:type owl:Class ;
+                               rdfs:subClassOf untitled-ontology-5:Pays .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://dbpedia.org/resource/French_language
+dbpedia:French_language rdf:type owl:NamedIndividual ;
+                        owl:sameAs untitled-ontology-5:Français .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#
+untitled-ontology-5: rdf:type owl:NamedIndividual ,
+                              untitled-ontology-5:Langue ;
+                     rdfs:label "" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique
+untitled-ontology-5:Afrique rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Continent ;
+                            rdfs:label "Afrique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique_Nord
+untitled-ontology-5:Afrique_Nord rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Région ;
+                                 untitled-ontology-5:aContinent untitled-ontology-5:Afrique ;
+                                 rdfs:label "Afrique_Nord" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique_Sud
+untitled-ontology-5:Afrique_Sud rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Région ;
+                                untitled-ontology-5:aContinent untitled-ontology-5:Afrique ;
+                                rdfs:label "Afrique_Sud" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Albanie
+untitled-ontology-5:Albanie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Albanie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemagne
+untitled-ontology-5:Allemagne rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-5:Pays ;
+                              rdfs:label "Allemagne" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemand
+untitled-ontology-5:Allemand rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Langue ;
+                             untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ;
+                             rdfs:label "Allemand" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique
+untitled-ontology-5:Amerique rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Continent ;
+                             rdfs:label "Amerique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique_Nord
+untitled-ontology-5:Amerique_Nord rdf:type owl:NamedIndividual ,
+                                           untitled-ontology-5:Région ;
+                                  untitled-ontology-5:aContinent untitled-ontology-5:Amerique ;
+                                  rdfs:label "Amerique_Nord" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique_Sud
+untitled-ontology-5:Amerique_Sud rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Région ;
+                                 untitled-ontology-5:aContinent untitled-ontology-5:Amerique ;
+                                 rdfs:label "Amerique_Sud" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Anglais
+untitled-ontology-5:Anglais rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie
+untitled-ontology-5:Asie rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Continent ;
+                         rdfs:label "Asie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie_Nord
+untitled-ontology-5:Asie_Nord rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-5:Région ;
+                              untitled-ontology-5:aContinent untitled-ontology-5:Asie ;
+                              rdfs:label "Asie_Nord" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie_Sud
+untitled-ontology-5:Asie_Sud rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Région ;
+                             untitled-ontology-5:aContinent untitled-ontology-5:Asie ;
+                             rdfs:label "Asie_Sud" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Autriche
+untitled-ontology-5:Autriche rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Autriche" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#BCMS
+untitled-ontology-5:BCMS rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans
+untitled-ontology-5:Balkans rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Région ;
+                            untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                            untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Sud_Est ;
+                            rdfs:label "Balkans" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Belgique
+untitled-ontology-5:Belgique rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Belgique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorusse
+untitled-ontology-5:Biélorusse rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Langue ,
+                                        untitled-ontology-5:Langue_vivante ;
+                               untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                               untitled-ontology-5:aPaysOrigine untitled-ontology-5:Biélorussie ;
+                               untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                              untitled-ontology-5:Flexion ;
+                               untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                               untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                               untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Biélorussie ,
+                                                                       untitled-ontology-5:Fédération_de_Russie ,
+                                                                       untitled-ontology-5:Lituanie ,
+                                                                       untitled-ontology-5:Pologne ,
+                                                                       untitled-ontology-5:Ukraine ;
+                               untitled-ontology-5:est_parlé_en untitled-ontology-5:Biélorussie ;
+                               untitled-ontology-5:aCodeISO "bel" ;
+                               untitled-ontology-5:aLocuteursNatifs 4000000 ;
+                               untitled-ontology-5:aLocuteursSecondaires 1000000 ;
+                               rdfs:label "Biélorusse" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie
+untitled-ontology-5:Biélorussie rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Pays ,
+                                         untitled-ontology-5:Pays_slaves ;
+                                untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Est ;
+                                rdfs:label "Biélorussie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosniaque
+untitled-ontology-5:Bosniaque rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-5:Langue_vivante ;
+                              untitled-ontology-5:est_parlé_en untitled-ontology-5:Bosnie-Herzégovine .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine
+untitled-ontology-5:Bosnie-Herzégovine rdf:type owl:NamedIndividual ,
+                                                untitled-ontology-5:Pays ,
+                                                untitled-ontology-5:Pays_slaves ;
+                                       rdfs:label "Bosnie-Herzégovine" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgare
+untitled-ontology-5:Bulgare rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue ;
+                            untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                            untitled-ontology-5:aPaysOrigine untitled-ontology-5:Bulgarie ;
+                            untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                           untitled-ontology-5:Flexion ;
+                            untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                            untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bulgarie ,
+                                                                    untitled-ontology-5:Grèce ,
+                                                                    untitled-ontology-5:Israël ,
+                                                                    untitled-ontology-5:Macédoine_du_Nord ,
+                                                                    untitled-ontology-5:Moldavie ,
+                                                                    untitled-ontology-5:Roumanie ,
+                                                                    untitled-ontology-5:Serbie ,
+                                                                    untitled-ontology-5:Turquie ,
+                                                                    untitled-ontology-5:Ukraine ;
+                            untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
+                            untitled-ontology-5:aCodeISO "bul" ;
+                            untitled-ontology-5:aLocuteursNatifs 7000000 ;
+                            untitled-ontology-5:aLocuteursSecondaires 2000000 ;
+                            rdfs:label "Bulgare" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie
+untitled-ontology-5:Bulgarie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             untitled-ontology-5:aRégion untitled-ontology-5:Balkans ;
+                             rdfs:label "Bulgarie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Burkina_faso
+untitled-ontology-5:Burkina_faso rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Pays ;
+                                 rdfs:label "Burkina_faso" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bénin
+untitled-ontology-5:Bénin rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Bénin" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CIO
+untitled-ontology-5:CIO rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Organisation ;
+                        rdfs:label "CIO" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cameroun
+untitled-ontology-5:Cameroun rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Cameroun" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Canada
+untitled-ontology-5:Canada rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           untitled-ontology-5:aRégion untitled-ontology-5:Amerique_Nord ;
+                           rdfs:label "Canada" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas
+untitled-ontology-5:Cas rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Propriété ;
+                        rdfs:label "Cas" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Catalan
+untitled-ontology-5:Catalan rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CdE
+untitled-ontology-5:CdE rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Organisation ;
+                        rdfs:label "CdE" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Celtique
+untitled-ontology-5:Celtique rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Famille_de_langue ;
+                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique ;
+                             rdfs:label "Celtique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Comores
+untitled-ontology-5:Comores rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Comores" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Congo
+untitled-ontology-5:Congo rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Congo" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cote_Ivoire
+untitled-ontology-5:Cote_Ivoire rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Pays ;
+                                rdfs:label "Cote_Ivoire" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croate
+untitled-ontology-5:Croate rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Langue ,
+                                    untitled-ontology-5:Langue_vivante ;
+                           untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ,
+                                                         untitled-ontology-5:Latin ;
+                           untitled-ontology-5:aPaysOrigine untitled-ontology-5:Croatie ;
+                           untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                          untitled-ontology-5:Flexion ;
+                           untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                           untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                           untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine ,
+                                                                   untitled-ontology-5:Croatie ,
+                                                                   untitled-ontology-5:Monténégro ,
+                                                                   untitled-ontology-5:Serbie ;
+                           untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
+                           untitled-ontology-5:est_parlé_en untitled-ontology-5:Croatie ;
+                           untitled-ontology-5:aCodeISO "hrv" ;
+                           untitled-ontology-5:aLocuteursNatifs 5500000 ;
+                           untitled-ontology-5:aLocuteursSecondaires 700000 ;
+                           rdfs:label "Croate" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie
+untitled-ontology-5:Croatie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ,
+                                     untitled-ontology-5:Pays_slaves ;
+                            untitled-ontology-5:aRégion untitled-ontology-5:Balkans ;
+                            rdfs:label "Croatie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique
+untitled-ontology-5:Cyrillique rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Alphabet ;
+                               rdfs:label "Cyrillique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Djibouti
+untitled-ontology-5:Djibouti rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Djibouti" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagne
+untitled-ontology-5:Espagne rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagnol
+untitled-ontology-5:Espagnol rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Langue .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Estonie
+untitled-ontology-5:Estonie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Estonie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Etats-Unis
+untitled-ontology-5:Etats-Unis rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ;
+                               rdfs:label "Etats-Unis" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe
+untitled-ontology-5:Europe rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Continent ;
+                           rdfs:label "Europe" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Centrale
+untitled-ontology-5:Europe_Centrale rdf:type owl:NamedIndividual ,
+                                             untitled-ontology-5:Région ;
+                                    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                    rdfs:label "Europe_Centrale" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Est
+untitled-ontology-5:Europe_Est rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Région ;
+                               untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                               rdfs:label "Europe_Est" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Est
+untitled-ontology-5:Europe_Nord_Est rdf:type owl:NamedIndividual ,
+                                             untitled-ontology-5:Région ;
+                                    untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                    untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Est ;
+                                    rdfs:label "Europe_Nord_Est" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Ouest
+untitled-ontology-5:Europe_Nord_Ouest rdf:type owl:NamedIndividual ,
+                                               untitled-ontology-5:Région ;
+                                      untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                      untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest ;
+                                      rdfs:label "Europe_Nord_Ouest" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Ouest
+untitled-ontology-5:Europe_Ouest rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Région ;
+                                 untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                 rdfs:label "Europe_Ouest" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Sud_Est
+untitled-ontology-5:Europe_Sud_Est rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-5:Région ;
+                                   untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                   untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Est ;
+                                   rdfs:label "Europe_Sud_Est" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Sud_Ouest
+untitled-ontology-5:Europe_Sud_Ouest rdf:type owl:NamedIndividual ,
+                                              untitled-ontology-5:Région ;
+                                     untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
+                                     untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest ;
+                                     rdfs:label "Europe_Sud_Ouest" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_centrale
+untitled-ontology-5:Europe_centrale rdf:type owl:NamedIndividual ,
+                                             untitled-ontology-5:Région ;
+                                    rdfs:label "Europe_centrale" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion
+untitled-ontology-5:Flexion rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Propriété ;
+                            rdfs:label "Flexion" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexionnelle
+untitled-ontology-5:Flexionnelle rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Propriété ;
+                                 rdfs:label "Flexionnelle" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#France
+untitled-ontology-5:France rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "France" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français
+untitled-ontology-5:Français rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Langue ;
+                             untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ,
+                                                           untitled-ontology-5:Latin_alphabet ;
+                             untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
+                             untitled-ontology-5:estAdstrat untitled-ontology-5:Allemand ;
+                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
+                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Belgique ,
+                                                                     untitled-ontology-5:Burkina_faso ,
+                                                                     untitled-ontology-5:Bénin ,
+                                                                     untitled-ontology-5:Cameroun ,
+                                                                     untitled-ontology-5:Canada ,
+                                                                     untitled-ontology-5:Comores ,
+                                                                     untitled-ontology-5:Congo ,
+                                                                     untitled-ontology-5:Cote_Ivoire ,
+                                                                     untitled-ontology-5:Djibouti ,
+                                                                     untitled-ontology-5:France ,
+                                                                     untitled-ontology-5:Gabon ,
+                                                                     untitled-ontology-5:Guinée ,
+                                                                     untitled-ontology-5:Haïti ,
+                                                                     untitled-ontology-5:Luxembourg ,
+                                                                     untitled-ontology-5:Madagascar ,
+                                                                     untitled-ontology-5:Mali ,
+                                                                     untitled-ontology-5:Monaco ,
+                                                                     untitled-ontology-5:Niger ,
+                                                                     untitled-ontology-5:Rwanda ,
+                                                                     untitled-ontology-5:Seychelles ,
+                                                                     untitled-ontology-5:Suisse ,
+                                                                     untitled-ontology-5:Sénégal ,
+                                                                     untitled-ontology-5:Tchad ,
+                                                                     untitled-ontology-5:Togo ,
+                                                                     untitled-ontology-5:Vanuatu ,
+                                                                     untitled-ontology-5:Vatican ,
+                                                                     untitled-ontology-5:burundi ;
+                             untitled-ontology-5:estLangueOrganisation untitled-ontology-5:CIO ,
+                                                                       untitled-ontology-5:CdE ,
+                                                                       untitled-ontology-5:OEA ,
+                                                                       untitled-ontology-5:OMC ,
+                                                                       untitled-ontology-5:ONU ,
+                                                                       untitled-ontology-5:OTAN ,
+                                                                       untitled-ontology-5:UA ,
+                                                                       untitled-ontology-5:UE ;
+                             untitled-ontology-5:estSoeur untitled-ontology-5:Espagnol ,
+                                                          untitled-ontology-5:Italien ;
+                             untitled-ontology-5:aCodeISO "fra" ;
+                             untitled-ontology-5:aLocuteurs 321000000.0 ;
+                             untitled-ontology-5:aLocuteursNatifs 93000000.0 ;
+                             rdfs:label "Français" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie
+untitled-ontology-5:Fédération_de_Russie rdf:type owl:NamedIndividual ,
+                                                  untitled-ontology-5:Pays ;
+                                         untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Est ;
+                                         rdfs:label "Fédération_de_Russie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Gabon
+untitled-ontology-5:Gabon rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Gabon" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Germanique
+untitled-ontology-5:Germanique rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Famille_de_langue ;
+                               untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-germanique ;
+                               rdfs:label "Germanique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Grèce
+untitled-ontology-5:Grèce rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Grèce" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Guinée
+untitled-ontology-5:Guinée rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Guinée" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Haïti
+untitled-ontology-5:Haïti rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Haïti" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Hongrie
+untitled-ontology-5:Hongrie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Hongrie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Israël
+untitled-ontology-5:Israël rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Israël" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italie
+untitled-ontology-5:Italie rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Italie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italien
+untitled-ontology-5:Italien rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue ;
+                            untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italique
+untitled-ontology-5:Italique rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Indo_europeenne .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kazakhstan
+untitled-ontology-5:Kazakhstan rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ;
+                               rdfs:label "Kazakhstan" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kirghizistan
+untitled-ontology-5:Kirghizistan rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Pays ;
+                                 rdfs:label "Kirghizistan" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin
+untitled-ontology-5:Latin rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Alphabet ,
+                                   untitled-ontology-5:Langue ;
+                          untitled-ontology-5:estDansLaFamille untitled-ontology-5:Italique ;
+                          untitled-ontology-5:aLocuteursNatifs "0"^^xsd:int ;
+                          rdfs:label "Latin" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin_alphabet
+untitled-ontology-5:Latin_alphabet rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-5:Alphabet .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lettonie
+untitled-ontology-5:Lettonie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Lettonie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lituanie
+untitled-ontology-5:Lituanie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Lituanie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Luxembourg
+untitled-ontology-5:Luxembourg rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ;
+                               rdfs:label "Luxembourg" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord
+untitled-ontology-5:Macédoine_du_Nord rdf:type owl:NamedIndividual ,
+                                               untitled-ontology-5:Pays ;
+                                      untitled-ontology-5:aRégion untitled-ontology-5:Balkans ;
+                                      rdfs:label "Macédoine_du_Nord" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédonien
+untitled-ontology-5:Macédonien rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Langue ;
+                               untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                               untitled-ontology-5:aPaysOrigine untitled-ontology-5:Macédoine_du_Nord ;
+                               untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                              untitled-ontology-5:Flexion ;
+                               untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                               untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                               untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Albanie ,
+                                                                       untitled-ontology-5:Bulgarie ,
+                                                                       untitled-ontology-5:Macédoine_du_Nord ,
+                                                                       untitled-ontology-5:Serbie ;
+                               untitled-ontology-5:aCodeISO "mkd" ;
+                               untitled-ontology-5:aLocuteursNatifs 2100000 ;
+                               untitled-ontology-5:aLocuteursSecondaires 2500000 ;
+                               rdfs:label "Macédonien" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Madagascar
+untitled-ontology-5:Madagascar rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ;
+                               rdfs:label "Madagascar" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Mali
+untitled-ontology-5:Mali rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Pays ;
+                         rdfs:label "Mali" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Moldavie
+untitled-ontology-5:Moldavie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Moldavie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monaco
+untitled-ontology-5:Monaco rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Monaco" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégrin
+untitled-ontology-5:Monténégrin rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Langue_vivante ;
+                                untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+                                untitled-ontology-5:est_parlé_en untitled-ontology-5:Monténégro .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro
+untitled-ontology-5:Monténégro rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ,
+                                        untitled-ontology-5:Pays_slaves ;
+                               rdfs:label "Monténégro" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Niger
+untitled-ontology-5:Niger rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Niger" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OEA
+untitled-ontology-5:OEA rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Organisation ;
+                        rdfs:label "OEA" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OMC
+untitled-ontology-5:OMC rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Organisation ;
+                        rdfs:label "OMC" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#ONU
+untitled-ontology-5:ONU rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Organisation ;
+                        rdfs:label "ONU" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OTAN
+untitled-ontology-5:OTAN rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Organisation ;
+                         rdfs:label "OTAN" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Oceanie
+untitled-ontology-5:Oceanie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Continent ,
+                                     untitled-ontology-5:Région ;
+                            untitled-ontology-5:aContinent untitled-ontology-5:Oceanie ;
+                            rdfs:label "Oceanie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Océanie
+untitled-ontology-5:Océanie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Continent .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne
+untitled-ontology-5:Pologne rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ,
+                                     untitled-ontology-5:Pays_slaves ;
+                            untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+                            untitled-ontology-5:aRégion untitled-ontology-5:Europe_Centrale ;
+                            rdfs:label "Pologne" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Polonais
+untitled-ontology-5:Polonais rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Langue ;
+                             untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                             untitled-ontology-5:aPaysOrigine untitled-ontology-5:Pologne ;
+                             untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                            untitled-ontology-5:Flexion ;
+                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ,
+                                                                     untitled-ontology-5:Etats-Unis ,
+                                                                     untitled-ontology-5:Pologne ,
+                                                                     untitled-ontology-5:République_Tchèque ,
+                                                                     untitled-ontology-5:Slovaquie ,
+                                                                     untitled-ontology-5:Ukraine ;
+                             untitled-ontology-5:aCodeISO "pol" ;
+                             untitled-ontology-5:aLocuteursNatifs 45000000 ;
+                             untitled-ontology-5:aLocuteursSecondaires 10000000 ;
+                             rdfs:label "Polonais" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-celtique
+untitled-ontology-5:Proto-celtique rdf:type owl:NamedIndividual ,
+                                            untitled-ontology-5:Langue ;
+                                   rdfs:label "Proto-celtique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-germanique
+untitled-ontology-5:Proto-germanique rdf:type owl:NamedIndividual ,
+                                              untitled-ontology-5:Langue ;
+                                     rdfs:label "Proto-germanique" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave
+untitled-ontology-5:Proto-slave rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Langue ;
+                                rdfs:label "Proto-slave" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Romane
+untitled-ontology-5:Romane rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Famille_de_langue ,
+                                    untitled-ontology-5:Indo_europeenne ;
+                           untitled-ontology-5:aPropriété untitled-ontology-5:diphtongue ,
+                                                          untitled-ontology-5:flexions ;
+                           untitled-ontology-5:estIssue untitled-ontology-5:Latin ;
+                           untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
+                           rdfs:label "Romane" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Roumanie
+untitled-ontology-5:Roumanie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ;
+                             rdfs:label "Roumanie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russe
+untitled-ontology-5:Russe rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Langue ;
+                          untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                          untitled-ontology-5:aPaysOrigine untitled-ontology-5:Fédération_de_Russie ;
+                          untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                         untitled-ontology-5:Flexion ,
+                                                         untitled-ontology-5:Flexionnelle ;
+                          untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                          untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                          untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ,
+                                                                  untitled-ontology-5:Biélorussie ,
+                                                                  untitled-ontology-5:Canada ,
+                                                                  untitled-ontology-5:Estonie ,
+                                                                  untitled-ontology-5:Etats-Unis ,
+                                                                  untitled-ontology-5:France ,
+                                                                  untitled-ontology-5:Fédération_de_Russie ,
+                                                                  untitled-ontology-5:Israël ,
+                                                                  untitled-ontology-5:Kazakhstan ,
+                                                                  untitled-ontology-5:Kirghizistan ,
+                                                                  untitled-ontology-5:Lettonie ,
+                                                                  untitled-ontology-5:Moldavie ,
+                                                                  untitled-ontology-5:Tadjikistan ,
+                                                                  untitled-ontology-5:Turkménistan ,
+                                                                  untitled-ontology-5:Ukraine ;
+                          untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_de_coopération_de_Shanghai_(OCS)> ,
+                                                                    <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_des_Nations_unies_(ONU)> ,
+                                                                    <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_sécurité_collective_(OTSC)> ,
+                                                                    <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)> ,
+                                                                    <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_économique_eurasiatique_(UEE)> ;
+                          untitled-ontology-5:est_parlé_en untitled-ontology-5:Russie ;
+                          untitled-ontology-5:aCodeISO "rus" ;
+                          untitled-ontology-5:aLocuteursNatifs 155000000 ;
+                          untitled-ontology-5:aLocuteursSecondaires 103000000 ;
+                          rdfs:label "Russe" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russie
+untitled-ontology-5:Russie rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ,
+                                    untitled-ontology-5:Pays_slaves .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Rwanda
+untitled-ontology-5:Rwanda rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Rwanda" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque
+untitled-ontology-5:République_Tchèque rdf:type owl:NamedIndividual ,
+                                                untitled-ontology-5:Pays ,
+                                                untitled-ontology-5:Pays_slaves ;
+                                       untitled-ontology-5:aRégion untitled-ontology-5:Europe_centrale ;
+                                       rdfs:label "République_Tchèque" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbe
+untitled-ontology-5:Serbe rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Langue ,
+                                   untitled-ontology-5:Langue_vivante ;
+                          untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ,
+                                                        untitled-ontology-5:Latin ;
+                          untitled-ontology-5:aPaysOrigine untitled-ontology-5:Serbie ;
+                          untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                         untitled-ontology-5:Flexion ;
+                          untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                          untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                          untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine ,
+                                                                  untitled-ontology-5:Bulgarie ,
+                                                                  untitled-ontology-5:Croatie ,
+                                                                  untitled-ontology-5:Hongrie ,
+                                                                  untitled-ontology-5:Macédoine_du_Nord ,
+                                                                  untitled-ontology-5:Monténégro ,
+                                                                  untitled-ontology-5:Roumanie ,
+                                                                  untitled-ontology-5:Serbie ,
+                                                                  untitled-ontology-5:Slovénie ;
+                          untitled-ontology-5:est_parlé_en untitled-ontology-5:Serbie ;
+                          untitled-ontology-5:aCodeISO "srp" ;
+                          untitled-ontology-5:aLocuteursNatifs 9000000 ;
+                          untitled-ontology-5:aLocuteursSecondaires 3000000 ;
+                          rdfs:label "Serbe" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie
+untitled-ontology-5:Serbie rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ,
+                                    untitled-ontology-5:Pays_slaves ;
+                           untitled-ontology-5:aRégion untitled-ontology-5:Balkans ;
+                           rdfs:label "Serbie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Seychelles
+untitled-ontology-5:Seychelles rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Pays ;
+                               rdfs:label "Seychelles" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave
+untitled-ontology-5:Slave rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Famille_de_langue ,
+                                   untitled-ontology-5:Indo_europeenne ;
+                          untitled-ontology-5:aPropriété untitled-ontology-5:cas ,
+                                                         untitled-ontology-5:duel ;
+                          untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                          rdfs:label "Slave" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaque
+untitled-ontology-5:Slovaque rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Langue ,
+                                      untitled-ontology-5:Langue_vivante ;
+                             untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ,
+                                                           untitled-ontology-5:Latin ;
+                             untitled-ontology-5:aPaysOrigine untitled-ontology-5:Slovaquie ;
+                             untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                            untitled-ontology-5:Flexion ;
+                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche ,
+                                                                     untitled-ontology-5:Hongrie ,
+                                                                     untitled-ontology-5:Pologne ,
+                                                                     untitled-ontology-5:République_Tchèque ,
+                                                                     untitled-ontology-5:Slovaquie ,
+                                                                     untitled-ontology-5:Ukraine ;
+                             untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)> ,
+                                                                       <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
+                             untitled-ontology-5:est_parlé_en untitled-ontology-5:Slovaquie ;
+                             untitled-ontology-5:aCodeISO "slk" ;
+                             untitled-ontology-5:aLocuteursNatifs 5500000 ;
+                             untitled-ontology-5:aLocuteursSecondaires 1100000 ;
+                             rdfs:label "Slovaque" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie
+untitled-ontology-5:Slovaquie rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-5:Pays ,
+                                       untitled-ontology-5:Pays_slaves ;
+                              untitled-ontology-5:aRégion untitled-ontology-5:Europe_Centrale ;
+                              rdfs:label "Slovaquie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovène
+untitled-ontology-5:Slovène rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue ,
+                                     untitled-ontology-5:Langue_vivante ;
+                            untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ,
+                                                          untitled-ontology-5:Latin ;
+                            untitled-ontology-5:aPaysOrigine untitled-ontology-5:Slovénie ;
+                            untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                           untitled-ontology-5:Flexion ;
+                            untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                            untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche ,
+                                                                    untitled-ontology-5:Croatie ,
+                                                                    untitled-ontology-5:Hongrie ,
+                                                                    untitled-ontology-5:Italie ,
+                                                                    untitled-ontology-5:Slovénie ;
+                            untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)> ,
+                                                                      <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
+                            untitled-ontology-5:est_parlé_en untitled-ontology-5:Slovénie ;
+                            untitled-ontology-5:aCodeISO "slv" ;
+                            untitled-ontology-5:aLocuteursNatifs 250000 ;
+                            untitled-ontology-5:aLocuteursSecondaires 300000 ;
+                            rdfs:label "Slovène" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie
+untitled-ontology-5:Slovénie rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Pays ,
+                                      untitled-ontology-5:Pays_slaves ;
+                             untitled-ontology-5:aRégion untitled-ontology-5:Europe_Centrale ;
+                             rdfs:label "Slovénie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Suisse
+untitled-ontology-5:Suisse rdf:type owl:NamedIndividual ,
+                                    untitled-ontology-5:Pays ;
+                           rdfs:label "Suisse" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Sénégal
+untitled-ontology-5:Sénégal rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Sénégal" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tadjikistan
+untitled-ontology-5:Tadjikistan rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Pays ;
+                                rdfs:label "Tadjikistan" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchad
+untitled-ontology-5:Tchad rdf:type owl:NamedIndividual ,
+                                   untitled-ontology-5:Pays ;
+                          rdfs:label "Tchad" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchèque
+untitled-ontology-5:Tchèque rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Langue ,
+                                     untitled-ontology-5:Langue_vivante ;
+                            untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ,
+                                                          untitled-ontology-5:Latin ;
+                            untitled-ontology-5:aPaysOrigine untitled-ontology-5:République_Tchèque ;
+                            untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                           untitled-ontology-5:Flexion ;
+                            untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                            untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:République_Tchèque ,
+                                                                    untitled-ontology-5:Slovaquie ;
+                            untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
+                            untitled-ontology-5:est_parlé_en untitled-ontology-5:République_Tchèque ;
+                            untitled-ontology-5:aCodeISO "ces" ;
+                            untitled-ontology-5:aLocuteursNatifs 10700000 ;
+                            untitled-ontology-5:aLocuteursSecondaires 3000000 ;
+                            rdfs:label "Tchèque" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Togo
+untitled-ontology-5:Togo rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Pays ;
+                         rdfs:label "Togo" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turkménistan
+untitled-ontology-5:Turkménistan rdf:type owl:NamedIndividual ,
+                                          untitled-ontology-5:Pays ;
+                                 rdfs:label "Turkménistan" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turquie
+untitled-ontology-5:Turquie rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Turquie" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UA
+untitled-ontology-5:UA rdf:type owl:NamedIndividual ,
+                                untitled-ontology-5:Organisation ;
+                       rdfs:label "UA" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UE
+untitled-ontology-5:UE rdf:type owl:NamedIndividual ,
+                                untitled-ontology-5:Organisation ;
+                       rdfs:label "UE" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine
+untitled-ontology-5:Ukraine rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ,
+                                     untitled-ontology-5:Pays_slaves ;
+                            untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                            untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Est ;
+                            rdfs:label "Ukraine" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukrainien
+untitled-ontology-5:Ukrainien rdf:type owl:NamedIndividual ,
+                                       untitled-ontology-5:Langue ,
+                                       untitled-ontology-5:Langue_vivante ;
+                              untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+                              untitled-ontology-5:aPaysOrigine untitled-ontology-5:Ukraine ;
+                              untitled-ontology-5:aPropriété untitled-ontology-5:Cas ,
+                                                             untitled-ontology-5:Flexion ;
+                              untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+                              untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
+                              untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Canada ,
+                                                                      untitled-ontology-5:Etats-Unis ,
+                                                                      untitled-ontology-5:Fédération_de_Russie ,
+                                                                      untitled-ontology-5:Pologne ,
+                                                                      untitled-ontology-5:Roumanie ,
+                                                                      untitled-ontology-5:République_Tchèque ,
+                                                                      untitled-ontology-5:Slovaquie ,
+                                                                      untitled-ontology-5:Ukraine ;
+                              untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)> ;
+                              untitled-ontology-5:est_parlé_en untitled-ontology-5:Ukraine ;
+                              untitled-ontology-5:aCodeISO "ukr" ;
+                              untitled-ontology-5:aLocuteursNatifs 37000000 ;
+                              untitled-ontology-5:aLocuteursSecondaires 10000000 ;
+                              rdfs:label "Ukrainien" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vanuatu
+untitled-ontology-5:Vanuatu rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Vanuatu" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vatican
+untitled-ontology-5:Vatican rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "Vatican" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vieux-slave
+untitled-ontology-5:Vieux-slave rdf:type owl:NamedIndividual ,
+                                         untitled-ontology-5:Langue_morte ;
+                                untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#burundi
+untitled-ontology-5:burundi rdf:type owl:NamedIndividual ,
+                                     untitled-ontology-5:Pays ;
+                            rdfs:label "burundi" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#cas
+untitled-ontology-5:cas rdf:type owl:NamedIndividual ,
+                                 untitled-ontology-5:Propriété ;
+                        rdfs:label "cas" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#diphtongue
+untitled-ontology-5:diphtongue rdf:type owl:NamedIndividual ,
+                                        untitled-ontology-5:Propriété ;
+                               rdfs:label "diphtongue" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#duel
+untitled-ontology-5:duel rdf:type owl:NamedIndividual ,
+                                  untitled-ontology-5:Propriété ;
+                         rdfs:label "duel" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#flexions
+untitled-ontology-5:flexions rdf:type owl:NamedIndividual ,
+                                      untitled-ontology-5:Propriété ;
+                             rdfs:label "flexions" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_de_coopération_de_Shanghai_(OCS)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_de_coopération_de_Shanghai_(OCS)> rdf:type owl:NamedIndividual ,
+                                                                                                                                  untitled-ontology-5:Organisation ;
+                                                                                                                         rdfs:label "Organisation_de_coopération_de_Shanghai_(OCS)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_des_Nations_unies_(ONU)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_des_Nations_unies_(ONU)> rdf:type owl:NamedIndividual ,
+                                                                                                                         untitled-ontology-5:Organisation ;
+                                                                                                                rdfs:label "Organisation_des_Nations_unies_(ONU)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)> rdf:type owl:NamedIndividual ,
+                                                                                                                                       untitled-ontology-5:Organisation ;
+                                                                                                                              rdfs:label "Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_sécurité_collective_(OTSC)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_sécurité_collective_(OTSC)> rdf:type owl:NamedIndividual ,
+                                                                                                                                         untitled-ontology-5:Organisation ;
+                                                                                                                                rdfs:label "Organisation_du_traité_de_sécurité_collective_(OTSC)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)> rdf:type owl:NamedIndividual ,
+                                                                                                                                                     untitled-ontology-5:Organisation ;
+                                                                                                                                            rdfs:label "Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> rdf:type owl:NamedIndividual ,
+                                                                                                          untitled-ontology-5:Organisation ;
+                                                                                                 rdfs:label "Union_européenne_(UE)" .
+
+
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_économique_eurasiatique_(UEE)
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_économique_eurasiatique_(UEE)> rdf:type owl:NamedIndividual ,
+                                                                                                                        untitled-ontology-5:Organisation ;
+                                                                                                               rdfs:label "Union_économique_eurasiatique_(UEE)" .
+
+
+###  Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,1835 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:untitled-ontology-5="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b99">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b97"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b55">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Européen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Autriche">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Autriche</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOrganisation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>estLangueOrganisation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Centrale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <rdfs:label>Europe_Centrale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <owl:propertyChainAxiom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b1"/>
+    <rdfs:label>aContinent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b39">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Américain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursNatifs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteurs"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:range rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b12"/>
+    <rdfs:label>aLocuteursNatifs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OEA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>OEA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorusse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lituanie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie"/>
+    <untitled-ontology-5:aCodeISO>bel</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">4000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Biélorusse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b75">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b70"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgare">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Grèce"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Israël"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Moldavie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Roumanie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turquie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)"/>
+    <untitled-ontology-5:aCodeISO>bul</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">7000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Bulgare</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b30">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b32"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueFille">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueFille"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b40">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Centrale"/>
+    <rdfs:label>Slovénie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b98">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b99"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Togo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Togo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b97">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAdstrat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovène">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Autriche"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Hongrie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie"/>
+    <untitled-ontology-5:aCodeISO>slv</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">250000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">300000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Slovène</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukrainien">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Canada"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Etats-Unis"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Roumanie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:aCodeISO>ukr</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">37000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Ukrainien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Hongrie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Hongrie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSubstrat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaque">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Autriche"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Hongrie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:aCodeISO>slk</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5500000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1100000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Slovaque</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OTAN">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>OTAN</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b7">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueFille"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    <untitled-ontology-5:aCodeISO>hrv</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5500000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">700000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Croate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Hongrie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Roumanie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovénie"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:aCodeISO>srp</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Serbe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSoeur">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Haïti">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Haïti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b1">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégionMère"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b2"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b28">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>Cas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Romane">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#diphtongue"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#flexions"/>
+    <untitled-ontology-5:estIssue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <rdfs:label>Romane</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b85">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Asiatique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b102">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b103"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin_alphabet"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexionnelle"/>
+    <untitled-ontology-5:estAdstrat rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemand"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Romane"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Belgique"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Burkina_faso"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bénin"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cameroun"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Canada"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Comores"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Congo"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cote_Ivoire"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Djibouti"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#France"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Gabon"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Guinée"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Haïti"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Luxembourg"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Madagascar"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Mali"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monaco"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Niger"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Rwanda"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Seychelles"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Suisse"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Sénégal"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchad"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Togo"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vanuatu"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vatican"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#burundi"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CIO"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CdE"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OEA"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OMC"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#ONU"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OTAN"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UA"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UE"/>
+    <untitled-ontology-5:estSoeur rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagnol"/>
+    <untitled-ontology-5:estSoeur rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italien"/>
+    <untitled-ontology-5:aCodeISO>fra</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteurs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">321000000.0</untitled-ontology-5:aLocuteurs>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">93000000.0</untitled-ontology-5:aLocuteursNatifs>
+    <rdfs:label>Français</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b67">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b68"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Luxembourg">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Luxembourg</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_économique_eurasiatique_(UEE)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Union_économique_eurasiatique_(UEE)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Niger">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Niger</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchèque">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:aCodeISO>ces</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10700000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Tchèque</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://dbpedia.org/resource/French_language">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <owl:sameAs rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b36">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Asiatique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b104"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b81">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Amécicaine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosniaque">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Africain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b76"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteurs">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:range rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b9"/>
+    <rdfs:label>aLocuteurs</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexionnelle"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemagne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Canada"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Estonie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Etats-Unis"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#France"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Israël"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kazakhstan"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kirghizistan"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lettonie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Moldavie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tadjikistan"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turkménistan"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_de_coopération_de_Shanghai_(OCS)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_des_Nations_unies_(ONU)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_sécurité_collective_(OTSC)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)"/>
+    <untitled-ontology-5:estLangueOrganisation rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_économique_eurasiatique_(UEE)"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russie"/>
+    <untitled-ontology-5:aCodeISO>rus</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">155000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">103000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Russe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b79">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b77"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_centrale">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdfs:label>Europe_centrale</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tchad">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Tchad</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#OMC">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>OMC</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b115">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b113"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <rdfs:label>Afrique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CdE">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>CdE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Est">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <untitled-ontology-5:aRégionMère rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Est"/>
+    <rdfs:label>Europe_Nord_Est</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#est_parlé_en">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueFille">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:label>estLangueFille</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAlphabetde">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b52">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Germanique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-germanique"/>
+    <rdfs:label>Germanique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique_Sud">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique"/>
+    <rdfs:label>Afrique_Sud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b44">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b45"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b57">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b55"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b105">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans"/>
+    <rdfs:label>Bulgarie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b8">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estDansLaFamille"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Catalan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b70">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursNatifs"/>
+    <owl:someValuesFrom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b71"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vieux-slave">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_morte"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b113">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Océanie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b59">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Océanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aAlphabet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAlphabetde"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet"/>
+    <rdfs:label>aAlphabet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b9">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:withRestrictions rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:label>Proto-slave</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Alphabet</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aCodeISO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    <rdfs:label>aCodeISO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b73">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b72"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vanuatu">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Vanuatu</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Amérique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b38"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>Flexion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#CIO">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>CIO</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>estLangueOfficielle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégionMère">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdfs:label>aRégionMère</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b77">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Africaine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b69"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Polonais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemagne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Etats-Unis"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine"/>
+    <untitled-ontology-5:aCodeISO>pol</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45000000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10000000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Polonais</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexionnelle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>Flexionnelle</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemagne"/>
+    <rdfs:label>Allemand</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie_Nord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie"/>
+    <rdfs:label>Asie_Nord</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#France">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>France</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_morte">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b62"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <owl:disjointWith rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Est">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <rdfs:label>Europe_Est</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b25">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b23"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b89">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Européenne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Djibouti">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Djibouti</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#diphtongue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>diphtongue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b46">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b48"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Albanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Albanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Congo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Congo</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b24">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b25"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b94">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursSecondaires">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteurs"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <rdfs:range rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b15"/>
+    <rdfs:label>aLocuteursSecondaires</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aDansLaFamille">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estDansLaFamille"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b4">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aDansLaFamille"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Vatican">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Vatican</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Américaine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b26"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#burundi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>burundi</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#ONU">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>ONU</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Océanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b50"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Africaine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b22"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b41">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b39"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédonien">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aPaysOrigine rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Flexion"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Albanie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bulgarie"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord"/>
+    <untitled-ontology-5:estLangueOfficielle rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie"/>
+    <untitled-ontology-5:aCodeISO>mkd</untitled-ontology-5:aCodeISO>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2100000</untitled-ontology-5:aLocuteursNatifs>
+    <untitled-ontology-5:aLocuteursSecondaires rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2500000</untitled-ontology-5:aLocuteursSecondaires>
+    <rdfs:label>Macédonien</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b64">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:withRestrictions rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b66"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Fédération_de_Russie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Est"/>
+    <rdfs:label>Fédération_de_Russie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueOfficielle">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPropriété">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estPropriété"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>aPropriété</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estDansLaFamille">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <owl:propertyChainAxiom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b7"/>
+    <rdfs:label>estDansLaFamille</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet"/>
+    <rdfs:label>Cyrillique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Amécicaine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b100"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Grèce">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Grèce</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b69">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b74"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#cas"/>
+    <untitled-ontology-5:aPropriété rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#duel"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-slave"/>
+    <rdfs:label>Slave</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bénin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Bénin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#duel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>duel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b62">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b67"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Océanique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b58"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b43">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Asiatique"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Etats-Unis">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Etats-Unis</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Serbie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans"/>
+    <rdfs:label>Serbie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Suisse">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Suisse</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Europe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b46"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UE">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>UE</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Oceanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Oceanie"/>
+    <rdfs:label>Oceanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique_Nord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique"/>
+    <rdfs:label>Amerique_Nord</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turkménistan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Turkménistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b110">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b111"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Bosnie-Herzégovine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <rdfs:label>Bosnie-Herzégovine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b58">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b60"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <rdfs:label>Monténégro</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b38">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b40"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <rdfs:label>Europe</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Indo_europeenne"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cameroun">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Cameroun</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b82">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b83"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b93">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Océanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b17">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b16"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#BCMS">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Biélorussie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Est"/>
+    <rdfs:label>Biélorussie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Asiatique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b71">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:withRestrictions rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b73"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b111">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b109"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Canada">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique_Nord"/>
+    <rdfs:label>Canada</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b90">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b91"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Asiatique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b84"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aRégion">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdfs:label>aRégion</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b91">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b89"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique_Nord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique"/>
+    <rdfs:label>Afrique_Nord</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estPropriété">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Celtique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <untitled-ontology-5:estLangueFille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-celtique"/>
+    <rdfs:label>Celtique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b15">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:withRestrictions rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b17"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b61">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b59"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Madagascar">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Madagascar</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b32">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#description">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b108">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b110"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Américain"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b51">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Océanique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b96">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b98"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b74">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b75"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b83">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b81"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Continent</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estIssue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#cas">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>cas</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b104">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b106"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Turquie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Turquie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Océanique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b92"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Africain"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b5">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueFille"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italique"/>
+    <untitled-ontology-5:aLocuteursNatifs rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</untitled-ontology-5:aLocuteursNatifs>
+    <rdfs:label>Latin</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b92">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b94"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Organisation</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b12">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Datatype"/>
+    <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    <owl:withRestrictions rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aEngendré">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <owl:inverseOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estIssue"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b103">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b101"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Macédoine_du_Nord">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans"/>
+    <rdfs:label>Macédoine_du_Nord</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Océanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italien">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <untitled-ontology-5:estDansLaFamille rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Romane"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#UA">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>UA</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Estonie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Estonie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b68">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b63"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b106">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b107"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_des_Nations_unies_(ONU)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Organisation_des_Nations_unies_(ONU)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Gabon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Gabon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b6">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueFille"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <rdfs:label>Asie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>aPaysOrigine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#République_Tchèque">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_centrale"/>
+    <rdfs:label>République_Tchèque</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Continent"/>
+    <rdfs:label>Amerique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Sud_Est">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <untitled-ontology-5:aRégionMère rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Est"/>
+    <rdfs:label>Europe_Sud_Est</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b78">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b79"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b20">
+    <rdf:first rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b21"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b53">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b51"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b72">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Européen">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b88"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Burkina_faso">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Burkina_faso</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b29">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b27"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estAncètre">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <owl:propertyChainAxiom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b3"/>
+    <owl:propertyChainAxiom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b5"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b86">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b87"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estSuperstrat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+    <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    <rdfs:domain rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:range rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Ouest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <rdfs:label>Europe_Ouest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <untitled-ontology-5:aRégionMère rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Sud_Est"/>
+    <rdfs:label>Balkans</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Asie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b42"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cote_Ivoire">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Cote_Ivoire</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lettonie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Lettonie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Seychelles">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Seychelles</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Rwanda">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Rwanda</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Moldavie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Moldavie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b18"/>
+    <rdfs:label>Langue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#flexions">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété"/>
+    <rdfs:label>flexions</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-celtique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:label>Proto-celtique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Ouest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <untitled-ontology-5:aRégionMère rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Ouest"/>
+    <rdfs:label>Europe_Nord_Ouest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b26">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b28"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b65">
+    <xsd:maxExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</xsd:maxExclusive>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_de_coopération_de_Shanghai_(OCS)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Organisation_de_coopération_de_Shanghai_(OCS)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Lituanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Lituanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b56">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b57"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Italie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Italie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aPaysOrigine"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Africain"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Russie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Sud_Ouest">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+    <untitled-ontology-5:aRégionMère rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Ouest"/>
+    <rdfs:label>Europe_Sud_Ouest</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slovaquie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Centrale"/>
+    <rdfs:label>Slovaquie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Asiatique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b30"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagnol">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Belgique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Belgique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b49">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b47"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b22">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b24"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Comores">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Comores</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Anglais">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Région</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b101">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b114">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Ukraine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Cyrillique"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Nord_Est"/>
+    <rdfs:label>Ukraine</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Mali">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Mali</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:label></rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b50">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b52"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Pays</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique_Sud">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Amerique"/>
+    <rdfs:label>Amerique_Sud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Océanique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b112"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégrin">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_vivante"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:est_parlé_en rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monténégro"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Sénégal">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Sénégal</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#dateCreation">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b87">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b85"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Guinée">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Guinée</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kirghizistan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Kirghizistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Union_européenne_(UE)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteurs"/>
+    <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie_Sud">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région"/>
+    <untitled-ontology-5:aContinent rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Asie"/>
+    <rdfs:label>Asie_Sud</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b3">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aEngendré"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b4"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b100">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b102"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b33">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b31"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b48">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_Européenne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b54"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_origine"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b80">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b82"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Proto-germanique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdfs:label>Proto-germanique</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b63">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLocuteursNatifs"/>
+    <owl:someValuesFrom rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b64"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Israël">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Israël</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b34">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b36"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b2">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b95">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b93"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Tadjikistan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Tadjikistan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_sécurité_collective_(OTSC)">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation"/>
+    <rdfs:label>Organisation_du_traité_de_sécurité_collective_(OTSC)</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b107">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b105"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b11">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b10"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b112">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b114"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b109">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aContinent"/>
+    <owl:hasValue rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue_En_Afrique">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b34"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Croatie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Balkans"/>
+    <rdfs:label>Croatie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Monaco">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Monaco</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin_alphabet">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Alphabet"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b47">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+    <owl:onProperty rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle"/>
+    <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Européen"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pologne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_slaves"/>
+    <untitled-ontology-5:aAlphabet rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Latin"/>
+    <untitled-ontology-5:aRégion rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Europe_Centrale"/>
+    <rdfs:label>Pologne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Espagne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b76">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b78"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Européenne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b108"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays_Américain">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b80"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#par_région"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b14">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b13"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b84">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b86"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Allemagne">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Allemagne</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b42">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b44"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Propriété">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Propriété</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b18">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b20"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b45">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b43"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Kazakhstan">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Kazakhstan</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b54">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b56"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b60">
+    <rdf:first rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
+    <rdf:rest rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b61"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b10">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b66">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b65"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b21">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b19"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Famille_de_langue">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Famille_de_langue</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Région_Africaine">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:equivalentClass rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b96"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b88">
+    <owl:intersectionOf rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b90"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Roumanie">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+    <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Pays"/>
+    <rdfs:label>Roumanie</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b16">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b13">
+    <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#int">0</xsd:minInclusive>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b37">
+    <rdf:first rdf:nodeID="n60d30bfb4b9d4f518a462bb085c02cf0b35"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+</rdf:RDF>
