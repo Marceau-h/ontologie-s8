@@ -1,0 +1,13 @@
+Langue,Pays,Alphabet,Locuteurs_n,Locuteurs_s,Famille,Propriété,Organisations,ISO_639-3,Pays_origine,Langue_origine
+Gaulois , ,,,,,,,,,
+Celtibère ,Espagne ,Greco-Ibère ,,,,,,,,
+Gaélique ,"Irlande, Île de Man, Écosse",,,,,,,,,
+Cornique ,Royaume-Uni,,,,,,,,,
+Gallois,"Royaume-Uni, Argentine ",,,,,,,,,
+Gallaïque ,,,,,,,,,,
+Galate ,,,,,,,,,,
+Irlandais ,"Irlande, Royaume-Uni ",,,,,,,,,
+Gaélique Écossais ,"Royaume-Uni, Canada, Etats-Unis, Australie",,,,,,,,,
+Mannois ,Île de Man,,,,,,,,,
+Shelta ,"Irlande, Royaume-Uni , Etats-Unis",,,,,,,,,
+Breton,France,,,,,,,,,
