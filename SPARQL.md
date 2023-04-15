@@ -38,6 +38,7 @@ SELECT DISTINCT * WHERE {
 LIMIT 150
 ```
 ![img.png](imgs/3.png)
+
 # 4. Quelles sont les langues qui sont des langues vivantes?
 ```sparql
 SELECT DISTINCT * WHERE {
@@ -47,7 +48,6 @@ SELECT DISTINCT * WHERE {
 LIMIT 150
 ```
 ### Pas de résultats car la classe LangueVivante n'est pas utilisée dans le fichier ttl, mais par le raisonnement de la classe, on pourrait faire une requête supplémentaire avec le nombre de locuteurs natifs
-```sparql
 ![img.png](imgs/4.png)
 
 # 5. Quelles sont les langues qui sont utilisées dans plus de 5 pays?
