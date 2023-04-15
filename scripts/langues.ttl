@@ -1,0 +1,887 @@
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix untitled-ontology-5: <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbpedia:French_language a owl:NamedIndividual ;
+    owl:sameAs untitled-ontology-5:Français .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> a owl:Ontology .
+
+untitled-ontology-5:Afrique_Nord a untitled-ontology-5:Région ;
+    rdfs:label "Afrique_Nord" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Afrique .
+
+untitled-ontology-5:Afrique_Sud a untitled-ontology-5:Région ;
+    rdfs:label "Afrique_Sud" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Afrique .
+
+untitled-ontology-5:Amerique_Nord a untitled-ontology-5:Région ;
+    rdfs:label "Amerique_Nord" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Amerique .
+
+untitled-ontology-5:Amerique_Sud a untitled-ontology-5:Région ;
+    rdfs:label "Amerique_Sud" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Amerique .
+
+untitled-ontology-5:Amérique_nord a untitled-ontology-5:Continent,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Amérique_sud a untitled-ontology-5:Continent,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Anglais a untitled-ontology-5:Langue,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Asie_Nord a untitled-ontology-5:Région ;
+    rdfs:label "Asie_Nord" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Asie .
+
+untitled-ontology-5:Asie_Sud a untitled-ontology-5:Région ;
+    rdfs:label "Asie_Sud" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Asie .
+
+untitled-ontology-5:BCMS a untitled-ontology-5:Langue,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Biélorusse a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Biélorusse" ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "bel" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 4000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 1000000 ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Biélorussie,
+        untitled-ontology-5:Fédération_de_Russie,
+        untitled-ontology-5:Lituanie,
+        untitled-ontology-5:Pologne,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Biélorussie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Biélorussie .
+
+untitled-ontology-5:Bosniaque a untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Bosnie-Herzégovine .
+
+untitled-ontology-5:Bulgare a untitled-ontology-5:Langue ;
+    rdfs:label "Bulgare" ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "bul" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 7000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 2000000 ;
+    untitled-ontology-5:a_organisation untitled-ontology-5:Union_européenne_\(UE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Bulgarie,
+        untitled-ontology-5:Grèce,
+        untitled-ontology-5:Israël,
+        untitled-ontology-5:Macédoine_du_Nord,
+        untitled-ontology-5:Moldavie,
+        untitled-ontology-5:Roumanie,
+        untitled-ontology-5:Serbie,
+        untitled-ontology-5:Turquie,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Bulgarie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion .
+
+untitled-ontology-5:Catalan a untitled-ontology-5:Langue,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Celtique a untitled-ontology-5:Famille_de_langue ;
+    rdfs:label "Celtique" ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-celtique .
+
+untitled-ontology-5:Croate a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Croate" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "hrv" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 55000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 7000000 ;
+    untitled-ontology-5:a_organisation untitled-ontology-5:Union_européenne_\(UE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Bosnie-Herzégovine,
+        untitled-ontology-5:Croatie,
+        untitled-ontology-5:Monténégro,
+        untitled-ontology-5:Serbie ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Croatie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Croatie .
+
+untitled-ontology-5:Espagne a untitled-ontology-5:Pays,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Europe_Nord_Ouest a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Nord_Ouest" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe ;
+    untitled-ontology-5:a_region_mere untitled-ontology-5:Europe_Ouest .
+
+untitled-ontology-5:Europe_Sud_Ouest a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Sud_Ouest" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe ;
+    untitled-ontology-5:a_region_mere untitled-ontology-5:Europe_Ouest .
+
+untitled-ontology-5:Germanique a untitled-ontology-5:Famille_de_langue ;
+    rdfs:label "Germanique" ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-germanique .
+
+untitled-ontology-5:Macédonien a untitled-ontology-5:Langue ;
+    rdfs:label "Macédonien" ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "mkd" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 21000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 25000000 ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Albanie,
+        untitled-ontology-5:Bulgarie,
+        untitled-ontology-5:Macédoine_du_Nord,
+        untitled-ontology-5:Serbie ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Macédoine_du_Nord ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion .
+
+untitled-ontology-5:Monténégrin a untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Monténégro .
+
+untitled-ontology-5:Océanie a untitled-ontology-5:Continent,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Polonais a untitled-ontology-5:Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Polonais" ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "pol" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 45000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 10000000 ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Allemagne,
+        untitled-ontology-5:Etats-Unis,
+        untitled-ontology-5:Pologne,
+        untitled-ontology-5:République_Tchèque,
+        untitled-ontology-5:Slovaquie,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Pologne ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion .
+
+untitled-ontology-5:Russe a untitled-ontology-5:Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Russe" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "rus" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 155000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 103000000 ;
+    untitled-ontology-5:a_organisation untitled-ontology-5:Organisation_de_coopération_de_Shanghai_\(OCS\),
+        untitled-ontology-5:Organisation_des_Nations_unies_\(ONU\),
+        untitled-ontology-5:Organisation_du_traité_de_sécurité_collective_\(OTSC\),
+        untitled-ontology-5:Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\),
+        untitled-ontology-5:Union_économique_eurasiatique_\(UEE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Allemagne,
+        untitled-ontology-5:Biélorussie,
+        untitled-ontology-5:Canada,
+        untitled-ontology-5:Estonie,
+        untitled-ontology-5:Etats-Unis,
+        untitled-ontology-5:France,
+        untitled-ontology-5:Fédération_de_Russie,
+        untitled-ontology-5:Israël,
+        untitled-ontology-5:Kazakhstan,
+        untitled-ontology-5:Kirghizistan,
+        untitled-ontology-5:Lettonie,
+        untitled-ontology-5:Moldavie,
+        untitled-ontology-5:Tadjikistan,
+        untitled-ontology-5:Turkménistan,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Fédération_de_Russie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Russie .
+
+untitled-ontology-5:Serbe a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Serbe" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique,
+        untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "srp" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 9000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 3000000 ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Bosnie-Herzégovine,
+        untitled-ontology-5:Bulgarie,
+        untitled-ontology-5:Croatie,
+        untitled-ontology-5:Hongrie,
+        untitled-ontology-5:Macédoine_du_Nord,
+        untitled-ontology-5:Monténégro,
+        untitled-ontology-5:Roumanie,
+        untitled-ontology-5:Serbie,
+        untitled-ontology-5:Slovénie ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Serbie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Serbie .
+
+untitled-ontology-5:Slovaque a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Slovaque" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "slk" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 55000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 11000000 ;
+    untitled-ontology-5:a_organisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
+        untitled-ontology-5:Union_européenne_\(UE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Autriche,
+        untitled-ontology-5:Hongrie,
+        untitled-ontology-5:Pologne,
+        untitled-ontology-5:République_Tchèque,
+        untitled-ontology-5:Slovaquie,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Slovaquie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Slovaquie .
+
+untitled-ontology-5:Slovène a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Slovène" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "slv" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 25000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 3000000 ;
+    untitled-ontology-5:a_organisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
+        untitled-ontology-5:Union_européenne_\(UE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Autriche,
+        untitled-ontology-5:Croatie,
+        untitled-ontology-5:Hongrie,
+        untitled-ontology-5:Italie,
+        untitled-ontology-5:Slovénie ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Slovénie ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Slovénie .
+
+untitled-ontology-5:Tchèque a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Tchèque" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "ces" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 11000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 3000000 ;
+    untitled-ontology-5:a_organisation untitled-ontology-5:Union_européenne_\(UE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:République_Tchèque,
+        untitled-ontology-5:Slovaquie ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:République_Tchèque ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:République_Tchèque .
+
+untitled-ontology-5:Ukrainien a untitled-ontology-5:Langue,
+        untitled-ontology-5:Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Ukrainien" ;
+    untitled-ontology-5:a_alphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_code_iso "ukr" ;
+    untitled-ontology-5:a_famille untitled-ontology-5:Slave ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_locuteurs_natifs 37000000 ;
+    untitled-ontology-5:a_locuteurs_secondaires 10000000 ;
+    untitled-ontology-5:a_organisation untitled-ontology-5:Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\) ;
+    untitled-ontology-5:a_pays untitled-ontology-5:Canada,
+        untitled-ontology-5:Etats-Unis,
+        untitled-ontology-5:Fédération_de_Russie,
+        untitled-ontology-5:Pologne,
+        untitled-ontology-5:Roumanie,
+        untitled-ontology-5:République_Tchèque,
+        untitled-ontology-5:Slovaquie,
+        untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_pays_origine untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:Cas,
+        untitled-ontology-5:Flexion ;
+    untitled-ontology-5:est_parlé_en untitled-ontology-5:Ukraine .
+
+untitled-ontology-5:Vieux-slave a untitled-ontology-5:Langue_morte,
+        owl:NamedIndividual ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique .
+
+untitled-ontology-5:aAlphabet a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Alphabet ;
+    owl:inverseOf untitled-ontology-5:estAlphabetde .
+
+untitled-ontology-5:aLangueOfficielle a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Pays ;
+    rdfs:range untitled-ontology-5:Langue ;
+    owl:inverseOf untitled-ontology-5:estLangueOfficielle .
+
+untitled-ontology-5:aLocuteursSecondaires a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ] ;
+    rdfs:subPropertyOf untitled-ontology-5:aLocuteurs .
+
+untitled-ontology-5:aPropriété a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Proptiété ;
+    owl:inverseOf untitled-ontology-5:estPropriété .
+
+untitled-ontology-5:a_alphabet a owl:ObjectProperty ;
+    rdfs:label "a_alphabet" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Alphabet .
+
+untitled-ontology-5:a_code_iso a owl:ObjectProperty ;
+    rdfs:label "a_code_iso" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:string .
+
+untitled-ontology-5:a_continent a owl:ObjectProperty ;
+    rdfs:label "a_continent" ;
+    rdfs:domain untitled-ontology-5:Région ;
+    rdfs:range untitled-ontology-5:Continent .
+
+untitled-ontology-5:a_famille a owl:ObjectProperty ;
+    rdfs:label "a_famille" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Famille_de_langue .
+
+untitled-ontology-5:a_langue_mere a owl:ObjectProperty ;
+    rdfs:label "a_langue_mere" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue .
+
+untitled-ontology-5:a_locuteurs_natifs a owl:DatatypeProperty ;
+    rdfs:label "a_locuteurs_natifs" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range xsd:integer .
+
+untitled-ontology-5:a_locuteurs_secondaires a owl:DatatypeProperty ;
+    rdfs:label "a_locuteurs_secondaires" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range xsd:integer .
+
+untitled-ontology-5:a_organisation a owl:ObjectProperty ;
+    rdfs:label "a_organisation" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Organisation .
+
+untitled-ontology-5:a_pays a owl:ObjectProperty ;
+    rdfs:label "a_pays" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Pays .
+
+untitled-ontology-5:a_pays_origine a owl:ObjectProperty ;
+    rdfs:label "a_pays_origine" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Pays .
+
+untitled-ontology-5:a_propriété a owl:ObjectProperty ;
+    rdfs:label "a_propriété" ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Propriété .
+
+untitled-ontology-5:a_region a owl:ObjectProperty ;
+    rdfs:label "a_region" ;
+    rdfs:domain untitled-ontology-5:Pays ;
+    rdfs:range untitled-ontology-5:Région .
+
+untitled-ontology-5:a_region_mere a owl:ObjectProperty ;
+    rdfs:label "a_region_mere" ;
+    rdfs:domain untitled-ontology-5:Région ;
+    rdfs:range untitled-ontology-5:Région .
+
+untitled-ontology-5:dateCreation a owl:DatatypeProperty .
+
+untitled-ontology-5:description a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range xsd:string .
+
+untitled-ontology-5:estAdstrat a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue .
+
+untitled-ontology-5:estAncètre a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    owl:propertyChainAxiom ( untitled-ontology-5:aLangueFille untitled-ontology-5:aLangueFille ),
+        ( untitled-ontology-5:aEngendré untitled-ontology-5:aDansLaFamille ) .
+
+untitled-ontology-5:estSoeur a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-5:estSubstrat a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-5:estSuperstrat a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-5:est_parlé_en a owl:ObjectProperty .
+
+untitled-ontology-5:Albanie a untitled-ontology-5:Pays ;
+    rdfs:label "Albanie" .
+
+untitled-ontology-5:Allemand a untitled-ontology-5:Langue,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Belgique a untitled-ontology-5:Pays,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Espagnol a untitled-ontology-5:Langue,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Estonie a untitled-ontology-5:Pays ;
+    rdfs:label "Estonie" .
+
+untitled-ontology-5:Europe_Sud_Est a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Sud_Est" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe ;
+    untitled-ontology-5:a_region_mere untitled-ontology-5:Europe_Est .
+
+untitled-ontology-5:Europe_centrale a untitled-ontology-5:Région ;
+    rdfs:label "Europe_centrale" .
+
+untitled-ontology-5:Flexionnelle a untitled-ontology-5:Proptiété,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Français a untitled-ontology-5:Langue,
+        owl:NamedIndividual ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin_alphabet ;
+    untitled-ontology-5:aLocuteurs 321000000.0 ;
+    untitled-ontology-5:aLocuteursNatifs "93000000"^^xsd:int ;
+    untitled-ontology-5:estAdstrat untitled-ontology-5:Allemand ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
+    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Belgique,
+        untitled-ontology-5:France ;
+    untitled-ontology-5:estSoeur untitled-ontology-5:Espagnol,
+        untitled-ontology-5:Italien .
+
+untitled-ontology-5:Grèce a untitled-ontology-5:Pays ;
+    rdfs:label "Grèce" .
+
+untitled-ontology-5:Italie a untitled-ontology-5:Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Italie" .
+
+untitled-ontology-5:Italien a untitled-ontology-5:Langue,
+        owl:NamedIndividual ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane .
+
+untitled-ontology-5:Italique a untitled-ontology-5:Indo_europeenne,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Kazakhstan a untitled-ontology-5:Pays ;
+    rdfs:label "Kazakhstan" .
+
+untitled-ontology-5:Kirghizistan a untitled-ontology-5:Pays ;
+    rdfs:label "Kirghizistan" .
+
+untitled-ontology-5:Langue_morte a owl:Class ;
+    rdfs:subClassOf untitled-ontology-5:Langue ;
+    owl:disjointWith untitled-ontology-5:Langue_vivante ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
+                        owl:onProperty untitled-ontology-5:aLocuteursNatifs ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:int ;
+                                owl:withRestrictions ( [ xsd:maxExclusive "1"^^xsd:int ] ) ] ] ) ] .
+
+untitled-ontology-5:Latin_alphabet a untitled-ontology-5:Alphabet,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Lettonie a untitled-ontology-5:Pays ;
+    rdfs:label "Lettonie" .
+
+untitled-ontology-5:Lituanie a untitled-ontology-5:Pays ;
+    rdfs:label "Lituanie" .
+
+untitled-ontology-5:Oceanie a untitled-ontology-5:Continent,
+        untitled-ontology-5:Région ;
+    rdfs:label "Oceanie" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Oceanie .
+
+untitled-ontology-5:Organisation_de_coopération_de_Shanghai_\(OCS\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Organisation_de_coopération_de_Shanghai_(OCS)" .
+
+untitled-ontology-5:Organisation_des_Nations_unies_\(ONU\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Organisation_des_Nations_unies_(ONU)" .
+
+untitled-ontology-5:Organisation_du_traité_de_sécurité_collective_\(OTSC\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Organisation_du_traité_de_sécurité_collective_(OTSC)" .
+
+untitled-ontology-5:Proto-celtique a untitled-ontology-5:Langue ;
+    rdfs:label "Proto-celtique" .
+
+untitled-ontology-5:Proto-germanique a untitled-ontology-5:Langue ;
+    rdfs:label "Proto-germanique" .
+
+untitled-ontology-5:Russie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual .
+
+untitled-ontology-5:Tadjikistan a untitled-ontology-5:Pays ;
+    rdfs:label "Tadjikistan" .
+
+untitled-ontology-5:Turkménistan a untitled-ontology-5:Pays ;
+    rdfs:label "Turkménistan" .
+
+untitled-ontology-5:Turquie a untitled-ontology-5:Pays ;
+    rdfs:label "Turquie" .
+
+untitled-ontology-5:Union_économique_eurasiatique_\(UEE\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Union_économique_eurasiatique_(UEE)" .
+
+untitled-ontology-5:aDansLaFamille a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Famille_de_langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    owl:inverseOf untitled-ontology-5:estDansLaFamille .
+
+untitled-ontology-5:aEngendré a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf untitled-ontology-5:estIssue .
+
+untitled-ontology-5:cas a untitled-ontology-5:Propriété ;
+    rdfs:label "cas" .
+
+untitled-ontology-5:diphtongue a untitled-ontology-5:Propriété ;
+    rdfs:label "diphtongue" .
+
+untitled-ontology-5:duel a untitled-ontology-5:Propriété ;
+    rdfs:label "duel" .
+
+untitled-ontology-5:estAlphabetde a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Alphabet ;
+    rdfs:range untitled-ontology-5:Langue .
+
+untitled-ontology-5:estIssue a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain untitled-ontology-5:Famille_de_langue ;
+    rdfs:range untitled-ontology-5:Langue .
+
+untitled-ontology-5:estLangueOfficielle a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Pays ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-5:estPropriété a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Proptiété ;
+    rdfs:range untitled-ontology-5:Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+untitled-ontology-5:flexions a untitled-ontology-5:Propriété ;
+    rdfs:label "flexions" .
+
+untitled-ontology-5:Afrique a untitled-ontology-5:Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Afrique" .
+
+untitled-ontology-5:Allemagne a untitled-ontology-5:Pays ;
+    rdfs:label "Allemagne" .
+
+untitled-ontology-5:Amerique a untitled-ontology-5:Continent ;
+    rdfs:label "Amerique" .
+
+untitled-ontology-5:Asie a untitled-ontology-5:Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Asie" .
+
+untitled-ontology-5:Autriche a untitled-ontology-5:Pays ;
+    rdfs:label "Autriche" .
+
+untitled-ontology-5:Canada a untitled-ontology-5:Pays ;
+    rdfs:label "Canada" .
+
+untitled-ontology-5:Europe_Est a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Est" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe .
+
+untitled-ontology-5:Europe_Ouest a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Ouest" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe .
+
+untitled-ontology-5:France a untitled-ontology-5:Pays,
+        owl:NamedIndividual ;
+    rdfs:label "France" .
+
+untitled-ontology-5:Israël a untitled-ontology-5:Pays ;
+    rdfs:label "Israël" .
+
+untitled-ontology-5:Moldavie a untitled-ontology-5:Pays ;
+    rdfs:label "Moldavie" .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)> a untitled-ontology-5:Organisation ;
+    rdfs:label "Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)" .
+
+untitled-ontology-5:Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)" .
+
+untitled-ontology-5:Romane a untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne,
+        owl:NamedIndividual ;
+    rdfs:label "Romane" ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:diphtongue,
+        untitled-ontology-5:flexions ;
+    untitled-ontology-5:estIssue untitled-ontology-5:Latin .
+
+untitled-ontology-5:aLangueFille a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue ;
+    owl:inverseOf untitled-ontology-5:estLangueFille .
+
+untitled-ontology-5:aLocuteursNatifs a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ] ;
+    rdfs:subPropertyOf untitled-ontology-5:aLocuteurs .
+
+untitled-ontology-5:estDansLaFamille a owl:ObjectProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Famille_de_langue ;
+    owl:propertyChainAxiom ( untitled-ontology-5:estLangueFille untitled-ontology-5:estDansLaFamille ) .
+
+untitled-ontology-5:estLangueFille a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range untitled-ontology-5:Langue .
+
+untitled-ontology-5:Bosnie-Herzégovine a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Bosnie-Herzégovine" .
+
+untitled-ontology-5:Etats-Unis a untitled-ontology-5:Pays ;
+    rdfs:label "Etats-Unis" .
+
+untitled-ontology-5:Europe_Centrale a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Centrale" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe .
+
+untitled-ontology-5:Europe_Nord_Est a untitled-ontology-5:Région ;
+    rdfs:label "Europe_Nord_Est" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe ;
+    untitled-ontology-5:a_region_mere untitled-ontology-5:Europe_Est .
+
+untitled-ontology-5:Hongrie a untitled-ontology-5:Pays ;
+    rdfs:label "Hongrie" .
+
+untitled-ontology-5:Indo_europeenne a owl:Class ;
+    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
+
+untitled-ontology-5:Monténégro a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Monténégro" .
+
+untitled-ontology-5:Proptiété a owl:Class .
+
+untitled-ontology-5:Roumanie a untitled-ontology-5:Pays ;
+    rdfs:label "Roumanie" .
+
+untitled-ontology-5:aLocuteurs a owl:DatatypeProperty ;
+    rdfs:domain untitled-ontology-5:Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ] .
+
+untitled-ontology-5:Balkans a untitled-ontology-5:Région ;
+    rdfs:label "Balkans" ;
+    untitled-ontology-5:a_continent untitled-ontology-5:Europe ;
+    untitled-ontology-5:a_region_mere untitled-ontology-5:Europe_Sud_Est .
+
+untitled-ontology-5:Biélorussie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Biélorussie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Nord_Est .
+
+untitled-ontology-5:Bulgarie a untitled-ontology-5:Pays ;
+    rdfs:label "Bulgarie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Fédération_de_Russie a untitled-ontology-5:Pays ;
+    rdfs:label "Fédération_de_Russie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Nord_Est .
+
+untitled-ontology-5:Macédoine_du_Nord a untitled-ontology-5:Pays ;
+    rdfs:label "Macédoine_du_Nord" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Slovénie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Slovénie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Centrale .
+
+untitled-ontology-5:Alphabet a owl:Class ;
+    rdfs:label "Alphabet" .
+
+untitled-ontology-5:Croatie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Croatie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Pologne a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Pologne" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Centrale .
+
+untitled-ontology-5:Union_européenne_\(UE\) a untitled-ontology-5:Organisation ;
+    rdfs:label "Union_européenne_(UE)" .
+
+untitled-ontology-5:République_Tchèque a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "République_Tchèque" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_centrale .
+
+untitled-ontology-5:Serbie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Serbie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Balkans .
+
+untitled-ontology-5:Slovaquie a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Slovaquie" ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Centrale .
+
+untitled-ontology-5:Propriété a owl:Class ;
+    rdfs:label "Propriété" .
+
+untitled-ontology-5:Europe a untitled-ontology-5:Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Europe" .
+
+untitled-ontology-5:Organisation a owl:Class ;
+    rdfs:label "Organisation" .
+
+untitled-ontology-5:Ukraine a untitled-ontology-5:Pays,
+        untitled-ontology-5:Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Ukraine" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Cyrillique ;
+    untitled-ontology-5:a_region untitled-ontology-5:Europe_Nord_Est .
+
+untitled-ontology-5:Continent a owl:Class ;
+    rdfs:label "Continent" .
+
+untitled-ontology-5:Famille_de_langue a owl:Class ;
+    rdfs:label "Famille_de_langue" .
+
+untitled-ontology-5:Latin a untitled-ontology-5:Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Latin" ;
+    untitled-ontology-5:aLocuteursNatifs "0"^^xsd:int ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Italique .
+
+untitled-ontology-5:Langue_vivante a owl:Class ;
+    rdfs:subClassOf untitled-ontology-5:Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
+                        owl:onProperty untitled-ontology-5:aLocuteursNatifs ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:int ;
+                                owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:int ] ) ] ] ) ] .
+
+untitled-ontology-5:Cas a untitled-ontology-5:Propriété ;
+    rdfs:label "Cas" .
+
+untitled-ontology-5:Flexion a untitled-ontology-5:Propriété ;
+    rdfs:label "Flexion" .
+
+untitled-ontology-5:Pays_slaves a owl:Class ;
+    rdfs:subClassOf untitled-ontology-5:Pays .
+
+untitled-ontology-5:Proto-slave a untitled-ontology-5:Langue ;
+    rdfs:label "Proto-slave" .
+
+untitled-ontology-5:Slave a untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne,
+        owl:NamedIndividual ;
+    rdfs:label "Slave" ;
+    untitled-ontology-5:a_langue_mere untitled-ontology-5:Proto-slave ;
+    untitled-ontology-5:a_propriété untitled-ontology-5:cas,
+        untitled-ontology-5:duel .
+
+untitled-ontology-5:Cyrillique a untitled-ontology-5:Alphabet,
+        owl:NamedIndividual ;
+    rdfs:label "Cyrillique" .
+
+untitled-ontology-5:Région a owl:Class ;
+    rdfs:label "Région" .
+
+untitled-ontology-5:Pays a owl:Class ;
+    rdfs:label "Pays" .
+
+untitled-ontology-5:Langue a owl:Class ;
+    rdfs:label "Langue" ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( owl:Thing [ a owl:Restriction ;
+                        owl:onProperty untitled-ontology-5:aLocuteurs ;
+                        owl:someValuesFrom xsd:int ] ) ] .
+
