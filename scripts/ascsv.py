@@ -1,5 +1,7 @@
 import pandas as pd
 
+from scripts.path import *
+
 
 def trieur(csv, colonne):
     df = pd.read_csv(csv).fillna("")
@@ -9,12 +11,12 @@ def trieur(csv, colonne):
 
 def all_csvs():
     for csv, colonne in (
-            ("../CSVS/langues_ad.csv", "Langue"),
-            ("../CSVS/langues_dk.csv", "Langue"),
-            ("../CSVS/langues_mh.csv", "Langue"),
-            ("../CSVS/famille.csv", "Label"),
-            ("../CSVS/pays.csv", "Label"),
-            ("../CSVS/region.csv", "Label"),
+            (csv_folder / "langues_ad.csv", "Langue"),
+            (csv_folder / "langues_dk.csv", "Langue"),
+            (csv_folder / "langues_mh.csv", "Langue"),
+            (csv_folder / "famille.csv", "Label"),
+            (csv_folder / "pays.csv", "Label"),
+            (csv_folder / "region.csv", "Label"),
     ):
         trieur(csv, colonne)
 

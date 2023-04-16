@@ -196,6 +196,20 @@ untitled-ontology-5:Galate a untitled-ontology-5:Langue ;
 untitled-ontology-5:Gallaïque a untitled-ontology-5:Langue ;
     rdfs:label "Gallaïque" .
 
+untitled-ontology-5:Gaulois a untitled-ontology-5:Langue ;
+    rdfs:label "Gaulois" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Gallo-étrusque,
+        untitled-ontology-5:Gaulois_Alphabet,
+        untitled-ontology-5:Grec,
+        untitled-ontology-5:Latin ;
+    untitled-ontology-5:aCodeISO "xcg",
+        "xga",
+        "xlp",
+        "xtg" ;
+    untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique .
+
 untitled-ontology-5:Gaélique_Écossais a untitled-ontology-5:Langue ;
     rdfs:label "Gaélique_Écossais" ;
     untitled-ontology-5:aAlphabet untitled-ontology-5:Gaélique ;
@@ -811,8 +825,7 @@ untitled-ontology-5:Cote_Ivoire a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Cote_Ivoire" .
 
-untitled-ontology-5:Créole a untitled-ontology-5:Famille_de_langue,
-        untitled-ontology-5:Indo_europeenne ;
+untitled-ontology-5:Créole a untitled-ontology-5:Famille_de_langue ;
     rdfs:label "Créole" .
 
 untitled-ontology-5:Cuba a untitled-ontology-5:Pays ;
@@ -894,20 +907,8 @@ untitled-ontology-5:Gambie a untitled-ontology-5:Pays ;
     rdfs:label "Gambie" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Afrique .
 
-untitled-ontology-5:Gaulois a untitled-ontology-5:Alphabet,
-        untitled-ontology-5:Langue ;
-    rdfs:label "Gaulois" ;
-    untitled-ontology-5:aAlphabet untitled-ontology-5:Gallo-étrusque,
-        untitled-ontology-5:Gaulois,
-        untitled-ontology-5:Grec,
-        untitled-ontology-5:Latin ;
-    untitled-ontology-5:aCodeISO "xcg",
-        "xga",
-        "xlp",
-        "xtg" ;
-    untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
-    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique .
+untitled-ontology-5:Gaulois_Alphabet a untitled-ontology-5:Alphabet ;
+    rdfs:label "Gaulois_Alphabet" .
 
 untitled-ontology-5:Gaélique_irlandais a untitled-ontology-5:Langue ;
     rdfs:label "Gaélique_irlandais" .
@@ -2184,6 +2185,10 @@ untitled-ontology-5:Europe_Sud_Ouest a untitled-ontology-5:Région,
     untitled-ontology-5:aContinent untitled-ontology-5:Europe ;
     untitled-ontology-5:aRégionMère untitled-ontology-5:Europe_Ouest .
 
+untitled-ontology-5:Indo_europeenne a owl:Class ;
+    rdfs:label "Indo_europeenne" ;
+    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
+
 untitled-ontology-5:Accentuelle a untitled-ontology-5:Propriété ;
     rdfs:label "Accentuelle" .
 
@@ -2197,10 +2202,6 @@ untitled-ontology-5:Espagne a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Espagne" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
-
-untitled-ontology-5:Indo_europeenne a owl:Class ;
-    rdfs:label "Indo_europeenne" ;
-    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
 
 untitled-ontology-5:Italie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
