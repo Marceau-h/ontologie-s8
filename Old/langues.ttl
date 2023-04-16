@@ -1,0 +1,2100 @@
+@prefix dbpedia: <http://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix : <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+dbpedia:French_language a owl:NamedIndividual ;
+    owl:sameAs :Français .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> a owl:Ontology .
+
+: a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "" .
+
+:Afrique_Nord a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Afrique_Nord" ;
+    :aContinent :Afrique .
+
+:Afrique_Sud a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Afrique_Sud" ;
+    :aContinent :Afrique .
+
+:Anglais a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Anglais" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "eng" ;
+    :aLocuteursNatifs 370000000 ;
+    :aLocuteursSecondaires 1348000000 ;
+    :aPaysOrigine :Royaume-Uni ;
+    :aPropriété :Flexionnelle ;
+    :estDansLaFamille :Germanique ;
+    :estLangueFille :Vieux_frison ;
+    :estLangueOfficielle :Afrique_du_sud,
+        :Akrotiri,
+        :Anguilla,
+        :Antigua-et-Barbuda,
+        :Australie,
+        :Bahamas,
+        :Barbade,
+        :Belize,
+        :Bermudes,
+        :Botswana,
+        :Brunei,
+        :Cameroun,
+        :Canada,
+        :Curaçao,
+        :Dhekelia,
+        :Dominique,
+        :Eswatini,
+        :Fidji,
+        :Gambie,
+        :Ghana,
+        :Gibraltar,
+        :Grenade,
+        :Guam,
+        :Guernesey,
+        :Guyana,
+        :Hong_Kong,
+        :Inde,
+        :Irlande,
+        :Jamaïque,
+        :Jersey,
+        :Kenya,
+        :Kiribati,
+        :Lesoto,
+        :Liberia,
+        :Malawi,
+        :Malouines,
+        :Malte,
+        :Maurice,
+        :Montserrat,
+        :Namibie,
+        :Nauru,
+        :Nigeria,
+        :Niue,
+        :Nouvelle-Zélande,
+        :Ouganda,
+        :Pakistan,
+        :Palaos,
+        :Papouasie-Nouvelle-Guinée,
+        :Philippines,
+        :Porto_Rico,
+        :Royaume-Uni,
+        :Rwanda,
+        :Saint-Christophe-et-Niévès,
+        :Saint-Martin,
+        :Saint-Vincent-et-les-Grenadines,
+        :Sainte-Hélène,
+        :Sainte-Lucie,
+        :Samoa,
+        :Samoa_Américaines,
+        :Seychelles,
+        :Sierra_Leone,
+        :Singapour,
+        :Soudan,
+        :Soudan_du_Sud,
+        :Tanzanie,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Territoire_britannique_de_l'océan_Indien>,
+        :Tonga,
+        :Trinité-et-Tobago,
+        :Tuvalu,
+        :Vanuatu,
+        :Zambie,
+        :Zimbabwe,
+        :Érythrée,
+        :États-Unis,
+        :États_fédérés_de_Micronésie,
+        :Île_Christmas,
+        :Île_Norfolk,
+        :Île_de_Man,
+        :Îles_Caïmans,
+        :Îles_Cocos,
+        :Îles_Cook,
+        :Îles_Mariannes_du_Nord,
+        :Îles_Marshall,
+        :Îles_Picairn,
+        :Îles_Salomon,
+        :Îles_Turques-et-Caïques,
+        :Îles_Vierges_britanniques,
+        :Îles_Vierges_des_États-Unis ;
+    :estLangueOrganisation :Commonwealth,
+        :ONU,
+        :UE .
+
+:BCMS a :Langue,
+        owl:NamedIndividual .
+
+:Bangladesh a :Pays ;
+    rdfs:label "Bangladesh" ;
+    :aRégion :Asie_Sud .
+
+:Biélorusse a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Biélorusse" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "bel" ;
+    :aLocuteursNatifs 4000000 ;
+    :aLocuteursSecondaires 1000000 ;
+    :aPaysOrigine :Biélorussie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Biélorussie,
+        :Fédération_de_Russie,
+        :Lituanie,
+        :Pologne,
+        :Ukraine ;
+    :est_parlé_en :Biélorussie .
+
+:Bosniaque a :Langue_vivante,
+        owl:NamedIndividual ;
+    :est_parlé_en :Bosnie-Herzégovine .
+
+:Bulgare a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Bulgare" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "bul" ;
+    :aLocuteursNatifs 7000000 ;
+    :aLocuteursSecondaires 2000000 ;
+    :aPaysOrigine :Bulgarie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Bulgarie,
+        :Grèce,
+        :Israël,
+        :Macédoine_du_Nord,
+        :Moldavie,
+        :Roumanie,
+        :Serbie,
+        :Turquie,
+        :Ukraine ;
+    :estLangueOrganisation :Union_européenne_\(UE\) .
+
+:Burundi a :Pays ;
+    rdfs:label "Burundi" .
+
+:Catalan a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Catalan" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "cat" ;
+    :aLocuteursNatifs 4079000 ;
+    :aLocuteursSecondaires 5150000 ;
+    :aPaysOrigine :Espagne,
+        :France ;
+    :aPropriété :Accentuelle,
+        :Flexionnelle,
+        :SVO,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Espagnol,
+        :Occitan ;
+    :estLangueOfficielle :Andorre,
+        :Espagne,
+        :France,
+        :Italie,
+        :Îles_Baleares .
+
+:Celtique a :Famille_de_langue,
+        owl:NamedIndividual ;
+    rdfs:label "Celtique" ;
+    :estLangueFille :Proto-celtique .
+
+:Corse a :Langue ;
+    rdfs:label "Corse" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "cos" ;
+    :aLocuteursNatifs 130000 ;
+    :aPaysOrigine :France ;
+    :aPropriété :Flexionnelle,
+        :Langue_en_danger ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Italien ;
+    :estLangueOfficielle :France,
+        :Italie,
+        :Suisse .
+
+:Croate a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Croate" ;
+    :aAlphabet :Cyrillique,
+        :Latin ;
+    :aCodeISO "hrv" ;
+    :aLocuteursNatifs 5500000 ;
+    :aLocuteursSecondaires 700000 ;
+    :aPaysOrigine :Croatie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Bosnie-Herzégovine,
+        :Croatie,
+        :Monténégro,
+        :Serbie ;
+    :estLangueOrganisation :Union_européenne_\(UE\) ;
+    :est_parlé_en :Croatie .
+
+:Francoprovençal a :Langue ;
+    rdfs:label "Francoprovençal" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "frp" ;
+    :aLocuteursNatifs 140000 ;
+    :aPaysOrigine :France ;
+    :aPropriété :Langue_en_danger ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Latin ;
+    :estLangueOfficielle :France,
+        :Italie,
+        :Suisse .
+
+:Langue_Africaine a owl:Class ;
+    rdfs:subClassOf :par_origine ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aPaysOrigine ;
+                        owl:someValuesFrom :Pays_Africain ] ) ] .
+
+:Langue_Américaine a owl:Class ;
+    rdfs:subClassOf :par_origine ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aPaysOrigine ;
+                        owl:someValuesFrom :Pays_Américain ] ) ] .
+
+:Langue_Asiatique a owl:Class ;
+    rdfs:subClassOf :par_origine ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aPaysOrigine ;
+                        owl:someValuesFrom :Pays_Asiatique ] ) ] .
+
+:Langue_En_Afrique a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :estLangueOfficielle ;
+                        owl:someValuesFrom :Pays_Africain ] ) ] .
+
+:Langue_En_Amérique a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :estLangueOfficielle ;
+                        owl:someValuesFrom :Pays_Américain ] ) ] .
+
+:Langue_En_Asie a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :estLangueOfficielle ;
+                        owl:someValuesFrom :Pays_Asiatique ] ) ] .
+
+:Langue_En_Europe a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :estLangueOfficielle ;
+                        owl:someValuesFrom :Pays_Européen ] ) ] .
+
+:Langue_En_Océanie a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :estLangueOfficielle ;
+                        owl:someValuesFrom :Pays_Océanique ] ) ] .
+
+:Langue_Européenne a owl:Class ;
+    rdfs:subClassOf :par_origine ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aPaysOrigine ;
+                        owl:someValuesFrom :Pays_Européen ] ) ] .
+
+:Langue_Océanique a owl:Class ;
+    rdfs:subClassOf :par_origine ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aPaysOrigine ;
+                        owl:someValuesFrom :Pays_Océanique ] ) ] .
+
+:Lesotho a :Pays ;
+    rdfs:label "Lesotho" ;
+    :aRégion :Afrique .
+
+:Macédonien a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Macédonien" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "mkd" ;
+    :aLocuteursNatifs 2100000 ;
+    :aLocuteursSecondaires 2500000 ;
+    :aPaysOrigine :Macédoine_du_Nord ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Albanie,
+        :Bulgarie,
+        :Macédoine_du_Nord,
+        :Serbie .
+
+:Monténégrin a :Langue_vivante,
+        owl:NamedIndividual ;
+    :aAlphabet :Latin ;
+    :est_parlé_en :Monténégro .
+
+:Polonais a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Polonais" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "pol" ;
+    :aLocuteursNatifs 45000000 ;
+    :aLocuteursSecondaires 10000000 ;
+    :aPaysOrigine :Pologne ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Allemagne,
+        :Etats-Unis,
+        :Pologne,
+        :République_Tchèque,
+        :Slovaquie,
+        :Ukraine .
+
+:Portugais a :Langue ;
+    rdfs:label "Portugais" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "por" ;
+    :aLocuteursNatifs 227900000 ;
+    :aLocuteursSecondaires 24200000 ;
+    :aPaysOrigine :Portugal ;
+    :aPropriété :Accentuelle,
+        :Accusative,
+        :Flexionnelle,
+        :SVO,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Proto-portugais ;
+    :estLangueOfficielle :Afrique_du_Sud,
+        :Allemagne,
+        :Andorre,
+        :Angola,
+        :Antigua-et-Barbuda,
+        :Argentine,
+        :Australie,
+        :Belgique,
+        :Brésil,
+        :Canada,
+        :Cap-Vert,
+        :Chine,
+        :Congo,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Côte_d'Ivoire>,
+        :Espagne,
+        :France,
+        :Guinée,
+        :Guinée-Bissau,
+        :Guinée_équatoriale,
+        :Guyana,
+        :Inde,
+        :Indonésie,
+        :Jamaïque,
+        :Japon,
+        :Luxembourg,
+        :Malaisie,
+        :Malawi,
+        :Mozambique,
+        :Namibie,
+        :Paraguay,
+        :Pays-Bas,
+        :Portugal,
+        :Royaume-Uni,
+        :République_Démocratique_du_Congo,
+        :Sao_Tomé-et-Principe,
+        :Sri_Lanka,
+        :Suisse,
+        :Suriname,
+        :Swaziland,
+        :Sénégal,
+        :Tanzanie,
+        :Timor_oriental,
+        :Uruguay,
+        :Vénézuela,
+        :Zambie,
+        :Zimbabwe,
+        :États-Unis ;
+    :estLangueOrganisation :CPLP,
+        :UE .
+
+:Russe a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Russe" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "rus" ;
+    :aLocuteursNatifs 155000000 ;
+    :aLocuteursSecondaires 103000000 ;
+    :aPaysOrigine :Fédération_de_Russie ;
+    :aPropriété :Cas,
+        :Flexion,
+        :Flexionnelle ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Allemagne,
+        :Biélorussie,
+        :Canada,
+        :Estonie,
+        :Etats-Unis,
+        :France,
+        :Fédération_de_Russie,
+        :Israël,
+        :Kazakhstan,
+        :Kirghizistan,
+        :Lettonie,
+        :Moldavie,
+        :Tadjikistan,
+        :Turkménistan,
+        :Ukraine ;
+    :estLangueOrganisation :Organisation_de_coopération_de_Shanghai_\(OCS\),
+        :Organisation_des_Nations_unies_\(ONU\),
+        :Organisation_du_traité_de_sécurité_collective_\(OTSC\),
+        :Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\),
+        :Union_économique_eurasiatique_\(UEE\) ;
+    :est_parlé_en :Russie .
+
+:Serbe a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Serbe" ;
+    :aAlphabet :Cyrillique,
+        :Latin ;
+    :aCodeISO "srp" ;
+    :aLocuteursNatifs 9000000 ;
+    :aLocuteursSecondaires 3000000 ;
+    :aPaysOrigine :Serbie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Bosnie-Herzégovine,
+        :Bulgarie,
+        :Croatie,
+        :Hongrie,
+        :Macédoine_du_Nord,
+        :Monténégro,
+        :Roumanie,
+        :Serbie,
+        :Slovénie ;
+    :est_parlé_en :Serbie .
+
+:Slovaque a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Slovaque" ;
+    :aAlphabet :Cyrillique,
+        :Latin ;
+    :aCodeISO "slk" ;
+    :aLocuteursNatifs 5500000 ;
+    :aLocuteursSecondaires 1100000 ;
+    :aPaysOrigine :Slovaquie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Autriche,
+        :Hongrie,
+        :Pologne,
+        :République_Tchèque,
+        :Slovaquie,
+        :Ukraine ;
+    :estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
+        :Union_européenne_\(UE\) ;
+    :est_parlé_en :Slovaquie .
+
+:Slovène a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Slovène" ;
+    :aAlphabet :Cyrillique,
+        :Latin ;
+    :aCodeISO "slv" ;
+    :aLocuteursNatifs 250000 ;
+    :aLocuteursSecondaires 300000 ;
+    :aPaysOrigine :Slovénie ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Autriche,
+        :Croatie,
+        :Hongrie,
+        :Italie,
+        :Slovénie ;
+    :estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
+        :Union_européenne_\(UE\) ;
+    :est_parlé_en :Slovénie .
+
+:Tchèque a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Tchèque" ;
+    :aAlphabet :Cyrillique,
+        :Latin ;
+    :aCodeISO "ces" ;
+    :aLocuteursNatifs 10700000 ;
+    :aLocuteursSecondaires 3000000 ;
+    :aPaysOrigine :République_Tchèque ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :République_Tchèque,
+        :Slovaquie ;
+    :estLangueOrganisation :Union_européenne_\(UE\) ;
+    :est_parlé_en :République_Tchèque .
+
+:Ukrainien a :Langue,
+        :Langue_vivante,
+        owl:NamedIndividual ;
+    rdfs:label "Ukrainien" ;
+    :aAlphabet :Cyrillique ;
+    :aCodeISO "ukr" ;
+    :aLocuteursNatifs 37000000 ;
+    :aLocuteursSecondaires 10000000 ;
+    :aPaysOrigine :Ukraine ;
+    :aPropriété :Cas,
+        :Flexion ;
+    :estDansLaFamille :Slave ;
+    :estLangueFille :Proto-slave ;
+    :estLangueOfficielle :Canada,
+        :Etats-Unis,
+        :Fédération_de_Russie,
+        :Pologne,
+        :Roumanie,
+        :République_Tchèque,
+        :Slovaquie,
+        :Ukraine ;
+    :estLangueOrganisation :Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\) ;
+    :est_parlé_en :Ukraine .
+
+:Vieux-slave a :Langue_morte,
+        owl:NamedIndividual ;
+    :aAlphabet :Cyrillique .
+
+:aAlphabet a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "aAlphabet" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Alphabet ;
+    owl:inverseOf :estAlphabetde .
+
+:aCodeISO a owl:DatatypeProperty ;
+    rdfs:label "aCodeISO" ;
+    rdfs:domain :Langue ;
+    rdfs:range xsd:string .
+
+:aLangueOfficielle a owl:ObjectProperty ;
+    rdfs:domain :Pays ;
+    rdfs:range :Langue ;
+    owl:inverseOf :estLangueOfficielle .
+
+:aLocuteursSecondaires a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "aLocuteursSecondaires" ;
+    rdfs:domain :Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ],
+        xsd:int ;
+    rdfs:subPropertyOf :aLocuteurs .
+
+:aPropriété a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "aPropriété" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Propriété ;
+    owl:inverseOf :estPropriété .
+
+:dateCreation a owl:DatatypeProperty .
+
+:description a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range xsd:string .
+
+:estAdstrat a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue .
+
+:estAncètre a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue ;
+    owl:propertyChainAxiom ( :aEngendré :aDansLaFamille ),
+        ( :aLangueFille :aLangueFille ) .
+
+:estLangueOrganisation a owl:ObjectProperty ;
+    rdfs:label "estLangueOrganisation" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Organisation .
+
+:estSoeur a owl:IrreflexiveProperty,
+        owl:ObjectProperty,
+        owl:SymmetricProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:estSubstrat a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:estSuperstrat a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:est_parlé_en a owl:ObjectProperty .
+
+:Afrique_du_Sud a :Pays ;
+    rdfs:label "Afrique_du_Sud" ;
+    :aRégion :Afrique .
+
+:Afrique_du_sud a :Pays ;
+    rdfs:label "Afrique_du_sud" .
+
+:Agglutinante a :Propriété ;
+    rdfs:label "Agglutinante" .
+
+:Akrotiri a :Pays ;
+    rdfs:label "Akrotiri" ;
+    :aRégion :Europe_Centrale .
+
+:Albanie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Albanie" .
+
+:Allemand a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Allemand" ;
+    :aAlphabet :Latin,
+        :Latin_alphabet ;
+    :aCodeISO "deu" ;
+    :aLocuteursNatifs 100000000 ;
+    :aLocuteursSecondaires 87000000 ;
+    :aPaysOrigine :Allemagne ;
+    :aPropriété :Agglutinante,
+        :Casuelle,
+        :Flexionnelle ;
+    :estDansLaFamille :Germanique ;
+    :estLangueFille :Germanique_commun ;
+    :estLangueOfficielle :Allemagne,
+        :Autriche,
+        :Belgique,
+        :Italie,
+        :Liechtenstein,
+        :Luxembourg,
+        :Namibie,
+        :Suisse ;
+    :estLangueOrganisation :UE .
+
+:Angola a :Pays ;
+    rdfs:label "Angola" .
+
+:Anguilla a :Pays ;
+    rdfs:label "Anguilla" ;
+    :aRégion :Amerique_Nord .
+
+:Asie_Nord a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Asie_Nord" ;
+    :aContinent :Asie .
+
+:Bahamas a :Pays ;
+    rdfs:label "Bahamas" ;
+    :aRégion :Amerique_Nord .
+
+:Barbade a :Pays ;
+    rdfs:label "Barbade" ;
+    :aRégion :Amerique_Nord .
+
+:Belize a :Pays ;
+    rdfs:label "Belize" ;
+    :aRégion :Amerique_Nord .
+
+:Bermudes a :Pays ;
+    rdfs:label "Bermudes" ;
+    :aRégion :Amerique_Nord .
+
+:Bolivie a :Pays ;
+    rdfs:label "Bolivie" .
+
+:Botswana a :Pays ;
+    rdfs:label "Botswana" ;
+    :aRégion :Afrique .
+
+:Brunei a :Pays ;
+    rdfs:label "Brunei" ;
+    :aRégion :Asie_Sud .
+
+:Brésil a :Pays ;
+    rdfs:label "Brésil" .
+
+:Burkina_faso a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Burkina_faso" .
+
+:Bénin a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Bénin" .
+
+:CIO a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "CIO" .
+
+:CPLP a :Organisation ;
+    rdfs:label "CPLP" .
+
+:Cap-Vert a :Pays ;
+    rdfs:label "Cap-Vert" .
+
+:CdE a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "CdE" .
+
+:Chili a :Pays ;
+    rdfs:label "Chili" .
+
+:Chine a :Pays ;
+    rdfs:label "Chine" .
+
+:Colombie a :Pays ;
+    rdfs:label "Colombie" .
+
+:Commonwealth a :Organisation ;
+    rdfs:label "Commonwealth" .
+
+:Comores a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Comores" .
+
+:Costa_Rica a :Pays ;
+    rdfs:label "Costa_Rica" .
+
+:Cote_Ivoire a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Cote_Ivoire" .
+
+:Cuba a :Pays ;
+    rdfs:label "Cuba" .
+
+:Curaçao a :Pays ;
+    rdfs:label "Curaçao" ;
+    :aRégion :Amerique_Sud .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Côte_d'Ivoire> a :Pays ;
+    rdfs:label "Côte_d'Ivoire" .
+
+:Dhekelia a :Pays ;
+    rdfs:label "Dhekelia" ;
+    :aRégion :Europe_Centrale .
+
+:Djibouti a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Djibouti" .
+
+:Dominique a :Pays ;
+    rdfs:label "Dominique" ;
+    :aRégion :Amerique_Nord .
+
+:Double_typologie a :Propriété ;
+    rdfs:label "Double_typologie" .
+
+:Estonie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Estonie" .
+
+:Eswatini a :Pays ;
+    rdfs:label "Eswatini" .
+
+:Europe_Sud_Est a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Sud_Est" ;
+    :aContinent :Europe ;
+    :aRégionMère :Europe_Est .
+
+:Europe_centrale a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_centrale" .
+
+:Fidji a :Pays ;
+    rdfs:label "Fidji" ;
+    :aRégion :Oceanie .
+
+:Français a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Français" ;
+    :aAlphabet :Latin,
+        :Latin_alphabet ;
+    :aCodeISO "fra" ;
+    :aLocuteurs 321000000.0 ;
+    :aLocuteursNatifs 93000000.0,
+        93000000 ;
+    :aLocuteursSecondaires 228000000 ;
+    :aPaysOrigine :France ;
+    :aPropriété :Flexionnelle,
+        :SVO,
+        :non_accentuelle ;
+    :estAdstrat :Allemand ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Latin ;
+    :estLangueOfficielle :Belgique,
+        :Burkina_faso,
+        :Bénin,
+        :Cameroun,
+        :Canada,
+        :Comores,
+        :Congo,
+        :Cote_Ivoire,
+        :Djibouti,
+        :France,
+        :Gabon,
+        :Guinée,
+        :Haïti,
+        :Luxembourg,
+        :Madagascar,
+        :Mali,
+        :Monaco,
+        :Niger,
+        :Rwanda,
+        :Seychelles,
+        :Suisse,
+        :Sénégal,
+        :Tchad,
+        :Togo,
+        :Vanuatu,
+        :Vatican,
+        :burundi ;
+    :estLangueOrganisation :CIO,
+        :CdE,
+        :OEA,
+        :OMC,
+        :ONU,
+        :OTAN,
+        :UA,
+        :UE ;
+    :estSoeur :Espagnol,
+        :Italien .
+
+:Gabon a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Gabon" .
+
+:Gambie a :Pays ;
+    rdfs:label "Gambie" ;
+    :aRégion :Afrique .
+
+:Germanique_commun a :Langue ;
+    rdfs:label "Germanique_commun" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "gem" ;
+    :aPropriété :Flexionnelle ;
+    :estDansLaFamille :Germanique .
+
+:Ghana a :Pays ;
+    rdfs:label "Ghana" ;
+    :aRégion :Afrique .
+
+:Gibraltar a :Pays ;
+    rdfs:label "Gibraltar" ;
+    :aRégion :Europe_Sud_Ouest .
+
+:Grenade a :Pays ;
+    rdfs:label "Grenade" ;
+    :aRégion :Amerique_Sud .
+
+:Grèce a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Grèce" .
+
+:Guam a :Pays ;
+    rdfs:label "Guam" ;
+    :aRégion :Oceanie .
+
+:Guatemala a :Pays ;
+    rdfs:label "Guatemala" .
+
+:Guernesey a :Pays ;
+    rdfs:label "Guernesey" .
+
+:Guinée-Bissau a :Pays ;
+    rdfs:label "Guinée-Bissau" .
+
+:Haïti a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Haïti" .
+
+:Honduras a :Pays ;
+    rdfs:label "Honduras" .
+
+:Hong_Kong a :Pays ;
+    rdfs:label "Hong_Kong" ;
+    :aRégion :Asie_Sud .
+
+:Indonésie a :Pays ;
+    rdfs:label "Indonésie" .
+
+:Irlande a :Pays ;
+    rdfs:label "Irlande" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Istrie a :Pays ;
+    rdfs:label "Istrie" .
+
+:Italique a :Indo_europeenne,
+        owl:NamedIndividual .
+
+:Japon a :Pays ;
+    rdfs:label "Japon" ;
+    :aRégion :Asie_Sud .
+
+:Jersey a :Pays ;
+    rdfs:label "Jersey" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Kazakhstan a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Kazakhstan" .
+
+:Kenya a :Pays ;
+    rdfs:label "Kenya" ;
+    :aRégion :Afrique .
+
+:Kirghizistan a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Kirghizistan" .
+
+:Kiribati a :Pays ;
+    rdfs:label "Kiribati" ;
+    :aRégion :Oceanie .
+
+:Langue_morte a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:disjointWith :Langue_vivante ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aLocuteursNatifs ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:int ;
+                                owl:withRestrictions ( [ xsd:maxExclusive "1"^^xsd:int ] ) ] ] ) ] .
+
+:Lesoto a :Pays ;
+    rdfs:label "Lesoto" .
+
+:Lettonie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Lettonie" .
+
+:Liberia a :Pays ;
+    rdfs:label "Liberia" ;
+    :aRégion :Afrique .
+
+:Liechtenstein a :Pays ;
+    rdfs:label "Liechtenstein" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Lituanie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Lituanie" .
+
+:Madagascar a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Madagascar" .
+
+:Malaisie a :Pays ;
+    rdfs:label "Malaisie" .
+
+:Mali a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Mali" .
+
+:Malouines a :Pays ;
+    rdfs:label "Malouines" ;
+    :aRégion :Amerique_Sud .
+
+:Malte a :Pays ;
+    rdfs:label "Malte" ;
+    :aRégion :Europe_Sud_Ouest .
+
+:Maurice a :Pays ;
+    rdfs:label "Maurice" ;
+    :aRégion :Afrique .
+
+:Mexique a :Pays ;
+    rdfs:label "Mexique" .
+
+:Montserrat a :Pays ;
+    rdfs:label "Montserrat" ;
+    :aRégion :Amerique_Nord .
+
+:Mozambique a :Pays ;
+    rdfs:label "Mozambique" .
+
+:Nauru a :Pays ;
+    rdfs:label "Nauru" ;
+    :aRégion :Oceanie .
+
+:Nicaragua a :Pays ;
+    rdfs:label "Nicaragua" .
+
+:Niger a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Niger" .
+
+:Nigeria a :Pays ;
+    rdfs:label "Nigeria" .
+
+:Niue a :Pays ;
+    rdfs:label "Niue" ;
+    :aRégion :Oceanie .
+
+:Nouvelle-Zélande a :Pays ;
+    rdfs:label "Nouvelle-Zélande" ;
+    :aRégion :Oceanie .
+
+:OMC a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "OMC" .
+
+:OTAN a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "OTAN" .
+
+:Occitan a :Langue ;
+    rdfs:label "Occitan" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "oci" ;
+    :aLocuteursNatifs 2500000 ;
+    :aPaysOrigine :France ;
+    :aPropriété :Accentuelle,
+        :Double_typologie,
+        :Flexionnelle,
+        :SVO,
+        :VSO ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :France ;
+    :estLangueOfficielle :Espagne,
+        :France,
+        :Italie,
+        :Monaco .
+
+:Océanie a :Continent,
+        :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Océanie" ;
+    :aContinent :Oceanie .
+
+:Ordre_libre a :Propriété ;
+    rdfs:label "Ordre_libre" .
+
+:Organisation_de_coopération_de_Shanghai_\(OCS\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Organisation_de_coopération_de_Shanghai_(OCS)" .
+
+:Organisation_des_Nations_unies_\(ONU\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Organisation_des_Nations_unies_(ONU)" .
+
+:Organisation_du_traité_de_sécurité_collective_\(OTSC\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Organisation_du_traité_de_sécurité_collective_(OTSC)" .
+
+:Ouganda a :Pays ;
+    rdfs:label "Ouganda" ;
+    :aRégion :Afrique .
+
+:Pakistan a :Pays ;
+    rdfs:label "Pakistan" ;
+    :aRégion :Asie_Sud .
+
+:Palaos a :Pays ;
+    rdfs:label "Palaos" ;
+    :aRégion :Oceanie .
+
+:Panama a :Pays ;
+    rdfs:label "Panama" .
+
+:Papouasie-Nouvelle-Guinée a :Pays ;
+    rdfs:label "Papouasie-Nouvelle-Guinée" ;
+    :aRégion :Oceanie .
+
+:Pays-Bas a :Pays ;
+    rdfs:label "Pays-Bas" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Philippines a :Pays ;
+    rdfs:label "Philippines" ;
+    :aRégion :Asie_Sud .
+
+:Porto_Rico a :Pays ;
+    rdfs:label "Porto_Rico" ;
+    :aRégion :Amerique_Nord .
+
+:Proto-celtique a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Proto-celtique" .
+
+:Proto-germanique a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Proto-germanique" .
+
+:Proto-portugais a :Langue ;
+    rdfs:label "Proto-portugais" .
+
+:Pérou a :Pays ;
+    rdfs:label "Pérou" .
+
+:Russie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Russie" ;
+    :aRégion :Asie_Nord .
+
+:Région_Africaine a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Région [ a owl:Restriction ;
+                        owl:hasValue :Afrique ;
+                        owl:onProperty :aContinent ] ) ] .
+
+:Région_Amécicaine a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Région [ a owl:Restriction ;
+                        owl:hasValue :Amerique ;
+                        owl:onProperty :aContinent ] ) ] .
+
+:Région_Asiatique a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Région [ a owl:Restriction ;
+                        owl:hasValue :Asie ;
+                        owl:onProperty :aContinent ] ) ] .
+
+:Région_Européenne a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Région [ a owl:Restriction ;
+                        owl:hasValue :Europe ;
+                        owl:onProperty :aContinent ] ) ] .
+
+:Région_Océanique a owl:Class ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Région [ a owl:Restriction ;
+                        owl:hasValue :Océanie ;
+                        owl:onProperty :aContinent ] ) ] .
+
+:République_Démocratique_du_Congo a :Pays ;
+    rdfs:label "République_Démocratique_du_Congo" ;
+    :aRégion :Afrique .
+
+:République_dominicaine a :Pays ;
+    rdfs:label "République_dominicaine" .
+
+:Saint-Christophe-et-Niévès a :Pays ;
+    rdfs:label "Saint-Christophe-et-Niévès" ;
+    :aRégion :Amerique_Nord .
+
+:Saint-Marin a :Pays ;
+    rdfs:label "Saint-Marin" .
+
+:Saint-Martin a :Pays ;
+    rdfs:label "Saint-Martin" ;
+    :aRégion :Amerique_Nord .
+
+:Saint-Vincent-et-les-Grenadines a :Pays ;
+    rdfs:label "Saint-Vincent-et-les-Grenadines" ;
+    :aRégion :Amerique_Sud .
+
+:Sainte-Hélène a :Pays ;
+    rdfs:label "Sainte-Hélène" ;
+    :aRégion :Afrique .
+
+:Sainte-Lucie a :Pays ;
+    rdfs:label "Sainte-Lucie" ;
+    :aRégion :Amerique_Nord .
+
+:Salvador a :Pays ;
+    rdfs:label "Salvador" .
+
+:Samoa a :Pays ;
+    rdfs:label "Samoa" ;
+    :aRégion :Oceanie .
+
+:Samoa_Américaines a :Pays ;
+    rdfs:label "Samoa_Américaines" ;
+    :aRégion :Oceanie .
+
+:Sao_Tomé-et-Principe a :Pays ;
+    rdfs:label "Sao_Tomé-et-Principe" .
+
+:Sierra_Leone a :Pays ;
+    rdfs:label "Sierra_Leone" ;
+    :aRégion :Afrique .
+
+:Singapour a :Pays ;
+    rdfs:label "Singapour" ;
+    :aRégion :Asie_Sud .
+
+:Soudan a :Pays ;
+    rdfs:label "Soudan" ;
+    :aRégion :Afrique .
+
+:Soudan_du_Sud a :Pays ;
+    rdfs:label "Soudan_du_Sud" ;
+    :aRégion :Afrique .
+
+:Sri_Lanka a :Pays ;
+    rdfs:label "Sri_Lanka" ;
+    :aRégion :Afrique .
+
+:Suriname a :Pays ;
+    rdfs:label "Suriname" .
+
+:Swaziland a :Pays ;
+    rdfs:label "Swaziland" .
+
+:Tadjikistan a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Tadjikistan" .
+
+:Tchad a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Tchad" .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Territoire_britannique_de_l'océan_Indien> a :Pays ;
+    rdfs:label "Territoire_britannique_de_l'océan_Indien" ;
+    :aRégion :Afrique .
+
+:Timor_oriental a :Pays ;
+    rdfs:label "Timor_oriental" .
+
+:Togo a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Togo" .
+
+:Tonga a :Pays ;
+    rdfs:label "Tonga" ;
+    :aRégion :Oceanie .
+
+:Trinité-et-Tobago a :Pays ;
+    rdfs:label "Trinité-et-Tobago" ;
+    :aRégion :Amerique_Sud .
+
+:Turkménistan a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Turkménistan" .
+
+:Turquie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Turquie" .
+
+:Tuvalu a :Pays ;
+    rdfs:label "Tuvalu" ;
+    :aRégion :Oceanie .
+
+:UNASUR a :Organisation ;
+    rdfs:label "UNASUR" .
+
+:Union_économique_eurasiatique_\(UEE\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Union_économique_eurasiatique_(UEE)" .
+
+:VSO a :Propriété ;
+    rdfs:label "VSO" .
+
+:Venezuela a :Pays ;
+    rdfs:label "Venezuela" .
+
+:Vieux_frison a :Langue ;
+    rdfs:label "Vieux_frison" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "ofs" ;
+    :aPropriété :Accentuelle,
+        :Flexionnelle ;
+    :estDansLaFamille :Germanique .
+
+:Vénézuela a :Pays ;
+    rdfs:label "Vénézuela" .
+
+:aDansLaFamille a owl:ObjectProperty ;
+    rdfs:domain :Famille_de_langue ;
+    rdfs:range :Langue ;
+    owl:inverseOf :estDansLaFamille .
+
+:aEngendré a owl:ObjectProperty ;
+    rdfs:subPropertyOf owl:topObjectProperty ;
+    owl:inverseOf :estIssue .
+
+:aRégionMère a owl:ObjectProperty ;
+    rdfs:label "aRégionMère" ;
+    rdfs:domain :Région ;
+    rdfs:range :Région .
+
+:burundi a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "burundi" .
+
+:cas a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "cas" .
+
+:diphtongue a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "diphtongue" .
+
+:duel a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "duel" .
+
+:estAlphabetde a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :Alphabet ;
+    rdfs:range :Langue .
+
+:estIssue a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:domain :Famille_de_langue ;
+    rdfs:range :Langue .
+
+:estPropriété a owl:ObjectProperty ;
+    rdfs:domain :Propriété ;
+    rdfs:range :Langue ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:flexions a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "flexions" .
+
+:non_accentuelle a :Propriété ;
+    rdfs:label "non_accentuelle" .
+
+:Équateur a :Pays ;
+    rdfs:label "Équateur" .
+
+:Érythrée a :Pays ;
+    rdfs:label "Érythrée" .
+
+:États_fédérés_de_Micronésie a :Pays ;
+    rdfs:label "États_fédérés_de_Micronésie" .
+
+:Île_Christmas a :Pays ;
+    rdfs:label "Île_Christmas" ;
+    :aRégion :Asie_Sud .
+
+:Île_Norfolk a :Pays ;
+    rdfs:label "Île_Norfolk" ;
+    :aRégion :Oceanie .
+
+:Île_de_Man a :Pays ;
+    rdfs:label "Île_de_Man" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Îles_Baleares a :Pays ;
+    rdfs:label "Îles_Baleares" .
+
+:Îles_Caïmans a :Pays ;
+    rdfs:label "Îles_Caïmans" ;
+    :aRégion :Amerique_Nord .
+
+:Îles_Cocos a :Pays ;
+    rdfs:label "Îles_Cocos" ;
+    :aRégion :Asie_Sud .
+
+:Îles_Cook a :Pays ;
+    rdfs:label "Îles_Cook" ;
+    :aRégion :Oceanie .
+
+:Îles_Mariannes_du_Nord a :Pays ;
+    rdfs:label "Îles_Mariannes_du_Nord" ;
+    :aRégion :Oceanie .
+
+:Îles_Marshall a :Pays ;
+    rdfs:label "Îles_Marshall" ;
+    :aRégion :Oceanie .
+
+:Îles_Picairn a :Pays ;
+    rdfs:label "Îles_Picairn" .
+
+:Îles_Salomon a :Pays ;
+    rdfs:label "Îles_Salomon" ;
+    :aRégion :Oceanie .
+
+:Îles_Turques-et-Caïques a :Pays ;
+    rdfs:label "Îles_Turques-et-Caïques" ;
+    :aRégion :Amerique_Nord .
+
+:Îles_Vierges_britanniques a :Pays ;
+    rdfs:label "Îles_Vierges_britanniques" ;
+    :aRégion :Amerique_Nord .
+
+:Îles_Vierges_des_États-Unis a :Pays ;
+    rdfs:label "Îles_Vierges_des_États-Unis" ;
+    :aRégion :Amerique_Nord .
+
+:Accusative a :Propriété ;
+    rdfs:label "Accusative" .
+
+:Andorre a :Pays ;
+    rdfs:label "Andorre" .
+
+:Antigua-et-Barbuda a :Pays ;
+    rdfs:label "Antigua-et-Barbuda" ;
+    :aRégion :Amerique_Nord .
+
+:Argentine a :Pays ;
+    rdfs:label "Argentine" .
+
+:Australie a :Pays ;
+    rdfs:label "Australie" ;
+    :aRégion :Oceanie .
+
+:Cameroun a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Cameroun" ;
+    :aRégion :Afrique .
+
+:Casuelle a :Propriété ;
+    rdfs:label "Casuelle" .
+
+:Congo a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Congo" .
+
+:Espagnol a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Espagnol" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "spa" ;
+    :aLocuteursNatifs 480000000 ;
+    :aLocuteursSecondaires 95000000 ;
+    :aPaysOrigine :Espagne ;
+    :aPropriété :Accentuelle,
+        :Flexionnelle,
+        :SVO,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Latin ;
+    :estLangueOfficielle :Argentine,
+        :Bolivie,
+        :Chili,
+        :Colombie,
+        :Costa_Rica,
+        :Cuba,
+        :Espagne,
+        :Guatemala,
+        :Guinée_équatoriale,
+        :Honduras,
+        :Mexique,
+        :Nicaragua,
+        :Panama,
+        :Paraguay,
+        :Pérou,
+        :République_dominicaine,
+        :Salvador,
+        :Uruguay,
+        :Venezuela,
+        :Équateur ;
+    :estLangueOrganisation :OEA,
+        :ONU,
+        :UA,
+        :UE,
+        :UNASUR .
+
+:Europe_Est a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Est" ;
+    :aContinent :Europe .
+
+:Europe_Ouest a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Ouest" ;
+    :aContinent :Europe .
+
+:Guinée a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Guinée" .
+
+:Guinée_équatoriale a :Pays ;
+    rdfs:label "Guinée_équatoriale" .
+
+:Guyana a :Pays ;
+    rdfs:label "Guyana" .
+
+:Inde a :Pays ;
+    rdfs:label "Inde" ;
+    :aRégion :Asie_Sud .
+
+:Israël a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Israël" .
+
+:Italien a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Italien" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "ita" ;
+    :aLocuteursNatifs 71000000 ;
+    :aLocuteursSecondaires 20000000 ;
+    :aPaysOrigine :Italie ;
+    :aPropriété :Accentuelle,
+        :Flexionnelle,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
+    :estDansLaFamille :Romane ;
+    :estLangueFille :Latin ;
+    :estLangueOfficielle :Istrie,
+        :Italie,
+        :Saint-Marin,
+        :Slovénie,
+        :Suisse,
+        :Vatican .
+
+:Jamaïque a :Pays ;
+    rdfs:label "Jamaïque" ;
+    :aRégion :Amerique_Sud .
+
+:Langue_en_danger a :Propriété ;
+    rdfs:label "Langue_en_danger" .
+
+:Malawi a :Pays ;
+    rdfs:label "Malawi" ;
+    :aRégion :Afrique .
+
+:Moldavie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Moldavie" .
+
+:Monaco a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Monaco" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:OEA a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "OEA" .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)> a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)" .
+
+:Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Organisation_pour_la_sécurité_et_la_coopération_en_Europe_(OSCE)" .
+
+:Paraguay a :Pays ;
+    rdfs:label "Paraguay" .
+
+:Pays_Africain a owl:Class ;
+    rdfs:subClassOf :par_région ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Pays [ a owl:Restriction ;
+                        owl:onProperty :aRégion ;
+                        owl:someValuesFrom :Région_Africaine ] ) ] .
+
+:Pays_Américain a owl:Class ;
+    rdfs:subClassOf :par_région ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Pays [ a owl:Restriction ;
+                        owl:onProperty :aRégion ;
+                        owl:someValuesFrom :Région_Amécicaine ] ) ] .
+
+:Pays_Asiatique a owl:Class ;
+    rdfs:subClassOf :par_région ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Pays [ a owl:Restriction ;
+                        owl:onProperty :aRégion ;
+                        owl:someValuesFrom :Région_Asiatique ] ) ] .
+
+:Pays_Européen a owl:Class ;
+    rdfs:subClassOf :par_région ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Pays [ a owl:Restriction ;
+                        owl:onProperty :aRégion ;
+                        owl:someValuesFrom :Région_Européenne ] ) ] .
+
+:Pays_Océanique a owl:Class ;
+    rdfs:subClassOf :par_région ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Pays [ a owl:Restriction ;
+                        owl:onProperty :aRégion ;
+                        owl:someValuesFrom :Région_Océanique ] ) ] .
+
+:Portugal a :Pays ;
+    rdfs:label "Portugal" ;
+    :aRégion :Europe_Sud_Ouest .
+
+:Rwanda a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Rwanda" ;
+    :aRégion :Afrique .
+
+:Seychelles a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Seychelles" ;
+    :aRégion :Afrique .
+
+:Sénégal a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Sénégal" ;
+    :aRégion :Afrique .
+
+:Tanzanie a :Pays ;
+    rdfs:label "Tanzanie" ;
+    :aRégion :Afrique .
+
+:UA a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "UA" .
+
+:Uruguay a :Pays ;
+    rdfs:label "Uruguay" .
+
+:Vanuatu a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Vanuatu" ;
+    :aRégion :Oceanie .
+
+:Zambie a :Pays ;
+    rdfs:label "Zambie" ;
+    :aRégion :Afrique .
+
+:Zimbabwe a :Pays ;
+    rdfs:label "Zimbabwe" ;
+    :aRégion :Afrique .
+
+:aLangueFille a owl:ObjectProperty ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue ;
+    owl:inverseOf :estLangueFille .
+
+:aLocuteursNatifs a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label "aLocuteursNatifs" ;
+    rdfs:domain :Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ],
+        xsd:int ;
+    rdfs:subPropertyOf :aLocuteurs .
+
+:estDansLaFamille a owl:ObjectProperty ;
+    rdfs:label "estDansLaFamille" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Famille_de_langue ;
+    owl:propertyChainAxiom ( :estLangueFille :estDansLaFamille ) .
+
+:estLangueFille a owl:ObjectProperty,
+        owl:TransitiveProperty ;
+    rdfs:label "estLangueFille" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Langue .
+
+:États-Unis a :Pays ;
+    rdfs:label "États-Unis" ;
+    :aRégion :Amerique_Nord .
+
+:Amerique a :Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Amerique" .
+
+:Asie a :Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Asie" .
+
+:Autriche a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Autriche" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Belgique a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Belgique" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Bosnie-Herzégovine a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Bosnie-Herzégovine" .
+
+:Etats-Unis a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Etats-Unis" .
+
+:Europe_Nord_Est a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Nord_Est" ;
+    :aContinent :Europe ;
+    :aRégionMère :Europe_Est .
+
+:Hongrie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Hongrie" .
+
+:Indo_europeenne a owl:Class ;
+    rdfs:subClassOf :Famille_de_langue .
+
+:Luxembourg a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Luxembourg" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Monténégro a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Monténégro" .
+
+:Namibie a :Pays ;
+    rdfs:label "Namibie" ;
+    :aRégion :Afrique .
+
+:ONU a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "ONU" .
+
+:Roumanie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Roumanie" .
+
+:Royaume-Uni a :Pays ;
+    rdfs:label "Royaume-Uni" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Vatican a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Vatican" ;
+    :aRégion :Europe_Sud_Ouest .
+
+:aLocuteurs a owl:DatatypeProperty ;
+    rdfs:label "aLocuteurs" ;
+    rdfs:domain :Langue ;
+    rdfs:range [ a rdfs:Datatype ;
+            owl:onDatatype xsd:int ;
+            owl:withRestrictions ( [ xsd:minInclusive "0"^^xsd:int ] ) ],
+        xsd:int .
+
+:Balkans a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Balkans" ;
+    :aContinent :Europe ;
+    :aRégionMère :Europe_Sud_Est .
+
+:Biélorussie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Biélorussie" ;
+    :aRégion :Europe_Nord_Est .
+
+:Bulgarie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Bulgarie" ;
+    :aRégion :Balkans .
+
+:Europe_Sud_Ouest a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Sud_Ouest" ;
+    :aContinent :Europe ;
+    :aRégionMère :Europe_Ouest .
+
+:Fédération_de_Russie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Fédération_de_Russie" ;
+    :aRégion :Europe_Nord_Est .
+
+:Germanique a :Famille_de_langue,
+        owl:NamedIndividual ;
+    rdfs:label "Germanique" ;
+    :estLangueFille :Proto-germanique .
+
+:Macédoine_du_Nord a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Macédoine_du_Nord" ;
+    :aRégion :Balkans .
+
+:Allemagne a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Allemagne" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Alphabet a owl:Class ;
+    rdfs:label "Alphabet" .
+
+:Canada a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Canada" ;
+    :aRégion :Amerique_Nord .
+
+:Croatie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Croatie" ;
+    :aRégion :Balkans .
+
+:Europe_Centrale a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Centrale" ;
+    :aContinent :Europe .
+
+:Pologne a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Pologne" ;
+    :aAlphabet :Latin ;
+    :aRégion :Europe_Centrale .
+
+:SVO a :Propriété ;
+    rdfs:label "SVO" .
+
+:Slovénie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Slovénie" ;
+    :aRégion :Europe_Centrale .
+
+:UE a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "UE" .
+
+:Union_européenne_\(UE\) a :Organisation,
+        owl:NamedIndividual ;
+    rdfs:label "Union_européenne_(UE)" .
+
+:aPaysOrigine a owl:ObjectProperty ;
+    rdfs:label "aPaysOrigine" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Pays .
+
+:aRégion a owl:ObjectProperty ;
+    rdfs:label "aRégion" ;
+    rdfs:domain :Pays ;
+    rdfs:range :Région .
+
+:par_origine a owl:Class ;
+    rdfs:subClassOf :Langue .
+
+:par_région a owl:Class ;
+    rdfs:subClassOf :Pays .
+
+<http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> a :Propriété ;
+    rdfs:label "À_acent_d’intensité" .
+
+:Amerique_Sud a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Amerique_Sud" ;
+    :aContinent :Amerique .
+
+:Espagne a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Espagne" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:République_Tchèque a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "République_Tchèque" ;
+    :aRégion :Europe_centrale .
+
+:Serbie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Serbie" ;
+    :aRégion :Balkans .
+
+:Slovaquie a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Slovaquie" ;
+    :aRégion :Europe_Centrale .
+
+:Suisse a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Suisse" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:aContinent a owl:ObjectProperty ;
+    rdfs:label "aContinent" ;
+    rdfs:domain :Région ;
+    rdfs:range :Continent ;
+    owl:propertyChainAxiom ( :aRégionMère :aContinent ) .
+
+:estLangueOfficielle a owl:AsymmetricProperty,
+        owl:IrreflexiveProperty,
+        owl:ObjectProperty ;
+    rdfs:label "estLangueOfficielle" ;
+    rdfs:domain :Langue ;
+    rdfs:range :Pays ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:Accentuelle a :Propriété ;
+    rdfs:label "Accentuelle" .
+
+:Continent a owl:Class ;
+    rdfs:label "Continent" .
+
+:Famille_de_langue a owl:Class ;
+    rdfs:label "Famille_de_langue" .
+
+:Italie a :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "Italie" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Romane a :Famille_de_langue,
+        :Indo_europeenne,
+        owl:NamedIndividual ;
+    rdfs:label "Romane" ;
+    :aPropriété :diphtongue,
+        :flexions ;
+    :estIssue :Latin ;
+    :estLangueFille :Latin .
+
+:Ukraine a :Pays,
+        :Pays_slaves,
+        owl:NamedIndividual ;
+    rdfs:label "Ukraine" ;
+    :aAlphabet :Cyrillique ;
+    :aRégion :Europe_Nord_Est .
+
+:Europe a :Continent,
+        owl:NamedIndividual ;
+    rdfs:label "Europe" .
+
+:Asie_Sud a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Asie_Sud" ;
+    :aContinent :Asie .
+
+:Langue_vivante a owl:Class ;
+    rdfs:subClassOf :Langue ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( :Langue [ a owl:Restriction ;
+                        owl:onProperty :aLocuteursNatifs ;
+                        owl:someValuesFrom [ a rdfs:Datatype ;
+                                owl:onDatatype xsd:int ;
+                                owl:withRestrictions ( [ xsd:minInclusive "1"^^xsd:int ] ) ] ] ) ] .
+
+:Cas a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "Cas" .
+
+:Flexion a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "Flexion" .
+
+:Pays_slaves a owl:Class ;
+    rdfs:subClassOf :Pays .
+
+:Slave a :Famille_de_langue,
+        :Indo_europeenne,
+        owl:NamedIndividual ;
+    rdfs:label "Slave" ;
+    :aPropriété :cas,
+        :duel ;
+    :estLangueFille :Proto-slave .
+
+:Proto-slave a :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Proto-slave" .
+
+:Cyrillique a :Alphabet,
+        owl:NamedIndividual ;
+    rdfs:label "Cyrillique" .
+
+:Flexionnelle a :Propriété,
+        owl:NamedIndividual ;
+    rdfs:label "Flexionnelle" .
+
+:France a :Langue,
+        :Pays,
+        owl:NamedIndividual ;
+    rdfs:label "France" ;
+    :aRégion :Europe_Nord_Ouest .
+
+:Latin_alphabet a :Alphabet,
+        owl:NamedIndividual ;
+    rdfs:label "Latin_alphabet" .
+
+:Europe_Nord_Ouest a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Europe_Nord_Ouest" ;
+    :aContinent :Europe ;
+    :aRégionMère :Europe_Ouest .
+
+:Latin a :Alphabet,
+        :Langue,
+        owl:NamedIndividual ;
+    rdfs:label "Latin" ;
+    :aAlphabet :Latin_alphabet ;
+    :aCodeISO "lat" ;
+    :aLocuteursNatifs "0"^^xsd:int ;
+    :aPropriété :Accentuelle,
+        :Accusative,
+        :Casuelle,
+        :Flexionnelle,
+        :Ordre_libre,
+        <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
+    :estDansLaFamille :Italique ;
+    :estLangueOfficielle :Vatican .
+
+:Amerique_Nord a :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Amerique_Nord" ;
+    :aContinent :Amerique .
+
+:Organisation a owl:Class ;
+    rdfs:label "Organisation" .
+
+:Propriété a owl:Class ;
+    rdfs:label "Propriété" .
+
+:Oceanie a :Continent,
+        :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Oceanie" ;
+    :aContinent :Oceanie .
+
+:Région a owl:Class ;
+    rdfs:label "Région" .
+
+:Afrique a :Continent,
+        :Région,
+        owl:NamedIndividual ;
+    rdfs:label "Afrique" ;
+    :aContinent :Afrique .
+
+:Langue a owl:Class ;
+    rdfs:label "Langue" ;
+    owl:equivalentClass [ a owl:Class ;
+            owl:intersectionOf ( owl:Thing [ a owl:Restriction ;
+                        owl:onProperty :aLocuteurs ;
+                        owl:someValuesFrom xsd:int ] ) ] .
+
+:Pays a owl:Class ;
+    rdfs:label "Pays" .
+
