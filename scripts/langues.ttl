@@ -780,7 +780,7 @@ untitled-ontology-5:CdE a untitled-ontology-5:Organisation,
         owl:NamedIndividual ;
     rdfs:label "CdE" .
 
-untitled-ontology-5:Celtique_continental a untitled-ontology-5:Famille_de_langue ;
+untitled-ontology-5:Celtique_continental a untitled-ontology-5:Indo_europeenne ;
     rdfs:label "Celtique_continental" .
 
 untitled-ontology-5:Chili a untitled-ontology-5:Pays ;
@@ -811,7 +811,8 @@ untitled-ontology-5:Cote_Ivoire a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Cote_Ivoire" .
 
-untitled-ontology-5:Créole a untitled-ontology-5:Famille_de_langue ;
+untitled-ontology-5:Créole a untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne ;
     rdfs:label "Créole" .
 
 untitled-ontology-5:Cuba a untitled-ontology-5:Pays ;
@@ -1970,7 +1971,7 @@ untitled-ontology-5:Français a untitled-ontology-5:Langue,
         untitled-ontology-5:Italien .
 
 untitled-ontology-5:Gaélique a untitled-ontology-5:Alphabet,
-        untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne,
         untitled-ontology-5:Langue ;
     rdfs:label "Gaélique" ;
     untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Irlande,
@@ -1980,9 +1981,6 @@ untitled-ontology-5:Gaélique a untitled-ontology-5:Alphabet,
 untitled-ontology-5:Hongrie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Hongrie" .
-
-untitled-ontology-5:Indo_europeenne a owl:Class ;
-    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
 
 untitled-ontology-5:Luxembourg a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -2050,6 +2048,7 @@ untitled-ontology-5:Fédération_de_Russie a untitled-ontology-5:Pays,
     untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Est .
 
 untitled-ontology-5:Germanique a untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne,
         owl:NamedIndividual ;
     rdfs:label "Germanique" ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-germanique .
@@ -2189,6 +2188,7 @@ untitled-ontology-5:Accentuelle a untitled-ontology-5:Propriété ;
     rdfs:label "Accentuelle" .
 
 untitled-ontology-5:Celtique a untitled-ontology-5:Famille_de_langue,
+        untitled-ontology-5:Indo_europeenne,
         owl:NamedIndividual ;
     rdfs:label "Celtique" ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique .
@@ -2197,6 +2197,10 @@ untitled-ontology-5:Espagne a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
     rdfs:label "Espagne" ;
     untitled-ontology-5:aRégion untitled-ontology-5:Europe_Nord_Ouest .
+
+untitled-ontology-5:Indo_europeenne a owl:Class ;
+    rdfs:label "Indo_europeenne" ;
+    rdfs:subClassOf untitled-ontology-5:Famille_de_langue .
 
 untitled-ontology-5:Italie a untitled-ontology-5:Pays,
         owl:NamedIndividual ;
@@ -2223,6 +2227,9 @@ untitled-ontology-5:Europe a untitled-ontology-5:Continent,
         owl:NamedIndividual ;
     rdfs:label "Europe" .
 
+untitled-ontology-5:Famille_de_langue a owl:Class ;
+    rdfs:label "Famille_de_langue" .
+
 untitled-ontology-5:Langue_vivante a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
@@ -2244,9 +2251,6 @@ untitled-ontology-5:Afrique_Sud a untitled-ontology-5:Région,
 untitled-ontology-5:Cas a untitled-ontology-5:Propriété,
         owl:NamedIndividual ;
     rdfs:label "Cas" .
-
-untitled-ontology-5:Famille_de_langue a owl:Class ;
-    rdfs:label "Famille_de_langue" .
 
 untitled-ontology-5:Flexion a untitled-ontology-5:Propriété,
         owl:NamedIndividual ;

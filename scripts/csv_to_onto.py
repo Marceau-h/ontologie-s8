@@ -90,6 +90,7 @@ classes = {
     "Organisation": create_class(graph, "Organisation"),
     "Propriété": create_class(graph, "Propriété"),
     "Alphabet": create_class(graph, "Alphabet"),
+    "Indo_europeenne": create_class(graph, "Indo_europeenne", "Famille_de_langue"),
 }
 
 properties = {
@@ -194,7 +195,11 @@ def parse_lang_csv(path):
             graph.add((langue_uri, properties["a_alphabet"], a_uri))
 
         for f in famille:
-            f_uri = create_instance(graph, f, classes["Famille_de_langue"])
+            if f == "Créole":
+                f_uri = create_instance(graph, f, classes["Famille_de_langue"])
+            else:
+                f_uri = create_instance(graph, f, classes["Indo_europeenne"])
+
             graph.add((langue_uri, properties["a_famille"], f_uri))
 
         if locuteurs_natifs:
@@ -230,6 +235,6 @@ def parse_lang_csv(path):
 for path in ("../CSVS/langues_ad.csv", "../CSVS/langues_dk.csv", "../CSVS/langues_mh.csv"):
     parse_lang_csv(path)
 
-graph.serialize(destination='langues.ttl', format='turtle')
+graph.serialize(destination='../RDFs/langues.ttl', format='turtle')
 graph.serialize(destination="../RDFs/langues.rdf", format="xml")
 

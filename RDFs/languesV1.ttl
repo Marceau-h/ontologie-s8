@@ -6,7 +6,7 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix dbpedia: <http://dbpedia.org/resource/> .
 @prefix untitled-ontology-5: <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
-@base <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> .
+@base <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#> .
 
 <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5> rdf:type owl:Ontology .
 
@@ -641,7 +641,6 @@ dbpedia:French_language rdf:type owl:NamedIndividual ;
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français
 
-
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique
 untitled-ontology-5:Afrique rdf:type owl:NamedIndividual ,
                                      untitled-ontology-5:Continent ;
@@ -877,7 +876,7 @@ untitled-ontology-5:CdE rdf:type owl:NamedIndividual ,
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Celtique
 untitled-ontology-5:Celtique rdf:type owl:NamedIndividual ,
-                                      untitled-ontology-5:Famille_de_langue ;
+                                      untitled-ontology-5:Indo_europeenne ;
                              untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique ;
                              rdfs:label "Celtique" .
 
@@ -1114,7 +1113,7 @@ untitled-ontology-5:Gabon rdf:type owl:NamedIndividual ,
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Germanique
 untitled-ontology-5:Germanique rdf:type owl:NamedIndividual ,
-                                        untitled-ontology-5:Famille_de_langue ;
+                                        untitled-ontology-5:Indo_europeenne ;
                                untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-germanique ;
                                rdfs:label "Germanique" .
 
@@ -1367,7 +1366,6 @@ untitled-ontology-5:Proto-slave rdf:type owl:NamedIndividual ,
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Romane
 untitled-ontology-5:Romane rdf:type owl:NamedIndividual ,
-                                    untitled-ontology-5:Famille_de_langue ,
                                     untitled-ontology-5:Indo_europeenne ;
                            untitled-ontology-5:aPropriété untitled-ontology-5:diphtongue ,
                                                           untitled-ontology-5:flexions ;
@@ -1482,7 +1480,6 @@ untitled-ontology-5:Seychelles rdf:type owl:NamedIndividual ,
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Slave
 untitled-ontology-5:Slave rdf:type owl:NamedIndividual ,
-                                   untitled-ontology-5:Famille_de_langue ,
                                    untitled-ontology-5:Indo_europeenne ;
                           untitled-ontology-5:aPropriété untitled-ontology-5:cas ,
                                                          untitled-ontology-5:duel ;
