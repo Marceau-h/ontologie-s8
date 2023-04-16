@@ -9,6 +9,7 @@ Français,"France, Belgique, Bénin, Burkina_faso, burundi, Cameroun, Canada, Co
 Germanique_commun,,Latin_alphabet,0,,Germanique,Flexionnelle,,gem,,
 Italien,"Italie, Suisse, Saint-Marin, Vatican, Istrie, Slovénie",Latin_alphabet,71000000,20000000.0,Romane,"Flexionnelle, Accentuelle, À_acent_d’intensité",,ita,Italie,Latin
 Latin,Vatican,Latin_alphabet,0,,,"Flexionnelle, Casuelle, Accusative, Accentuelle, À_acent_d’intensité, Ordre_libre",,lat,,
-Occitan,"Espagne, France, Italie, Monaco",Latin_alphabet,2500000,,Romane,"Flexionnelle, SVO, VSO, Accentuelle, Double_typologie",,oci,France,France
+Occitan,"Espagne, France, Italie, Monaco",Latin_alphabet,2500000,,Romane,"Flexionnelle, SVO, VSO, Accentuelle, Double_typologie",,oci,France,Français
 Portugais,"Angola, Brésil, Cap-Vert, Guinée-Bissau, Jamaïque, Royaume-Uni, Inde, Antigua-et-Barbuda, Chine, Mozambique, Portugal, Sao_Tomé-et-Principe, Timor_oriental, Guinée_équatoriale, Malaisie, Sénégal, Sri_Lanka, Luxembourg, Paraguay, Uruguay, Suriname, Guyana, Espagne, Andorre, France, Vénézuela, Afrique_du_Sud, Namibie, République_Démocratique_du_Congo, Congo, Swaziland, Côte_d'Ivoire, Malawi, Zambie, Zimbabwe, Guinée, Indonésie, Tanzanie, Pays-Bas, Belgique, Allemagne, Suisse, Japon, États-Unis, Canada, Argentine, Australie",Latin_alphabet,227900000,24200000.0,Romane,"Flexionnelle, SVO, Accusative, Accentuelle, À_acent_d’intensité","UE, CPLP",por,Portugal,Proto-portugais
 Vieux_frison,,Latin_alphabet,0,,Germanique,"Accentuelle, Flexionnelle",,ofs,,
+Créole martiniquais,Martinique,Latin_alphabet,418000,,Créole,"SVO, Isolante",,gcf,Martinique,"Français, Wolof, Fon, Éwé, Anglais, Espagnol"
