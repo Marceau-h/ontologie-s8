@@ -1,13 +1,13 @@
 Langue,Pays,Alphabet,Locuteurs_n,Locuteurs_s,Famille,Propriété,Organisations,ISO_639-3,Pays_origine,Langue_origine
-Breton,France,Latin,207000,Celtique,Flexionnelle, A_accent_d'intensité,,bre,France,Proto-celtique,
-Celtibère,Espagne,Greco-Ibère,,,,,,,,
-Cornique,Royaume-Uni,,,,,,,,,
-Galate,,,,,,,,,,
-Gallaïque,,,,,,,,,,
-Gallois,"Royaume-Uni, Argentine",,,,,,,,,
-Gaulois,,,,,,,,,,
-Gaélique,"Irlande, Île_de_Man, Écosse",,,,,,,,,
-Gaélique_Écossais,"Royaume-Uni, Canada, Etats-Unis, Australie",,,,,,,,,
-Irlandais,"Irlande, Royaume-Uni",,,,,,,,,
-Mannois,Île_de_Man,,,,,,,,,
-Shelta,"Irlande, Royaume-Uni, Etats-Unis",,,,,,,,,
+Breton,France,Latin,207000,,Celtique,Flexionnelle, A_accent_d'intensité,,bre,France,Proto-celtique
+Celtibère,Espagne,Greco-Ibère,,Celtique,,,,xce,Espagne,Proto-celtique
+Cornique,Royaume-Uni,557,,Celtique,Flexionnelle,"A_accent_d'intensité, Flexionnelle, accusative",,cor,Royaume-Uni
+Galate,,,,,,,,,
+Gallaïque,,,,,,,,,
+Gallois,"Royaume-Uni, Argentine",Gallois,650000,,Celtique,"A_accent_d'intensité, Flexionnelle, accusative",,cym,Royaume-Uni
+Gaulois,,,"Gaulois, Latin, Grec, Gallo-étrusque",,Celtique,Flexionnelle,,"xtg, xcg, xga, xlp"
+Gaélique,"Irlande, Île_de_Man, Écosse"
+Gaélique_Écossais,"Royaume-Uni, Canada, Etats-Unis, Australie",Gaélique,60130,Celtique,"Flexionnelle, accusative, accentuelle",Écosse,gla,
+Irlandais,"Irlande, Royaume-Uni"
+Mannois,Île_de_Man
+Shelta,"Irlande, Royaume-Uni, Etats-Unis"
