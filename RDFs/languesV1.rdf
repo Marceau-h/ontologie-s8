@@ -955,16 +955,6 @@
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français -->
 
     <rdf:Description rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Français"/>
-    
-
-
-    <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5# -->
-
-    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#">
-        <rdf:type rdf:resource="http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Langue"/>
-        <rdfs:label></rdfs:label>
-    </owl:NamedIndividual>
-    
 
 
     <!-- http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Afrique -->
