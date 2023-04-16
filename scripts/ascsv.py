@@ -6,6 +6,7 @@ def trieur(csv, colonne):
     sorted_df = df.sort_values(by=[colonne], ascending=True)
     sorted_df.to_csv(csv, index=False)
 
+
 def all_csvs():
     for csv, colonne in (
             ("../CSVS/langues_ad.csv", "Langue"),
@@ -16,6 +17,7 @@ def all_csvs():
             ("../CSVS/region.csv", "Label"),
     ):
         trieur(csv, colonne)
+
 
 if __name__ == "__main__":
     all_csvs()
