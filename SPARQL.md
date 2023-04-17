@@ -54,7 +54,7 @@ LIMIT 150
 ```sparql
 SELECT ?s (COUNT(?s) AS ?pays) WHERE {
     ?s rdf:type ttr:Langue .
-    ?s ttr:estLangueOfficielle ?p .
+    ?s ttr:estLangue ?p .
     ?p rdf:type ttr:Pays .
 }
 GROUP BY ?s
@@ -66,7 +66,7 @@ LIMIT 150
 ```sparql
 SELECT DISTINCT * WHERE {
     ?s rdf:type ttr:Langue .
-    ?s ttr:estLangueOfficielle ?p .
+    ?s ttr:estLangue ?p .
     ?p rdf:type ttr:Pays .
     ?p ttr:aRégion ?r .
     ?r ttr:aContinent ttr:Europe .
