@@ -32,7 +32,7 @@ untitled-ontology-5:Cornique a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume-Uni ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Royaume-Uni ;
+    untitled-ontology-5:estLangue untitled-ontology-5:Royaume-Uni ;
     untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#A_accent_d'intensité>,
         untitled-ontology-5:Flexionnelle,
         untitled-ontology-5:accusative .
@@ -46,10 +46,10 @@ untitled-ontology-5:Corse a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle,
         untitled-ontology-5:Langue_en_danger ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Italien ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:France,
+    untitled-ontology-5:estLangue untitled-ontology-5:France,
         untitled-ontology-5:Italie,
-        untitled-ontology-5:Suisse .
+        untitled-ontology-5:Suisse ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Italien .
 
 untitled-ontology-5:Galate a untitled-ontology-5:Langue ;
     rdfs:label "Galate" ;
@@ -58,6 +58,19 @@ untitled-ontology-5:Galate a untitled-ontology-5:Langue ;
 
 untitled-ontology-5:Gallaïque a untitled-ontology-5:Langue ;
     rdfs:label "Gallaïque" .
+
+untitled-ontology-5:Gallois a untitled-ontology-5:Langue ;
+    rdfs:label "Gallois" ;
+    untitled-ontology-5:aAlphabet untitled-ontology-5:Gallois_alphabet ;
+    untitled-ontology-5:aCodeISO "cym" ;
+    untitled-ontology-5:aLocuteursNatifs 650000 ;
+    untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume-Uni ;
+    untitled-ontology-5:aPropriété <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#A_accent_d'intensité>,
+        untitled-ontology-5:Flexionnelle,
+        untitled-ontology-5:accusative ;
+    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
+    untitled-ontology-5:estLangue untitled-ontology-5:Argentine,
+        untitled-ontology-5:Royaume-Uni .
 
 untitled-ontology-5:Gaélique_Écossais a untitled-ontology-5:Langue ;
     rdfs:label "Gaélique_Écossais" ;
@@ -68,7 +81,7 @@ untitled-ontology-5:Gaélique_Écossais a untitled-ontology-5:Langue ;
         untitled-ontology-5:accentuelle,
         untitled-ontology-5:accusative ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Australie,
+    untitled-ontology-5:estLangue untitled-ontology-5:Australie,
         untitled-ontology-5:Canada,
         untitled-ontology-5:Etats-Unis,
         untitled-ontology-5:Royaume-Uni ;
@@ -83,7 +96,7 @@ untitled-ontology-5:Irlandais a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPropriété <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#A_accent_d'intensité>,
         untitled-ontology-5:Accentuelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Irlande,
+    untitled-ontology-5:estLangue untitled-ontology-5:Irlande,
         untitled-ontology-5:Royaume-Uni ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:UE .
 
@@ -112,35 +125,35 @@ untitled-ontology-5:Langue_En_Afrique a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
-                        owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                        owl:onProperty untitled-ontology-5:estLangue ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Africain ] ) ] .
 
 untitled-ontology-5:Langue_En_Amérique a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
-                        owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                        owl:onProperty untitled-ontology-5:estLangue ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Américain ] ) ] .
 
 untitled-ontology-5:Langue_En_Asie a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
-                        owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                        owl:onProperty untitled-ontology-5:estLangue ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Asiatique ] ) ] .
 
 untitled-ontology-5:Langue_En_Europe a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
-                        owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                        owl:onProperty untitled-ontology-5:estLangue ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Européen ] ) ] .
 
 untitled-ontology-5:Langue_En_Océanie a owl:Class ;
     rdfs:subClassOf untitled-ontology-5:Langue ;
     owl:equivalentClass [ a owl:Class ;
             owl:intersectionOf ( untitled-ontology-5:Langue [ a owl:Restriction ;
-                        owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                        owl:onProperty untitled-ontology-5:estLangue ;
                         owl:someValuesFrom untitled-ontology-5:Pays_Océanique ] ) ] .
 
 untitled-ontology-5:Langue_Européenne a owl:Class ;
@@ -171,7 +184,7 @@ untitled-ontology-5:Mannois a untitled-ontology-5:Langue ;
         untitled-ontology-5:accentuelle,
         untitled-ontology-5:accusative ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Gaélique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Île_de_Man .
+    untitled-ontology-5:estLangue untitled-ontology-5:Île_de_Man .
 
 untitled-ontology-5:Monténégrin a untitled-ontology-5:Langue_vivante,
         owl:NamedIndividual ;
@@ -191,8 +204,7 @@ untitled-ontology-5:Portugais a untitled-ontology-5:Langue ;
         untitled-ontology-5:SVO,
         <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-portugais ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Afrique_du_Sud,
+    untitled-ontology-5:estLangue untitled-ontology-5:Afrique_du_Sud,
         untitled-ontology-5:Allemagne,
         untitled-ontology-5:Andorre,
         untitled-ontology-5:Angola,
@@ -239,6 +251,7 @@ untitled-ontology-5:Portugais a untitled-ontology-5:Langue ;
         untitled-ontology-5:Zambie,
         untitled-ontology-5:Zimbabwe,
         untitled-ontology-5:États-Unis ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-portugais ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:CPLP,
         untitled-ontology-5:UE .
 
@@ -248,11 +261,11 @@ untitled-ontology-5:Shelta a untitled-ontology-5:Langue ;
     untitled-ontology-5:aCodeISO "sth" ;
     untitled-ontology-5:aPropriété untitled-ontology-5:VSO ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Gaélique_irlandais,
-        untitled-ontology-5:anglais ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Etats-Unis,
+    untitled-ontology-5:estLangue untitled-ontology-5:Etats-Unis,
         untitled-ontology-5:Irlande,
-        untitled-ontology-5:Royaume-Uni .
+        untitled-ontology-5:Royaume-Uni ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Gaélique_irlandais,
+        untitled-ontology-5:anglais .
 
 untitled-ontology-5:Vieux-slave a untitled-ontology-5:Langue_morte,
         owl:NamedIndividual ;
@@ -271,10 +284,10 @@ untitled-ontology-5:aCodeISO a owl:DatatypeProperty ;
     rdfs:domain untitled-ontology-5:Langue ;
     rdfs:range xsd:string .
 
-untitled-ontology-5:aLangueOfficielle a owl:ObjectProperty ;
+untitled-ontology-5:aLangue a owl:ObjectProperty ;
     rdfs:domain untitled-ontology-5:Pays ;
     rdfs:range untitled-ontology-5:Langue ;
-    owl:inverseOf untitled-ontology-5:estLangueOfficielle .
+    owl:inverseOf untitled-ontology-5:estLangue .
 
 untitled-ontology-5:aLocuteursSecondaires a owl:DatatypeProperty,
         owl:FunctionalProperty ;
@@ -377,8 +390,7 @@ untitled-ontology-5:Allemand a untitled-ontology-5:Langue,
         untitled-ontology-5:Casuelle,
         untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Germanique ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Germanique_commun ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne,
+    untitled-ontology-5:estLangue untitled-ontology-5:Allemagne,
         untitled-ontology-5:Autriche,
         untitled-ontology-5:Belgique,
         untitled-ontology-5:Italie,
@@ -386,6 +398,7 @@ untitled-ontology-5:Allemand a untitled-ontology-5:Langue,
         untitled-ontology-5:Luxembourg,
         untitled-ontology-5:Namibie,
         untitled-ontology-5:Suisse ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Germanique_commun ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:UE .
 
 untitled-ontology-5:Angola a untitled-ontology-5:Pays ;
@@ -468,13 +481,13 @@ untitled-ontology-5:Catalan a untitled-ontology-5:Langue,
         untitled-ontology-5:SVO,
         <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Espagnol,
-        untitled-ontology-5:Occitan ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Andorre,
+    untitled-ontology-5:estLangue untitled-ontology-5:Andorre,
         untitled-ontology-5:Espagne,
         untitled-ontology-5:France,
         untitled-ontology-5:Italie,
         untitled-ontology-5:Îles_Baleares ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Espagnol,
+        untitled-ontology-5:Occitan ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Créole_martiniquais .
 
 untitled-ontology-5:CdE a untitled-ontology-5:Organisation,
@@ -576,19 +589,8 @@ untitled-ontology-5:Gabon a untitled-ontology-5:Pays,
 untitled-ontology-5:Gallo-étrusque a untitled-ontology-5:Alphabet ;
     rdfs:label "Gallo-étrusque" .
 
-untitled-ontology-5:Gallois a untitled-ontology-5:Alphabet,
-        untitled-ontology-5:Langue ;
-    rdfs:label "Gallois" ;
-    untitled-ontology-5:aAlphabet untitled-ontology-5:Gallois ;
-    untitled-ontology-5:aCodeISO "cym" ;
-    untitled-ontology-5:aLocuteursNatifs 650000 ;
-    untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume-Uni ;
-    untitled-ontology-5:aPropriété <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#A_accent_d'intensité>,
-        untitled-ontology-5:Flexionnelle,
-        untitled-ontology-5:accusative ;
-    untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Argentine,
-        untitled-ontology-5:Royaume-Uni .
+untitled-ontology-5:Gallois_alphabet a untitled-ontology-5:Alphabet ;
+    rdfs:label "Gallois_alphabet" .
 
 untitled-ontology-5:Gambie a untitled-ontology-5:Pays ;
     rdfs:label "Gambie" ;
@@ -1177,8 +1179,7 @@ untitled-ontology-5:Anglais a untitled-ontology-5:Alphabet,
     untitled-ontology-5:aPaysOrigine untitled-ontology-5:Royaume-Uni ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Germanique ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Vieux_frison ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Afrique_du_sud,
+    untitled-ontology-5:estLangue untitled-ontology-5:Afrique_du_sud,
         untitled-ontology-5:Akrotiri,
         untitled-ontology-5:Anguilla,
         untitled-ontology-5:Antigua-et-Barbuda,
@@ -1266,6 +1267,7 @@ untitled-ontology-5:Anglais a untitled-ontology-5:Alphabet,
         untitled-ontology-5:Îles_Turques-et-Caïques,
         untitled-ontology-5:Îles_Vierges_britanniques,
         untitled-ontology-5:Îles_Vierges_des_États-Unis ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Vieux_frison ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Commonwealth,
         untitled-ontology-5:ONU,
         untitled-ontology-5:UE .
@@ -1282,8 +1284,8 @@ untitled-ontology-5:Breton a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPaysOrigine untitled-ontology-5:France ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
+    untitled-ontology-5:estLangue untitled-ontology-5:France ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:France ;
     untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#A_accent_d'intensité> ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Celtibère,
         untitled-ontology-5:Gaulois .
@@ -1302,8 +1304,8 @@ untitled-ontology-5:Celtibère a untitled-ontology-5:Langue ;
     untitled-ontology-5:aCodeISO "xce" ;
     untitled-ontology-5:aPaysOrigine untitled-ontology-5:Espagne ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Celtique ;
+    untitled-ontology-5:estLangue untitled-ontology-5:Espagne ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-celtique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Espagne ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Breton,
         untitled-ontology-5:Gaulois .
 
@@ -1321,13 +1323,13 @@ untitled-ontology-5:Créole_martiniquais a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Isolante,
         untitled-ontology-5:SVO ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Créole ;
+    untitled-ontology-5:estLangue untitled-ontology-5:Martinique ;
     untitled-ontology-5:estLangueFille untitled-ontology-5:Anglais,
         untitled-ontology-5:Espagnol,
         untitled-ontology-5:Fon,
         untitled-ontology-5:Français,
         untitled-ontology-5:Wolof,
         untitled-ontology-5:Éwé ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Martinique ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Catalan,
         untitled-ontology-5:Occitan .
 
@@ -1418,11 +1420,11 @@ untitled-ontology-5:Occitan a untitled-ontology-5:Langue ;
         untitled-ontology-5:SVO,
         untitled-ontology-5:VSO ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Français ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Espagne,
+    untitled-ontology-5:estLangue untitled-ontology-5:Espagne,
         untitled-ontology-5:France,
         untitled-ontology-5:Italie,
         untitled-ontology-5:Monaco ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Français ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Créole_martiniquais .
 
 untitled-ontology-5:Océanie a untitled-ontology-5:Continent,
@@ -1613,10 +1615,10 @@ untitled-ontology-5:Francoprovençal a untitled-ontology-5:Langue ;
     untitled-ontology-5:aPaysOrigine untitled-ontology-5:France ;
     untitled-ontology-5:aPropriété untitled-ontology-5:Langue_en_danger ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:France,
+    untitled-ontology-5:estLangue untitled-ontology-5:France,
         untitled-ontology-5:Italie,
         untitled-ontology-5:Suisse ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Espagnol,
         untitled-ontology-5:Français,
         untitled-ontology-5:Italien .
@@ -1625,7 +1627,7 @@ untitled-ontology-5:Gaélique a untitled-ontology-5:Alphabet,
         untitled-ontology-5:Indo_europeenne,
         untitled-ontology-5:Langue ;
     rdfs:label "Gaélique" ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Irlande,
+    untitled-ontology-5:estLangue untitled-ontology-5:Irlande,
         untitled-ontology-5:Écosse,
         untitled-ontology-5:Île_de_Man .
 
@@ -1716,13 +1718,13 @@ untitled-ontology-5:Italien a untitled-ontology-5:Langue,
         untitled-ontology-5:Flexionnelle,
         <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Istrie,
+    untitled-ontology-5:estLangue untitled-ontology-5:Istrie,
         untitled-ontology-5:Italie,
         untitled-ontology-5:Saint-Marin,
         untitled-ontology-5:Slovénie,
         untitled-ontology-5:Suisse,
         untitled-ontology-5:Vatican ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Espagnol,
         untitled-ontology-5:Francoprovençal,
         untitled-ontology-5:Français .
@@ -1764,8 +1766,7 @@ untitled-ontology-5:Espagnol a untitled-ontology-5:Langue,
         untitled-ontology-5:SVO,
         <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Argentine,
+    untitled-ontology-5:estLangue untitled-ontology-5:Argentine,
         untitled-ontology-5:Bolivie,
         untitled-ontology-5:Chili,
         untitled-ontology-5:Colombie,
@@ -1785,6 +1786,7 @@ untitled-ontology-5:Espagnol a untitled-ontology-5:Langue,
         untitled-ontology-5:Uruguay,
         untitled-ontology-5:Venezuela,
         untitled-ontology-5:Équateur ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:OEA,
         untitled-ontology-5:ONU,
         untitled-ontology-5:UA,
@@ -1863,8 +1865,7 @@ untitled-ontology-5:Français a untitled-ontology-5:Langue,
         untitled-ontology-5:non_accentuelle ;
     untitled-ontology-5:estAdstrat untitled-ontology-5:Allemand ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Belgique,
+    untitled-ontology-5:estLangue untitled-ontology-5:Belgique,
         untitled-ontology-5:Burkina_faso,
         untitled-ontology-5:Bénin,
         untitled-ontology-5:Cameroun,
@@ -1891,6 +1892,7 @@ untitled-ontology-5:Français a untitled-ontology-5:Langue,
         untitled-ontology-5:Vanuatu,
         untitled-ontology-5:Vatican,
         untitled-ontology-5:burundi ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Latin ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:CIO,
         untitled-ontology-5:CdE,
         untitled-ontology-5:OEA,
@@ -1939,10 +1941,10 @@ untitled-ontology-5:aContinent a owl:ObjectProperty ;
     rdfs:range untitled-ontology-5:Continent ;
     owl:propertyChainAxiom ( untitled-ontology-5:aRégionMère untitled-ontology-5:aContinent ) .
 
-untitled-ontology-5:estLangueOfficielle a owl:AsymmetricProperty,
+untitled-ontology-5:estLangue a owl:AsymmetricProperty,
         owl:IrreflexiveProperty,
         owl:ObjectProperty ;
-    rdfs:label "estLangueOfficielle" ;
+    rdfs:label "estLangue" ;
     rdfs:domain untitled-ontology-5:Langue ;
     rdfs:range untitled-ontology-5:Pays ;
     rdfs:subPropertyOf owl:topObjectProperty .
@@ -2014,12 +2016,12 @@ untitled-ontology-5:Biélorusse a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Biélorussie,
+    untitled-ontology-5:estLangue untitled-ontology-5:Biélorussie,
         untitled-ontology-5:Fédération_de_Russie,
         untitled-ontology-5:Lituanie,
         untitled-ontology-5:Pologne,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Bulgare,
         untitled-ontology-5:Croate,
         untitled-ontology-5:Macédonien,
@@ -2043,8 +2045,7 @@ untitled-ontology-5:Bulgare a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bulgarie,
+    untitled-ontology-5:estLangue untitled-ontology-5:Bulgarie,
         untitled-ontology-5:Grèce,
         untitled-ontology-5:Israël,
         untitled-ontology-5:Macédoine_du_Nord,
@@ -2053,6 +2054,7 @@ untitled-ontology-5:Bulgare a untitled-ontology-5:Langue,
         untitled-ontology-5:Serbie,
         untitled-ontology-5:Turquie,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Union_européenne_\(UE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Croate,
@@ -2078,11 +2080,11 @@ untitled-ontology-5:Croate a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine,
+    untitled-ontology-5:estLangue untitled-ontology-5:Bosnie-Herzégovine,
         untitled-ontology-5:Croatie,
         untitled-ontology-5:Monténégro,
         untitled-ontology-5:Serbie ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Union_européenne_\(UE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
@@ -2116,11 +2118,11 @@ untitled-ontology-5:Macédonien a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Albanie,
+    untitled-ontology-5:estLangue untitled-ontology-5:Albanie,
         untitled-ontology-5:Bulgarie,
         untitled-ontology-5:Macédoine_du_Nord,
         untitled-ontology-5:Serbie ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
         untitled-ontology-5:Croate,
@@ -2143,13 +2145,13 @@ untitled-ontology-5:Polonais a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne,
+    untitled-ontology-5:estLangue untitled-ontology-5:Allemagne,
         untitled-ontology-5:Etats-Unis,
         untitled-ontology-5:Pologne,
         untitled-ontology-5:République_Tchèque,
         untitled-ontology-5:Slovaquie,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
         untitled-ontology-5:Croate,
@@ -2177,8 +2179,7 @@ untitled-ontology-5:Russe a untitled-ontology-5:Langue,
         untitled-ontology-5:Flexion,
         untitled-ontology-5:Flexionnelle ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne,
+    untitled-ontology-5:estLangue untitled-ontology-5:Allemagne,
         untitled-ontology-5:Biélorussie,
         untitled-ontology-5:Canada,
         untitled-ontology-5:Estonie,
@@ -2193,6 +2194,7 @@ untitled-ontology-5:Russe a untitled-ontology-5:Langue,
         untitled-ontology-5:Tadjikistan,
         untitled-ontology-5:Turkménistan,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Organisation_de_coopération_de_Shanghai_\(OCS\),
         untitled-ontology-5:Organisation_des_Nations_unies_\(ONU\),
         untitled-ontology-5:Organisation_du_traité_de_sécurité_collective_\(OTSC\),
@@ -2223,8 +2225,7 @@ untitled-ontology-5:Serbe a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine,
+    untitled-ontology-5:estLangue untitled-ontology-5:Bosnie-Herzégovine,
         untitled-ontology-5:Bulgarie,
         untitled-ontology-5:Croatie,
         untitled-ontology-5:Hongrie,
@@ -2233,6 +2234,7 @@ untitled-ontology-5:Serbe a untitled-ontology-5:Langue,
         untitled-ontology-5:Roumanie,
         untitled-ontology-5:Serbie,
         untitled-ontology-5:Slovénie ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
         untitled-ontology-5:Croate,
@@ -2258,13 +2260,13 @@ untitled-ontology-5:Slovaque a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche,
+    untitled-ontology-5:estLangue untitled-ontology-5:Autriche,
         untitled-ontology-5:Hongrie,
         untitled-ontology-5:Pologne,
         untitled-ontology-5:République_Tchèque,
         untitled-ontology-5:Slovaquie,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
         untitled-ontology-5:Union_européenne_\(UE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
@@ -2292,12 +2294,12 @@ untitled-ontology-5:Slovène a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche,
+    untitled-ontology-5:estLangue untitled-ontology-5:Autriche,
         untitled-ontology-5:Croatie,
         untitled-ontology-5:Hongrie,
         untitled-ontology-5:Italie,
         untitled-ontology-5:Slovénie ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Organisation_du_traité_de_l'Atlantique_Nord_(OTAN)>,
         untitled-ontology-5:Union_européenne_\(UE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
@@ -2325,9 +2327,9 @@ untitled-ontology-5:Tchèque a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:République_Tchèque,
+    untitled-ontology-5:estLangue untitled-ontology-5:République_Tchèque,
         untitled-ontology-5:Slovaquie ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Union_européenne_\(UE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
@@ -2353,8 +2355,7 @@ untitled-ontology-5:Ukrainien a untitled-ontology-5:Langue,
     untitled-ontology-5:aPropriété untitled-ontology-5:Cas,
         untitled-ontology-5:Flexion ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
-    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Canada,
+    untitled-ontology-5:estLangue untitled-ontology-5:Canada,
         untitled-ontology-5:Etats-Unis,
         untitled-ontology-5:Fédération_de_Russie,
         untitled-ontology-5:Pologne,
@@ -2362,6 +2363,7 @@ untitled-ontology-5:Ukrainien a untitled-ontology-5:Langue,
         untitled-ontology-5:République_Tchèque,
         untitled-ontology-5:Slovaquie,
         untitled-ontology-5:Ukraine ;
+    untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
     untitled-ontology-5:estLangueOrganisation untitled-ontology-5:Organisation_pour_la_sécurité_et_la_coopération_en_Europe_\(OSCE\) ;
     untitled-ontology-5:estSoeur untitled-ontology-5:Biélorusse,
         untitled-ontology-5:Bulgare,
@@ -2444,7 +2446,7 @@ untitled-ontology-5:Latin a untitled-ontology-5:Alphabet,
         untitled-ontology-5:Ordre_libre,
         <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#À_acent_d’intensité> ;
     untitled-ontology-5:estDansLaFamille untitled-ontology-5:Italique ;
-    untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Vatican .
+    untitled-ontology-5:estLangue untitled-ontology-5:Vatican .
 
 untitled-ontology-5:Flexionnelle a untitled-ontology-5:Organisation,
         untitled-ontology-5:Propriété,

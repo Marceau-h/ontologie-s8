@@ -102,7 +102,7 @@ def main():
         "a_organisation": create_property(graph, "estLangueOrganisation", "Langue", "Organisation"),
         "a_famille": create_property(graph, "estDansLaFamille", "Langue", "Famille_de_langue"),
         "a_alphabet": create_property(graph, "aAlphabet", "Langue", "Alphabet"),
-        "a_pays": create_property(graph, "estLangueOfficielle", "Langue", "Pays"),
+        "a_pays": create_property(graph, "estLangue", "Langue", "Pays"),
         "a_pays_origine": create_property(graph, "aPaysOrigine", "Langue", "Pays"),
         "a_region": create_property(graph, "aRégion", "Pays", "Région"),
         "a_continent": create_property(graph, "aContinent", "Région", "Continent"),

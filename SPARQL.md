@@ -42,7 +42,7 @@ LIMIT 150
 # 4. Quelles sont les langues qui sont des langues vivantes?
 ```sparql
 SELECT DISTINCT * WHERE {
-    ?s rdf:type ttr:LangueVivante .
+    ?s rdf:type ttr:Langue_vivante .
 }
 
 LIMIT 150

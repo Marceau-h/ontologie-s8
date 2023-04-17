@@ -54,9 +54,9 @@ untitled-ontology-5:aLangueFille rdf:type owl:ObjectProperty ;
                                  rdfs:range untitled-ontology-5:Langue .
 
 
-###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangueOfficielle
-untitled-ontology-5:aLangueOfficielle rdf:type owl:ObjectProperty ;
-                                      owl:inverseOf untitled-ontology-5:estLangueOfficielle ;
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#aLangue
+untitled-ontology-5:aLangue rdf:type owl:ObjectProperty ;
+                                      owl:inverseOf untitled-ontology-5:estLangue ;
                                       rdfs:domain untitled-ontology-5:Pays ;
                                       rdfs:range untitled-ontology-5:Langue .
 
@@ -146,14 +146,14 @@ untitled-ontology-5:estLangueFille rdf:type owl:ObjectProperty ,
                                    rdfs:label "estLangueFille" .
 
 
-###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOfficielle
-untitled-ontology-5:estLangueOfficielle rdf:type owl:ObjectProperty ;
+###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangue
+untitled-ontology-5:estLangue rdf:type owl:ObjectProperty ;
                                         rdfs:subPropertyOf owl:topObjectProperty ;
                                         rdf:type owl:AsymmetricProperty ,
                                                  owl:IrreflexiveProperty ;
                                         rdfs:domain untitled-ontology-5:Langue ;
                                         rdfs:range untitled-ontology-5:Pays ;
-                                        rdfs:label "estLangueOfficielle" .
+                                        rdfs:label "estLangue" .
 
 
 ###  http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#estLangueOrganisation
@@ -346,7 +346,7 @@ untitled-ontology-5:Langue_Asiatique rdf:type owl:Class ;
 untitled-ontology-5:Langue_En_Afrique rdf:type owl:Class ;
                                       owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                   owl:onProperty untitled-ontology-5:estLangue ;
                                                                                    owl:someValuesFrom untitled-ontology-5:Pays_Africain
                                                                                  ]
                                                                                ) ;
@@ -359,7 +359,7 @@ untitled-ontology-5:Langue_En_Afrique rdf:type owl:Class ;
 untitled-ontology-5:Langue_En_Amérique rdf:type owl:Class ;
                                        owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
                                                                                   [ rdf:type owl:Restriction ;
-                                                                                    owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                    owl:onProperty untitled-ontology-5:estLangue ;
                                                                                     owl:someValuesFrom untitled-ontology-5:Pays_Américain
                                                                                   ]
                                                                                 ) ;
@@ -372,7 +372,7 @@ untitled-ontology-5:Langue_En_Amérique rdf:type owl:Class ;
 untitled-ontology-5:Langue_En_Asie rdf:type owl:Class ;
                                    owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
                                                                               [ rdf:type owl:Restriction ;
-                                                                                owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                owl:onProperty untitled-ontology-5:estLangue ;
                                                                                 owl:someValuesFrom untitled-ontology-5:Pays_Asiatique
                                                                               ]
                                                                             ) ;
@@ -385,7 +385,7 @@ untitled-ontology-5:Langue_En_Asie rdf:type owl:Class ;
 untitled-ontology-5:Langue_En_Europe rdf:type owl:Class ;
                                      owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
                                                                                 [ rdf:type owl:Restriction ;
-                                                                                  owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                  owl:onProperty untitled-ontology-5:estLangue ;
                                                                                   owl:someValuesFrom untitled-ontology-5:Pays_Européen
                                                                                 ]
                                                                               ) ;
@@ -398,7 +398,7 @@ untitled-ontology-5:Langue_En_Europe rdf:type owl:Class ;
 untitled-ontology-5:Langue_En_Océanie rdf:type owl:Class ;
                                       owl:equivalentClass [ owl:intersectionOf ( untitled-ontology-5:Langue
                                                                                  [ rdf:type owl:Restriction ;
-                                                                                   owl:onProperty untitled-ontology-5:estLangueOfficielle ;
+                                                                                   owl:onProperty untitled-ontology-5:estLangue ;
                                                                                    owl:someValuesFrom untitled-ontology-5:Pays_Océanique
                                                                                  ]
                                                                                ) ;
@@ -677,7 +677,7 @@ untitled-ontology-5:Allemagne rdf:type owl:NamedIndividual ,
 untitled-ontology-5:Allemand rdf:type owl:NamedIndividual ,
                                       untitled-ontology-5:Langue ;
                              untitled-ontology-5:aAlphabet untitled-ontology-5:Latin ;
-                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ;
+                             untitled-ontology-5:estLangue untitled-ontology-5:Allemagne ;
                              rdfs:label "Allemand" .
 
 
@@ -761,7 +761,7 @@ untitled-ontology-5:Biélorusse rdf:type owl:NamedIndividual ,
                                                               untitled-ontology-5:Flexion ;
                                untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                                untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                               untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Biélorussie ,
+                               untitled-ontology-5:estLangue untitled-ontology-5:Biélorussie ,
                                                                        untitled-ontology-5:Fédération_de_Russie ,
                                                                        untitled-ontology-5:Lituanie ,
                                                                        untitled-ontology-5:Pologne ,
@@ -803,7 +803,7 @@ untitled-ontology-5:Bulgare rdf:type owl:NamedIndividual ,
                                                            untitled-ontology-5:Flexion ;
                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bulgarie ,
+                            untitled-ontology-5:estLangue untitled-ontology-5:Bulgarie ,
                                                                     untitled-ontology-5:Grèce ,
                                                                     untitled-ontology-5:Israël ,
                                                                     untitled-ontology-5:Macédoine_du_Nord ,
@@ -910,7 +910,7 @@ untitled-ontology-5:Croate rdf:type owl:NamedIndividual ,
                                                           untitled-ontology-5:Flexion ;
                            untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                            untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                           untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine ,
+                           untitled-ontology-5:estLangue untitled-ontology-5:Bosnie-Herzégovine ,
                                                                    untitled-ontology-5:Croatie ,
                                                                    untitled-ontology-5:Monténégro ,
                                                                    untitled-ontology-5:Serbie ;
@@ -1055,7 +1055,7 @@ untitled-ontology-5:Français rdf:type owl:NamedIndividual ,
                              untitled-ontology-5:aPropriété untitled-ontology-5:Flexionnelle ;
                              untitled-ontology-5:estAdstrat untitled-ontology-5:Allemand ;
                              untitled-ontology-5:estDansLaFamille untitled-ontology-5:Romane ;
-                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Belgique ,
+                             untitled-ontology-5:estLangue untitled-ontology-5:Belgique ,
                                                                      untitled-ontology-5:Burkina_faso ,
                                                                      untitled-ontology-5:Bénin ,
                                                                      untitled-ontology-5:Cameroun ,
@@ -1225,7 +1225,7 @@ untitled-ontology-5:Macédonien rdf:type owl:NamedIndividual ,
                                                               untitled-ontology-5:Flexion ;
                                untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                                untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                               untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Albanie ,
+                               untitled-ontology-5:estLangue untitled-ontology-5:Albanie ,
                                                                        untitled-ontology-5:Bulgarie ,
                                                                        untitled-ontology-5:Macédoine_du_Nord ,
                                                                        untitled-ontology-5:Serbie ;
@@ -1334,7 +1334,7 @@ untitled-ontology-5:Polonais rdf:type owl:NamedIndividual ,
                                                             untitled-ontology-5:Flexion ;
                              untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                              untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ,
+                             untitled-ontology-5:estLangue untitled-ontology-5:Allemagne ,
                                                                      untitled-ontology-5:Etats-Unis ,
                                                                      untitled-ontology-5:Pologne ,
                                                                      untitled-ontology-5:République_Tchèque ,
@@ -1390,7 +1390,7 @@ untitled-ontology-5:Russe rdf:type owl:NamedIndividual ,
                                                          untitled-ontology-5:Flexionnelle ;
                           untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                           untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                          untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Allemagne ,
+                          untitled-ontology-5:estLangue untitled-ontology-5:Allemagne ,
                                                                   untitled-ontology-5:Biélorussie ,
                                                                   untitled-ontology-5:Canada ,
                                                                   untitled-ontology-5:Estonie ,
@@ -1448,7 +1448,7 @@ untitled-ontology-5:Serbe rdf:type owl:NamedIndividual ,
                                                          untitled-ontology-5:Flexion ;
                           untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                           untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                          untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Bosnie-Herzégovine ,
+                          untitled-ontology-5:estLangue untitled-ontology-5:Bosnie-Herzégovine ,
                                                                   untitled-ontology-5:Bulgarie ,
                                                                   untitled-ontology-5:Croatie ,
                                                                   untitled-ontology-5:Hongrie ,
@@ -1498,7 +1498,7 @@ untitled-ontology-5:Slovaque rdf:type owl:NamedIndividual ,
                                                             untitled-ontology-5:Flexion ;
                              untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                              untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                             untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche ,
+                             untitled-ontology-5:estLangue untitled-ontology-5:Autriche ,
                                                                      untitled-ontology-5:Hongrie ,
                                                                      untitled-ontology-5:Pologne ,
                                                                      untitled-ontology-5:République_Tchèque ,
@@ -1532,7 +1532,7 @@ untitled-ontology-5:Slovène rdf:type owl:NamedIndividual ,
                                                            untitled-ontology-5:Flexion ;
                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Autriche ,
+                            untitled-ontology-5:estLangue untitled-ontology-5:Autriche ,
                                                                     untitled-ontology-5:Croatie ,
                                                                     untitled-ontology-5:Hongrie ,
                                                                     untitled-ontology-5:Italie ,
@@ -1589,7 +1589,7 @@ untitled-ontology-5:Tchèque rdf:type owl:NamedIndividual ,
                                                            untitled-ontology-5:Flexion ;
                             untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                             untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                            untitled-ontology-5:estLangueOfficielle untitled-ontology-5:République_Tchèque ,
+                            untitled-ontology-5:estLangue untitled-ontology-5:République_Tchèque ,
                                                                     untitled-ontology-5:Slovaquie ;
                             untitled-ontology-5:estLangueOrganisation <http://www.semanticweb.org/marceau/ontologies/2023/2/untitled-ontology-5#Union_européenne_(UE)> ;
                             untitled-ontology-5:est_parlé_en untitled-ontology-5:République_Tchèque ;
@@ -1648,7 +1648,7 @@ untitled-ontology-5:Ukrainien rdf:type owl:NamedIndividual ,
                                                              untitled-ontology-5:Flexion ;
                               untitled-ontology-5:estDansLaFamille untitled-ontology-5:Slave ;
                               untitled-ontology-5:estLangueFille untitled-ontology-5:Proto-slave ;
-                              untitled-ontology-5:estLangueOfficielle untitled-ontology-5:Canada ,
+                              untitled-ontology-5:estLangue untitled-ontology-5:Canada ,
                                                                       untitled-ontology-5:Etats-Unis ,
                                                                       untitled-ontology-5:Fédération_de_Russie ,
                                                                       untitled-ontology-5:Pologne ,
