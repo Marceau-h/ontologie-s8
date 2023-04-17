@@ -8,11 +8,9 @@ from scripts.path import *
 
 
 def main():
-
-
     graph = Graph()
 
-    rdf_ = graph.parse(rdf_folder / "languesV1.ttl")
+    graph.parse(rdf_folder / "languesV1.ttl")
 
     famille_de_langue = pd.read_csv(csv_folder / "famille.csv")
     pays = pd.read_csv(csv_folder / "pays.csv")
